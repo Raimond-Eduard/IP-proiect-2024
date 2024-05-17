@@ -41,9 +41,13 @@
             this.textBoxPasswordSignUp = new System.Windows.Forms.TextBox();
             this.textBoxUsernameSignUp = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.linkLabelLogIn = new System.Windows.Forms.LinkLabel();
             this.buttonSignUp = new System.Windows.Forms.Button();
             this.dataNastereSignUp = new System.Windows.Forms.DateTimePicker();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBoxEmailSignUp = new System.Windows.Forms.TextBox();
+            this.textBoxTelefonSignUp = new System.Windows.Forms.TextBox();
+            this.buttonLogIn = new System.Windows.Forms.Button();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,7 +78,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(474, 384);
+            this.label4.Location = new System.Drawing.Point(367, 406);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(87, 16);
             this.label4.TabIndex = 37;
@@ -83,7 +87,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(474, 307);
+            this.label2.Location = new System.Drawing.Point(367, 252);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 16);
             this.label2.TabIndex = 35;
@@ -92,7 +96,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(474, 234);
+            this.label3.Location = new System.Drawing.Point(367, 198);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 16);
             this.label3.TabIndex = 34;
@@ -100,14 +104,14 @@
             // 
             // textBoxPrenumeSignUp
             // 
-            this.textBoxPrenumeSignUp.Location = new System.Drawing.Point(477, 339);
+            this.textBoxPrenumeSignUp.Location = new System.Drawing.Point(639, 252);
             this.textBoxPrenumeSignUp.Name = "textBoxPrenumeSignUp";
             this.textBoxPrenumeSignUp.Size = new System.Drawing.Size(224, 22);
             this.textBoxPrenumeSignUp.TabIndex = 33;
             // 
             // textBoxNumeSignUp
             // 
-            this.textBoxNumeSignUp.Location = new System.Drawing.Point(477, 265);
+            this.textBoxNumeSignUp.Location = new System.Drawing.Point(639, 198);
             this.textBoxNumeSignUp.Name = "textBoxNumeSignUp";
             this.textBoxNumeSignUp.Size = new System.Drawing.Size(224, 22);
             this.textBoxNumeSignUp.TabIndex = 32;
@@ -115,7 +119,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(474, 163);
+            this.label5.Location = new System.Drawing.Point(367, 146);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(67, 16);
             this.label5.TabIndex = 31;
@@ -124,7 +128,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(474, 94);
+            this.label6.Location = new System.Drawing.Point(367, 97);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(70, 16);
             this.label6.TabIndex = 30;
@@ -132,14 +136,15 @@
             // 
             // textBoxPasswordSignUp
             // 
-            this.textBoxPasswordSignUp.Location = new System.Drawing.Point(477, 193);
+            this.textBoxPasswordSignUp.Location = new System.Drawing.Point(639, 146);
             this.textBoxPasswordSignUp.Name = "textBoxPasswordSignUp";
+            this.textBoxPasswordSignUp.PasswordChar = '*';
             this.textBoxPasswordSignUp.Size = new System.Drawing.Size(224, 22);
             this.textBoxPasswordSignUp.TabIndex = 29;
             // 
             // textBoxUsernameSignUp
             // 
-            this.textBoxUsernameSignUp.Location = new System.Drawing.Point(477, 124);
+            this.textBoxUsernameSignUp.Location = new System.Drawing.Point(639, 97);
             this.textBoxUsernameSignUp.Name = "textBoxUsernameSignUp";
             this.textBoxUsernameSignUp.Size = new System.Drawing.Size(224, 22);
             this.textBoxUsernameSignUp.TabIndex = 28;
@@ -147,21 +152,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(561, 472);
+            this.label1.Location = new System.Drawing.Point(636, 467);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 16);
             this.label1.TabIndex = 40;
             this.label1.Text = "Ai deja cont?";
-            // 
-            // linkLabelLogIn
-            // 
-            this.linkLabelLogIn.AutoSize = true;
-            this.linkLabelLogIn.Location = new System.Drawing.Point(656, 472);
-            this.linkLabelLogIn.Name = "linkLabelLogIn";
-            this.linkLabelLogIn.Size = new System.Drawing.Size(43, 16);
-            this.linkLabelLogIn.TabIndex = 39;
-            this.linkLabelLogIn.TabStop = true;
-            this.linkLabelLogIn.Text = "Log In";
             // 
             // buttonSignUp
             // 
@@ -174,21 +169,66 @@
             // 
             // dataNastereSignUp
             // 
-            this.dataNastereSignUp.Location = new System.Drawing.Point(477, 419);
+            this.dataNastereSignUp.Location = new System.Drawing.Point(639, 406);
             this.dataNastereSignUp.MaxDate = new System.DateTime(2006, 12, 31, 0, 0, 0, 0);
             this.dataNastereSignUp.Name = "dataNastereSignUp";
             this.dataNastereSignUp.Size = new System.Drawing.Size(224, 22);
             this.dataNastereSignUp.TabIndex = 41;
             this.dataNastereSignUp.Value = new System.DateTime(2006, 12, 31, 0, 0, 0, 0);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(367, 357);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(41, 16);
+            this.label7.TabIndex = 45;
+            this.label7.Text = "Email";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(367, 303);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(53, 16);
+            this.label8.TabIndex = 44;
+            this.label8.Text = "Telefon";
+            // 
+            // textBoxEmailSignUp
+            // 
+            this.textBoxEmailSignUp.Location = new System.Drawing.Point(639, 357);
+            this.textBoxEmailSignUp.Name = "textBoxEmailSignUp";
+            this.textBoxEmailSignUp.Size = new System.Drawing.Size(224, 22);
+            this.textBoxEmailSignUp.TabIndex = 43;
+            // 
+            // textBoxTelefonSignUp
+            // 
+            this.textBoxTelefonSignUp.Location = new System.Drawing.Point(639, 303);
+            this.textBoxTelefonSignUp.Name = "textBoxTelefonSignUp";
+            this.textBoxTelefonSignUp.Size = new System.Drawing.Size(224, 22);
+            this.textBoxTelefonSignUp.TabIndex = 42;
+            // 
+            // buttonLogIn
+            // 
+            this.buttonLogIn.Location = new System.Drawing.Point(749, 455);
+            this.buttonLogIn.Name = "buttonLogIn";
+            this.buttonLogIn.Size = new System.Drawing.Size(114, 40);
+            this.buttonLogIn.TabIndex = 46;
+            this.buttonLogIn.Text = "Log In";
+            this.buttonLogIn.UseVisualStyleBackColor = true;
+            // 
             // SignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1182, 653);
+            this.Controls.Add(this.buttonLogIn);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.textBoxEmailSignUp);
+            this.Controls.Add(this.textBoxTelefonSignUp);
             this.Controls.Add(this.dataNastereSignUp);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.linkLabelLogIn);
             this.Controls.Add(this.buttonSignUp);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
@@ -224,8 +264,12 @@
         private System.Windows.Forms.TextBox textBoxPasswordSignUp;
         private System.Windows.Forms.TextBox textBoxUsernameSignUp;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.LinkLabel linkLabelLogIn;
         private System.Windows.Forms.Button buttonSignUp;
         private System.Windows.Forms.DateTimePicker dataNastereSignUp;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBoxEmailSignUp;
+        private System.Windows.Forms.TextBox textBoxTelefonSignUp;
+        private System.Windows.Forms.Button buttonLogIn;
     }
 }
