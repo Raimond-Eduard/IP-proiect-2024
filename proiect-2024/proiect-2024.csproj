@@ -58,6 +58,12 @@
     <Compile Include="AdaugareCamera.Designer.cs">
       <DependentUpon>AdaugareCamera.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdaugareRezervare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdaugareRezervare.Designer.cs">
+      <DependentUpon>AdaugareRezervare.cs</DependentUpon>
+    </Compile>
     <Compile Include="Proiect.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AdaugareCamera.resx">
       <DependentUpon>AdaugareCamera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdaugareRezervare.resx">
+      <DependentUpon>AdaugareRezervare.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Proiect.resx">
       <DependentUpon>Proiect.cs</DependentUpon>
