@@ -10,4 +10,5 @@ C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\obj\Debu
 C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\obj\Debug\proiect-2024.pdb
 C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\obj\Debug\proiect_2024.LogIn.resources
 C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\obj\Debug\proiect_2024.Proiect.resources
-C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\obj\Debug\proiect_2024.SignIn.resources
+C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\obj\Debug\proiect_2024.SignUp.resources
+C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\obj\Debug\proiect_2024.AdaugareCamera.resources

@@ -45,7 +45,7 @@
             this.exitToolStripMenuPrincipal});
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
-            this.menuPrincipal.Size = new System.Drawing.Size(1042, 28);
+            this.menuPrincipal.Size = new System.Drawing.Size(1182, 28);
             this.menuPrincipal.TabIndex = 8;
             this.menuPrincipal.Text = "menuPrincipal";
             // 
@@ -93,7 +93,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1042, 492);
+            this.ClientSize = new System.Drawing.Size(1182, 653);
             this.Controls.Add(this.buttonLogIn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.buttonSignIn);

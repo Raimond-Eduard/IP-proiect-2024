@@ -28,30 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuLogIn = new System.Windows.Forms.MenuStrip();
+            this.menuPrincipal = new System.Windows.Forms.MenuStrip();
             this.aboutToolStripMenuLogIn = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuLogIn = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
-            this.linkLabelSignIn = new System.Windows.Forms.LinkLabel();
+            this.linkLabelSignUp = new System.Windows.Forms.LinkLabel();
             this.labelPassword = new System.Windows.Forms.Label();
             this.labelUsername = new System.Windows.Forms.Label();
-            this.textBoxPassword = new System.Windows.Forms.TextBox();
-            this.textBoxUsername = new System.Windows.Forms.TextBox();
+            this.textBoxPasswordLogIn = new System.Windows.Forms.TextBox();
+            this.textBoxUsernameLogIn = new System.Windows.Forms.TextBox();
             this.buttonLogIn = new System.Windows.Forms.Button();
-            this.menuLogIn.SuspendLayout();
+            this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
-            // menuLogIn
+            // menuPrincipal
             // 
-            this.menuLogIn.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuLogIn.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuPrincipal.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutToolStripMenuLogIn,
             this.exitToolStripMenuLogIn});
-            this.menuLogIn.Location = new System.Drawing.Point(0, 0);
-            this.menuLogIn.Name = "menuLogIn";
-            this.menuLogIn.Size = new System.Drawing.Size(936, 28);
-            this.menuLogIn.TabIndex = 9;
-            this.menuLogIn.Text = "menuLogIn";
+            this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
+            this.menuPrincipal.Name = "menuPrincipal";
+            this.menuPrincipal.Size = new System.Drawing.Size(1182, 28);
+            this.menuPrincipal.TabIndex = 9;
+            this.menuPrincipal.Text = "menuPrincipal";
             // 
             // aboutToolStripMenuLogIn
             // 
@@ -68,26 +68,26 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(420, 255);
+            this.label1.Location = new System.Drawing.Point(539, 305);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 16);
             this.label1.TabIndex = 20;
             this.label1.Text = "Ai deja cont?";
             // 
-            // linkLabelSignIn
+            // linkLabelSignUp
             // 
-            this.linkLabelSignIn.AutoSize = true;
-            this.linkLabelSignIn.Location = new System.Drawing.Point(515, 255);
-            this.linkLabelSignIn.Name = "linkLabelSignIn";
-            this.linkLabelSignIn.Size = new System.Drawing.Size(47, 16);
-            this.linkLabelSignIn.TabIndex = 19;
-            this.linkLabelSignIn.TabStop = true;
-            this.linkLabelSignIn.Text = "Sign In";
+            this.linkLabelSignUp.AutoSize = true;
+            this.linkLabelSignUp.Location = new System.Drawing.Point(635, 305);
+            this.linkLabelSignUp.Name = "linkLabelSignUp";
+            this.linkLabelSignUp.Size = new System.Drawing.Size(55, 16);
+            this.linkLabelSignUp.TabIndex = 19;
+            this.linkLabelSignUp.TabStop = true;
+            this.linkLabelSignUp.Text = "Sign Up";
             // 
             // labelPassword
             // 
             this.labelPassword.AutoSize = true;
-            this.labelPassword.Location = new System.Drawing.Point(334, 179);
+            this.labelPassword.Location = new System.Drawing.Point(453, 229);
             this.labelPassword.Name = "labelPassword";
             this.labelPassword.Size = new System.Drawing.Size(67, 16);
             this.labelPassword.TabIndex = 18;
@@ -96,29 +96,29 @@
             // labelUsername
             // 
             this.labelUsername.AutoSize = true;
-            this.labelUsername.Location = new System.Drawing.Point(334, 96);
+            this.labelUsername.Location = new System.Drawing.Point(453, 146);
             this.labelUsername.Name = "labelUsername";
             this.labelUsername.Size = new System.Drawing.Size(70, 16);
             this.labelUsername.TabIndex = 17;
             this.labelUsername.Text = "Username";
             // 
-            // textBoxPassword
+            // textBoxPasswordLogIn
             // 
-            this.textBoxPassword.Location = new System.Drawing.Point(337, 217);
-            this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(224, 22);
-            this.textBoxPassword.TabIndex = 16;
+            this.textBoxPasswordLogIn.Location = new System.Drawing.Point(456, 267);
+            this.textBoxPasswordLogIn.Name = "textBoxPasswordLogIn";
+            this.textBoxPasswordLogIn.Size = new System.Drawing.Size(224, 22);
+            this.textBoxPasswordLogIn.TabIndex = 16;
             // 
-            // textBoxUsername
+            // textBoxUsernameLogIn
             // 
-            this.textBoxUsername.Location = new System.Drawing.Point(337, 132);
-            this.textBoxUsername.Name = "textBoxUsername";
-            this.textBoxUsername.Size = new System.Drawing.Size(224, 22);
-            this.textBoxUsername.TabIndex = 15;
+            this.textBoxUsernameLogIn.Location = new System.Drawing.Point(456, 182);
+            this.textBoxUsernameLogIn.Name = "textBoxUsernameLogIn";
+            this.textBoxUsernameLogIn.Size = new System.Drawing.Size(224, 22);
+            this.textBoxUsernameLogIn.TabIndex = 15;
             // 
             // buttonLogIn
             // 
-            this.buttonLogIn.Location = new System.Drawing.Point(399, 297);
+            this.buttonLogIn.Location = new System.Drawing.Point(518, 347);
             this.buttonLogIn.Name = "buttonLogIn";
             this.buttonLogIn.Size = new System.Drawing.Size(114, 40);
             this.buttonLogIn.TabIndex = 14;
@@ -130,20 +130,20 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(936, 431);
+            this.ClientSize = new System.Drawing.Size(1182, 653);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.linkLabelSignIn);
+            this.Controls.Add(this.linkLabelSignUp);
             this.Controls.Add(this.labelPassword);
             this.Controls.Add(this.labelUsername);
-            this.Controls.Add(this.textBoxPassword);
-            this.Controls.Add(this.textBoxUsername);
+            this.Controls.Add(this.textBoxPasswordLogIn);
+            this.Controls.Add(this.textBoxUsernameLogIn);
             this.Controls.Add(this.buttonLogIn);
-            this.Controls.Add(this.menuLogIn);
+            this.Controls.Add(this.menuPrincipal);
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "LogIn";
             this.Text = "Log In";
-            this.menuLogIn.ResumeLayout(false);
-            this.menuLogIn.PerformLayout();
+            this.menuPrincipal.ResumeLayout(false);
+            this.menuPrincipal.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -151,15 +151,15 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuLogIn;
+        private System.Windows.Forms.MenuStrip menuPrincipal;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuLogIn;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuLogIn;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.LinkLabel linkLabelSignIn;
+        private System.Windows.Forms.LinkLabel linkLabelSignUp;
         private System.Windows.Forms.Label labelPassword;
         private System.Windows.Forms.Label labelUsername;
-        private System.Windows.Forms.TextBox textBoxPassword;
-        private System.Windows.Forms.TextBox textBoxUsername;
+        private System.Windows.Forms.TextBox textBoxPasswordLogIn;
+        private System.Windows.Forms.TextBox textBoxUsernameLogIn;
         private System.Windows.Forms.Button buttonLogIn;
     }
 }

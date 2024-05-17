@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace proiect_2024
 {
-    public partial class SignIn : Form
+    public partial class AdaugareCamera : Form
     {
-        public SignIn()
+        public AdaugareCamera()
         {
             InitializeComponent();
         }
