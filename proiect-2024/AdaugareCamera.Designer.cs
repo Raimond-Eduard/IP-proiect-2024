@@ -30,25 +30,25 @@
         {
             this.components = new System.ComponentModel.Container();
             this.menuPrincipal = new System.Windows.Forms.MenuStrip();
-            this.aboutToolStripMenuLogIn = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuLogIn = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBoxAdaugaCameraNumarEtaj = new System.Windows.Forms.TextBox();
+            this.textBoxNumarEtaj = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBoxAdaugaCameraPretNoapte = new System.Windows.Forms.TextBox();
-            this.textBoxAdaugaCameraNumarCamera = new System.Windows.Forms.TextBox();
+            this.textBoxPretNoapte = new System.Windows.Forms.TextBox();
+            this.textBoxNumarCamera = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.comboBoxAdaugaCameraTipulCamerei = new System.Windows.Forms.ComboBox();
-            this.comboBoxAdaugaCameraCapacitate = new System.Windows.Forms.ComboBox();
-            this.comboBoxAdaugaCameraTipBalcon = new System.Windows.Forms.ComboBox();
+            this.comboBoxTipulCamerei = new System.Windows.Forms.ComboBox();
+            this.comboBoxCapacitate = new System.Windows.Forms.ComboBox();
+            this.comboBoxTipBalcon = new System.Windows.Forms.ComboBox();
             this.buttonAdaugaCamera = new System.Windows.Forms.Button();
             this.buttonLogOut = new System.Windows.Forms.Button();
-            this.buttonAdaugaCameraBack = new System.Windows.Forms.Button();
+            this.buttonBack = new System.Windows.Forms.Button();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,25 +56,25 @@
             // 
             this.menuPrincipal.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aboutToolStripMenuLogIn,
-            this.exitToolStripMenuLogIn});
+            this.aboutToolStripMenu,
+            this.exitToolStripMenu});
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
             this.menuPrincipal.Size = new System.Drawing.Size(1182, 28);
             this.menuPrincipal.TabIndex = 10;
             this.menuPrincipal.Text = "menuPrincipal";
             // 
-            // aboutToolStripMenuLogIn
+            // aboutToolStripMenu
             // 
-            this.aboutToolStripMenuLogIn.Name = "aboutToolStripMenuLogIn";
-            this.aboutToolStripMenuLogIn.Size = new System.Drawing.Size(64, 24);
-            this.aboutToolStripMenuLogIn.Text = "About";
+            this.aboutToolStripMenu.Name = "aboutToolStripMenu";
+            this.aboutToolStripMenu.Size = new System.Drawing.Size(64, 24);
+            this.aboutToolStripMenu.Text = "About";
             // 
-            // exitToolStripMenuLogIn
+            // exitToolStripMenu
             // 
-            this.exitToolStripMenuLogIn.Name = "exitToolStripMenuLogIn";
-            this.exitToolStripMenuLogIn.Size = new System.Drawing.Size(47, 24);
-            this.exitToolStripMenuLogIn.Text = "Exit";
+            this.exitToolStripMenu.Name = "exitToolStripMenu";
+            this.exitToolStripMenu.Size = new System.Drawing.Size(47, 24);
+            this.exitToolStripMenu.Text = "Exit";
             // 
             // label2
             // 
@@ -94,12 +94,12 @@
             this.label3.TabIndex = 42;
             this.label3.Text = "Etaj (numar)";
             // 
-            // textBoxAdaugaCameraNumarEtaj
+            // textBoxNumarEtaj
             // 
-            this.textBoxAdaugaCameraNumarEtaj.Location = new System.Drawing.Point(577, 210);
-            this.textBoxAdaugaCameraNumarEtaj.Name = "textBoxAdaugaCameraNumarEtaj";
-            this.textBoxAdaugaCameraNumarEtaj.Size = new System.Drawing.Size(224, 22);
-            this.textBoxAdaugaCameraNumarEtaj.TabIndex = 40;
+            this.textBoxNumarEtaj.Location = new System.Drawing.Point(577, 210);
+            this.textBoxNumarEtaj.Name = "textBoxNumarEtaj";
+            this.textBoxNumarEtaj.Size = new System.Drawing.Size(224, 22);
+            this.textBoxNumarEtaj.TabIndex = 40;
             // 
             // label5
             // 
@@ -119,19 +119,19 @@
             this.label6.TabIndex = 38;
             this.label6.Text = "Numar Camera";
             // 
-            // textBoxAdaugaCameraPretNoapte
+            // textBoxPretNoapte
             // 
-            this.textBoxAdaugaCameraPretNoapte.Location = new System.Drawing.Point(577, 154);
-            this.textBoxAdaugaCameraPretNoapte.Name = "textBoxAdaugaCameraPretNoapte";
-            this.textBoxAdaugaCameraPretNoapte.Size = new System.Drawing.Size(224, 22);
-            this.textBoxAdaugaCameraPretNoapte.TabIndex = 37;
+            this.textBoxPretNoapte.Location = new System.Drawing.Point(577, 154);
+            this.textBoxPretNoapte.Name = "textBoxPretNoapte";
+            this.textBoxPretNoapte.Size = new System.Drawing.Size(224, 22);
+            this.textBoxPretNoapte.TabIndex = 37;
             // 
-            // textBoxAdaugaCameraNumarCamera
+            // textBoxNumarCamera
             // 
-            this.textBoxAdaugaCameraNumarCamera.Location = new System.Drawing.Point(577, 94);
-            this.textBoxAdaugaCameraNumarCamera.Name = "textBoxAdaugaCameraNumarCamera";
-            this.textBoxAdaugaCameraNumarCamera.Size = new System.Drawing.Size(224, 22);
-            this.textBoxAdaugaCameraNumarCamera.TabIndex = 36;
+            this.textBoxNumarCamera.Location = new System.Drawing.Point(577, 94);
+            this.textBoxNumarCamera.Name = "textBoxNumarCamera";
+            this.textBoxNumarCamera.Size = new System.Drawing.Size(224, 22);
+            this.textBoxNumarCamera.TabIndex = 36;
             // 
             // label4
             // 
@@ -145,7 +145,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(319, 393);
+            this.label7.Location = new System.Drawing.Point(319, 381);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(72, 16);
             this.label7.TabIndex = 46;
@@ -166,47 +166,47 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // comboBoxAdaugaCameraTipulCamerei
+            // comboBoxTipulCamerei
             // 
-            this.comboBoxAdaugaCameraTipulCamerei.FormattingEnabled = true;
-            this.comboBoxAdaugaCameraTipulCamerei.Items.AddRange(new object[] {
+            this.comboBoxTipulCamerei.FormattingEnabled = true;
+            this.comboBoxTipulCamerei.Items.AddRange(new object[] {
             "Standard",
             "Deluxe",
             "Apartament"});
-            this.comboBoxAdaugaCameraTipulCamerei.Location = new System.Drawing.Point(577, 263);
-            this.comboBoxAdaugaCameraTipulCamerei.Name = "comboBoxAdaugaCameraTipulCamerei";
-            this.comboBoxAdaugaCameraTipulCamerei.Size = new System.Drawing.Size(224, 24);
-            this.comboBoxAdaugaCameraTipulCamerei.TabIndex = 52;
-            this.comboBoxAdaugaCameraTipulCamerei.Text = "Standard";
+            this.comboBoxTipulCamerei.Location = new System.Drawing.Point(577, 263);
+            this.comboBoxTipulCamerei.Name = "comboBoxTipulCamerei";
+            this.comboBoxTipulCamerei.Size = new System.Drawing.Size(224, 24);
+            this.comboBoxTipulCamerei.TabIndex = 52;
+            this.comboBoxTipulCamerei.Text = "Standard";
             // 
-            // comboBoxAdaugaCameraCapacitate
+            // comboBoxCapacitate
             // 
-            this.comboBoxAdaugaCameraCapacitate.FormattingEnabled = true;
-            this.comboBoxAdaugaCameraCapacitate.Items.AddRange(new object[] {
+            this.comboBoxCapacitate.FormattingEnabled = true;
+            this.comboBoxCapacitate.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
             "4",
             "5",
             "6"});
-            this.comboBoxAdaugaCameraCapacitate.Location = new System.Drawing.Point(577, 319);
-            this.comboBoxAdaugaCameraCapacitate.Name = "comboBoxAdaugaCameraCapacitate";
-            this.comboBoxAdaugaCameraCapacitate.Size = new System.Drawing.Size(224, 24);
-            this.comboBoxAdaugaCameraCapacitate.TabIndex = 53;
-            this.comboBoxAdaugaCameraCapacitate.Text = "1";
+            this.comboBoxCapacitate.Location = new System.Drawing.Point(577, 319);
+            this.comboBoxCapacitate.Name = "comboBoxCapacitate";
+            this.comboBoxCapacitate.Size = new System.Drawing.Size(224, 24);
+            this.comboBoxCapacitate.TabIndex = 53;
+            this.comboBoxCapacitate.Text = "1";
             // 
-            // comboBoxAdaugaCameraTipBalcon
+            // comboBoxTipBalcon
             // 
-            this.comboBoxAdaugaCameraTipBalcon.FormattingEnabled = true;
-            this.comboBoxAdaugaCameraTipBalcon.Items.AddRange(new object[] {
+            this.comboBoxTipBalcon.FormattingEnabled = true;
+            this.comboBoxTipBalcon.Items.AddRange(new object[] {
             "Fara",
             "Propriu",
             "Comun"});
-            this.comboBoxAdaugaCameraTipBalcon.Location = new System.Drawing.Point(577, 385);
-            this.comboBoxAdaugaCameraTipBalcon.Name = "comboBoxAdaugaCameraTipBalcon";
-            this.comboBoxAdaugaCameraTipBalcon.Size = new System.Drawing.Size(224, 24);
-            this.comboBoxAdaugaCameraTipBalcon.TabIndex = 54;
-            this.comboBoxAdaugaCameraTipBalcon.Text = "Fara";
+            this.comboBoxTipBalcon.Location = new System.Drawing.Point(577, 373);
+            this.comboBoxTipBalcon.Name = "comboBoxTipBalcon";
+            this.comboBoxTipBalcon.Size = new System.Drawing.Size(224, 24);
+            this.comboBoxTipBalcon.TabIndex = 54;
+            this.comboBoxTipBalcon.Text = "Fara";
             // 
             // buttonAdaugaCamera
             // 
@@ -219,43 +219,43 @@
             // 
             // buttonLogOut
             // 
-            this.buttonLogOut.Location = new System.Drawing.Point(984, 28);
+            this.buttonLogOut.Location = new System.Drawing.Point(1079, 28);
             this.buttonLogOut.Name = "buttonLogOut";
-            this.buttonLogOut.Size = new System.Drawing.Size(121, 41);
+            this.buttonLogOut.Size = new System.Drawing.Size(103, 38);
             this.buttonLogOut.TabIndex = 56;
             this.buttonLogOut.Text = "Log Out";
             this.buttonLogOut.UseVisualStyleBackColor = true;
             // 
-            // buttonAdaugaCameraBack
+            // buttonBack
             // 
-            this.buttonAdaugaCameraBack.Location = new System.Drawing.Point(0, 31);
-            this.buttonAdaugaCameraBack.Name = "buttonAdaugaCameraBack";
-            this.buttonAdaugaCameraBack.Size = new System.Drawing.Size(103, 38);
-            this.buttonAdaugaCameraBack.TabIndex = 57;
-            this.buttonAdaugaCameraBack.Text = "Back";
-            this.buttonAdaugaCameraBack.UseVisualStyleBackColor = true;
+            this.buttonBack.Location = new System.Drawing.Point(0, 28);
+            this.buttonBack.Name = "buttonBack";
+            this.buttonBack.Size = new System.Drawing.Size(103, 38);
+            this.buttonBack.TabIndex = 57;
+            this.buttonBack.Text = "Back";
+            this.buttonBack.UseVisualStyleBackColor = true;
             // 
             // AdaugareCamera
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1182, 653);
-            this.Controls.Add(this.buttonAdaugaCameraBack);
+            this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.buttonLogOut);
             this.Controls.Add(this.buttonAdaugaCamera);
-            this.Controls.Add(this.comboBoxAdaugaCameraTipBalcon);
-            this.Controls.Add(this.comboBoxAdaugaCameraCapacitate);
-            this.Controls.Add(this.comboBoxAdaugaCameraTipulCamerei);
+            this.Controls.Add(this.comboBoxTipBalcon);
+            this.Controls.Add(this.comboBoxCapacitate);
+            this.Controls.Add(this.comboBoxTipulCamerei);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBoxAdaugaCameraNumarEtaj);
+            this.Controls.Add(this.textBoxNumarEtaj);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBoxAdaugaCameraPretNoapte);
-            this.Controls.Add(this.textBoxAdaugaCameraNumarCamera);
+            this.Controls.Add(this.textBoxPretNoapte);
+            this.Controls.Add(this.textBoxNumarCamera);
             this.Controls.Add(this.menuPrincipal);
             this.Name = "AdaugareCamera";
             this.Text = "AdaugareCamera";
@@ -269,24 +269,24 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuPrincipal;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuLogIn;
-        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuLogIn;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenu;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenu;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBoxAdaugaCameraNumarEtaj;
+        private System.Windows.Forms.TextBox textBoxNumarEtaj;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBoxAdaugaCameraPretNoapte;
-        private System.Windows.Forms.TextBox textBoxAdaugaCameraNumarCamera;
+        private System.Windows.Forms.TextBox textBoxPretNoapte;
+        private System.Windows.Forms.TextBox textBoxNumarCamera;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ComboBox comboBoxAdaugaCameraTipulCamerei;
-        private System.Windows.Forms.ComboBox comboBoxAdaugaCameraCapacitate;
-        private System.Windows.Forms.ComboBox comboBoxAdaugaCameraTipBalcon;
+        private System.Windows.Forms.ComboBox comboBoxTipulCamerei;
+        private System.Windows.Forms.ComboBox comboBoxCapacitate;
+        private System.Windows.Forms.ComboBox comboBoxTipBalcon;
         private System.Windows.Forms.Button buttonAdaugaCamera;
         private System.Windows.Forms.Button buttonLogOut;
-        private System.Windows.Forms.Button buttonAdaugaCameraBack;
+        private System.Windows.Forms.Button buttonBack;
     }
 }

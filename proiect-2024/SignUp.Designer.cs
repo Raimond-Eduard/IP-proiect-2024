@@ -175,9 +175,11 @@
             // dataNastereSignUp
             // 
             this.dataNastereSignUp.Location = new System.Drawing.Point(477, 419);
+            this.dataNastereSignUp.MaxDate = new System.DateTime(2006, 12, 31, 0, 0, 0, 0);
             this.dataNastereSignUp.Name = "dataNastereSignUp";
             this.dataNastereSignUp.Size = new System.Drawing.Size(224, 22);
             this.dataNastereSignUp.TabIndex = 41;
+            this.dataNastereSignUp.Value = new System.DateTime(2006, 12, 31, 0, 0, 0, 0);
             // 
             // SignUp
             // 

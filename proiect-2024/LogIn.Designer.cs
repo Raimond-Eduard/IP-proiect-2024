@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.menuPrincipal = new System.Windows.Forms.MenuStrip();
-            this.aboutToolStripMenuLogIn = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuLogIn = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.linkLabelSignUp = new System.Windows.Forms.LinkLabel();
             this.labelPassword = new System.Windows.Forms.Label();
@@ -45,25 +45,25 @@
             // 
             this.menuPrincipal.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aboutToolStripMenuLogIn,
-            this.exitToolStripMenuLogIn});
+            this.aboutToolStripMenu,
+            this.exitToolStripMenu});
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
             this.menuPrincipal.Size = new System.Drawing.Size(1182, 28);
             this.menuPrincipal.TabIndex = 9;
             this.menuPrincipal.Text = "menuPrincipal";
             // 
-            // aboutToolStripMenuLogIn
+            // aboutToolStripMenu
             // 
-            this.aboutToolStripMenuLogIn.Name = "aboutToolStripMenuLogIn";
-            this.aboutToolStripMenuLogIn.Size = new System.Drawing.Size(64, 24);
-            this.aboutToolStripMenuLogIn.Text = "About";
+            this.aboutToolStripMenu.Name = "aboutToolStripMenu";
+            this.aboutToolStripMenu.Size = new System.Drawing.Size(64, 24);
+            this.aboutToolStripMenu.Text = "About";
             // 
-            // exitToolStripMenuLogIn
+            // exitToolStripMenu
             // 
-            this.exitToolStripMenuLogIn.Name = "exitToolStripMenuLogIn";
-            this.exitToolStripMenuLogIn.Size = new System.Drawing.Size(47, 24);
-            this.exitToolStripMenuLogIn.Text = "Exit";
+            this.exitToolStripMenu.Name = "exitToolStripMenu";
+            this.exitToolStripMenu.Size = new System.Drawing.Size(47, 24);
+            this.exitToolStripMenu.Text = "Exit";
             // 
             // label1
             // 
@@ -152,8 +152,8 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuPrincipal;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuLogIn;
-        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuLogIn;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenu;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenu;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel linkLabelSignUp;
         private System.Windows.Forms.Label labelPassword;
