@@ -44,9 +44,10 @@
             this.textBoxPretNoapte = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.checkIn = new System.Windows.Forms.MonthCalendar();
-            this.checkOut = new System.Windows.Forms.MonthCalendar();
+            this.datePickCheckIn = new System.Windows.Forms.MonthCalendar();
+            this.datePickCheckOut = new System.Windows.Forms.MonthCalendar();
             this.buttonRezervari = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -94,7 +95,7 @@
             // 
             // buttonAdaugaRezervare
             // 
-            this.buttonAdaugaRezervare.Location = new System.Drawing.Point(489, 564);
+            this.buttonAdaugaRezervare.Location = new System.Drawing.Point(484, 531);
             this.buttonAdaugaRezervare.Name = "buttonAdaugaRezervare";
             this.buttonAdaugaRezervare.Size = new System.Drawing.Size(224, 57);
             this.buttonAdaugaRezervare.TabIndex = 78;
@@ -108,7 +109,7 @@
             "Fara",
             "Propriu",
             "Comun"});
-            this.comboBoxTipBalcon.Location = new System.Drawing.Point(608, 179);
+            this.comboBoxTipBalcon.Location = new System.Drawing.Point(603, 146);
             this.comboBoxTipBalcon.Name = "comboBoxTipBalcon";
             this.comboBoxTipBalcon.Size = new System.Drawing.Size(224, 24);
             this.comboBoxTipBalcon.TabIndex = 77;
@@ -124,7 +125,7 @@
             "4",
             "5",
             "6"});
-            this.comboBoxCapacitate.Location = new System.Drawing.Point(608, 125);
+            this.comboBoxCapacitate.Location = new System.Drawing.Point(603, 92);
             this.comboBoxCapacitate.Name = "comboBoxCapacitate";
             this.comboBoxCapacitate.Size = new System.Drawing.Size(224, 24);
             this.comboBoxCapacitate.TabIndex = 76;
@@ -137,7 +138,7 @@
             "Standard",
             "Deluxe",
             "Apartament"});
-            this.comboBoxTipulCamerei.Location = new System.Drawing.Point(608, 69);
+            this.comboBoxTipulCamerei.Location = new System.Drawing.Point(603, 36);
             this.comboBoxTipulCamerei.Name = "comboBoxTipulCamerei";
             this.comboBoxTipulCamerei.Size = new System.Drawing.Size(224, 24);
             this.comboBoxTipulCamerei.TabIndex = 75;
@@ -146,7 +147,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(350, 187);
+            this.label7.Location = new System.Drawing.Point(345, 154);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(72, 16);
             this.label7.TabIndex = 74;
@@ -155,7 +156,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(349, 133);
+            this.label4.Location = new System.Drawing.Point(344, 100);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(141, 16);
             this.label4.TabIndex = 73;
@@ -164,7 +165,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(349, 77);
+            this.label2.Location = new System.Drawing.Point(344, 44);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(91, 16);
             this.label2.TabIndex = 72;
@@ -173,7 +174,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(350, 240);
+            this.label5.Location = new System.Drawing.Point(345, 207);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(143, 16);
             this.label5.TabIndex = 69;
@@ -182,7 +183,7 @@
             // textBoxPretNoapte
             // 
             this.textBoxPretNoapte.Enabled = false;
-            this.textBoxPretNoapte.Location = new System.Drawing.Point(608, 240);
+            this.textBoxPretNoapte.Location = new System.Drawing.Point(603, 207);
             this.textBoxPretNoapte.Name = "textBoxPretNoapte";
             this.textBoxPretNoapte.Size = new System.Drawing.Size(224, 22);
             this.textBoxPretNoapte.TabIndex = 67;
@@ -190,7 +191,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(274, 295);
+            this.label1.Location = new System.Drawing.Point(269, 262);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 16);
             this.label1.TabIndex = 79;
@@ -199,23 +200,23 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(661, 295);
+            this.label3.Location = new System.Drawing.Point(656, 262);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 16);
             this.label3.TabIndex = 80;
             this.label3.Text = "Check Out";
             // 
-            // checkIn
+            // datePickCheckIn
             // 
-            this.checkIn.Location = new System.Drawing.Point(277, 316);
-            this.checkIn.Name = "checkIn";
-            this.checkIn.TabIndex = 81;
+            this.datePickCheckIn.Location = new System.Drawing.Point(272, 283);
+            this.datePickCheckIn.Name = "datePickCheckIn";
+            this.datePickCheckIn.TabIndex = 81;
             // 
-            // checkOut
+            // datePickCheckOut
             // 
-            this.checkOut.Location = new System.Drawing.Point(664, 316);
-            this.checkOut.Name = "checkOut";
-            this.checkOut.TabIndex = 82;
+            this.datePickCheckOut.Location = new System.Drawing.Point(659, 283);
+            this.datePickCheckOut.Name = "datePickCheckOut";
+            this.datePickCheckOut.TabIndex = 82;
             // 
             // buttonRezervari
             // 
@@ -226,14 +227,25 @@
             this.buttonRezervari.Text = "Rezervari";
             this.buttonRezervari.UseVisualStyleBackColor = true;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.Red;
+            this.label6.Location = new System.Drawing.Point(416, 610);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(380, 16);
+            this.label6.TabIndex = 84;
+            this.label6.Text = "***Rezervarea nu poate fi stearsa decat de catre MANAGER***";
+            // 
             // AdaugareRezervare
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1182, 653);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.buttonRezervari);
-            this.Controls.Add(this.checkOut);
-            this.Controls.Add(this.checkIn);
+            this.Controls.Add(this.datePickCheckOut);
+            this.Controls.Add(this.datePickCheckIn);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonAdaugaRezervare);
@@ -274,8 +286,9 @@
         private System.Windows.Forms.TextBox textBoxPretNoapte;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.MonthCalendar checkIn;
-        private System.Windows.Forms.MonthCalendar checkOut;
+        private System.Windows.Forms.MonthCalendar datePickCheckIn;
+        private System.Windows.Forms.MonthCalendar datePickCheckOut;
         private System.Windows.Forms.Button buttonRezervari;
+        private System.Windows.Forms.Label label6;
     }
 }

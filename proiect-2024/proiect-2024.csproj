@@ -84,6 +84,18 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewAdmin.Designer.cs">
+      <DependentUpon>ViewAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewRezervariClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewRezervariClient.Designer.cs">
+      <DependentUpon>ViewRezervariClient.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewManager.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,8 +129,14 @@
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ViewAdmin.resx">
+      <DependentUpon>ViewAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ViewManager.resx">
       <DependentUpon>ViewManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewRezervariClient.resx">
+      <DependentUpon>ViewRezervariClient.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

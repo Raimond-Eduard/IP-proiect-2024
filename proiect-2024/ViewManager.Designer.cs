@@ -28,19 +28,165 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.buttonLogOut = new System.Windows.Forms.Button();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.menuPrincipal = new System.Windows.Forms.MenuStrip();
+            this.aboutToolStripMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.listBoxDetaliiRezervari = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.buttonViewStergereRezervare = new System.Windows.Forms.Button();
+            this.listBoxDetaliiCamere = new System.Windows.Forms.ListBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.buttonViewStergeCamera = new System.Windows.Forms.Button();
+            this.buttonViewAdaugaCamera = new System.Windows.Forms.Button();
+            this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // buttonLogOut
+            // 
+            this.buttonLogOut.Location = new System.Drawing.Point(1079, 28);
+            this.buttonLogOut.Name = "buttonLogOut";
+            this.buttonLogOut.Size = new System.Drawing.Size(103, 38);
+            this.buttonLogOut.TabIndex = 60;
+            this.buttonLogOut.Text = "Log Out";
+            this.buttonLogOut.UseVisualStyleBackColor = true;
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(1182, 25);
+            this.toolStrip1.TabIndex = 59;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // menuPrincipal
+            // 
+            this.menuPrincipal.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aboutToolStripMenu,
+            this.exitToolStripMenu});
+            this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
+            this.menuPrincipal.Name = "menuPrincipal";
+            this.menuPrincipal.Size = new System.Drawing.Size(1182, 28);
+            this.menuPrincipal.TabIndex = 58;
+            this.menuPrincipal.Text = "menuPrincipal";
+            // 
+            // aboutToolStripMenu
+            // 
+            this.aboutToolStripMenu.Name = "aboutToolStripMenu";
+            this.aboutToolStripMenu.Size = new System.Drawing.Size(64, 24);
+            this.aboutToolStripMenu.Text = "About";
+            // 
+            // exitToolStripMenu
+            // 
+            this.exitToolStripMenu.Name = "exitToolStripMenu";
+            this.exitToolStripMenu.Size = new System.Drawing.Size(47, 24);
+            this.exitToolStripMenu.Text = "Exit";
+            // 
+            // listBoxDetaliiRezervari
+            // 
+            this.listBoxDetaliiRezervari.FormattingEnabled = true;
+            this.listBoxDetaliiRezervari.ItemHeight = 16;
+            this.listBoxDetaliiRezervari.Location = new System.Drawing.Point(0, 137);
+            this.listBoxDetaliiRezervari.Margin = new System.Windows.Forms.Padding(4);
+            this.listBoxDetaliiRezervari.Name = "listBoxDetaliiRezervari";
+            this.listBoxDetaliiRezervari.Size = new System.Drawing.Size(392, 516);
+            this.listBoxDetaliiRezervari.TabIndex = 62;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(-3, 95);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(106, 16);
+            this.label1.TabIndex = 63;
+            this.label1.Text = "Detalii Rezervari";
+            // 
+            // buttonViewStergereRezervare
+            // 
+            this.buttonViewStergereRezervare.Location = new System.Drawing.Point(420, 381);
+            this.buttonViewStergereRezervare.Name = "buttonViewStergereRezervare";
+            this.buttonViewStergereRezervare.Size = new System.Drawing.Size(138, 34);
+            this.buttonViewStergereRezervare.TabIndex = 64;
+            this.buttonViewStergereRezervare.Text = "Sterge Rezervare";
+            this.buttonViewStergereRezervare.UseVisualStyleBackColor = true;
+            // 
+            // listBoxDetaliiCamere
+            // 
+            this.listBoxDetaliiCamere.FormattingEnabled = true;
+            this.listBoxDetaliiCamere.ItemHeight = 16;
+            this.listBoxDetaliiCamere.Location = new System.Drawing.Point(792, 137);
+            this.listBoxDetaliiCamere.Margin = new System.Windows.Forms.Padding(4);
+            this.listBoxDetaliiCamere.Name = "listBoxDetaliiCamere";
+            this.listBoxDetaliiCamere.Size = new System.Drawing.Size(390, 516);
+            this.listBoxDetaliiCamere.TabIndex = 65;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(789, 95);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(96, 16);
+            this.label2.TabIndex = 66;
+            this.label2.Text = "Detalii Camere";
+            // 
+            // buttonViewStergeCamera
+            // 
+            this.buttonViewStergeCamera.Location = new System.Drawing.Point(622, 381);
+            this.buttonViewStergeCamera.Name = "buttonViewStergeCamera";
+            this.buttonViewStergeCamera.Size = new System.Drawing.Size(138, 34);
+            this.buttonViewStergeCamera.TabIndex = 67;
+            this.buttonViewStergeCamera.Text = "Sterge Camera";
+            this.buttonViewStergeCamera.UseVisualStyleBackColor = true;
+            // 
+            // buttonViewAdaugaCamera
+            // 
+            this.buttonViewAdaugaCamera.Location = new System.Drawing.Point(622, 316);
+            this.buttonViewAdaugaCamera.Name = "buttonViewAdaugaCamera";
+            this.buttonViewAdaugaCamera.Size = new System.Drawing.Size(138, 34);
+            this.buttonViewAdaugaCamera.TabIndex = 68;
+            this.buttonViewAdaugaCamera.Text = "Adauga Camera";
+            this.buttonViewAdaugaCamera.UseVisualStyleBackColor = true;
             // 
             // ViewManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1182, 653);
+            this.Controls.Add(this.buttonViewAdaugaCamera);
+            this.Controls.Add(this.buttonViewStergeCamera);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.listBoxDetaliiCamere);
+            this.Controls.Add(this.buttonViewStergereRezervare);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.listBoxDetaliiRezervari);
+            this.Controls.Add(this.buttonLogOut);
+            this.Controls.Add(this.toolStrip1);
+            this.Controls.Add(this.menuPrincipal);
             this.Name = "ViewManager";
-            this.Text = "View Manager";
+            this.Text = "Manager";
+            this.menuPrincipal.ResumeLayout(false);
+            this.menuPrincipal.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button buttonLogOut;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.MenuStrip menuPrincipal;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenu;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenu;
+        private System.Windows.Forms.ListBox listBoxDetaliiRezervari;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button buttonViewStergereRezervare;
+        private System.Windows.Forms.ListBox listBoxDetaliiCamere;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button buttonViewStergeCamera;
+        private System.Windows.Forms.Button buttonViewAdaugaCamera;
     }
 }
