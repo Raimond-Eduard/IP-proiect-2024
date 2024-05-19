@@ -99,7 +99,7 @@
             // textBoxPasswordLogIn
             // 
             this.textBoxPasswordLogIn.Location = new System.Drawing.Point(342, 217);
-            this.textBoxPasswordLogIn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPasswordLogIn.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPasswordLogIn.Name = "textBoxPasswordLogIn";
             this.textBoxPasswordLogIn.PasswordChar = '*';
             this.textBoxPasswordLogIn.Size = new System.Drawing.Size(169, 20);
@@ -108,7 +108,7 @@
             // textBoxUsernameLogIn
             // 
             this.textBoxUsernameLogIn.Location = new System.Drawing.Point(342, 148);
-            this.textBoxUsernameLogIn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxUsernameLogIn.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxUsernameLogIn.Name = "textBoxUsernameLogIn";
             this.textBoxUsernameLogIn.Size = new System.Drawing.Size(169, 20);
             this.textBoxUsernameLogIn.TabIndex = 15;
@@ -116,17 +116,18 @@
             // buttonLogIn
             // 
             this.buttonLogIn.Location = new System.Drawing.Point(381, 352);
-            this.buttonLogIn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonLogIn.Margin = new System.Windows.Forms.Padding(2);
             this.buttonLogIn.Name = "buttonLogIn";
             this.buttonLogIn.Size = new System.Drawing.Size(86, 32);
             this.buttonLogIn.TabIndex = 14;
             this.buttonLogIn.Text = "Log In";
             this.buttonLogIn.UseVisualStyleBackColor = true;
+            this.buttonLogIn.Click += new System.EventHandler(this.buttonLogIn_Click);
             // 
             // buttonSignUp
             // 
             this.buttonSignUp.Location = new System.Drawing.Point(424, 246);
-            this.buttonSignUp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonSignUp.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSignUp.Name = "buttonSignUp";
             this.buttonSignUp.Size = new System.Drawing.Size(86, 32);
             this.buttonSignUp.TabIndex = 39;
@@ -149,7 +150,7 @@
             this.Controls.Add(this.buttonLogIn);
             this.Controls.Add(this.menuPrincipal);
             this.ForeColor = System.Drawing.Color.Black;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "LogIn";
             this.Text = "Log In";
             this.menuPrincipal.ResumeLayout(false);
