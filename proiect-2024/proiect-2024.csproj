@@ -64,11 +64,12 @@
     <Compile Include="AdaugareRezervare.Designer.cs">
       <DependentUpon>AdaugareRezervare.cs</DependentUpon>
     </Compile>
-    <Compile Include="Proiect.cs">
+    <Compile Include="interfaces\IState.cs" />
+    <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Proiect.Designer.cs">
-      <DependentUpon>Proiect.cs</DependentUpon>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="LogIn.cs">
@@ -84,6 +85,8 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="states\LogInState.cs" />
+    <Compile Include="states\SignUpState.cs" />
     <Compile Include="ViewAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,9 +113,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AdaugareRezervare.resx">
       <DependentUpon>AdaugareRezervare.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Proiect.resx">
-      <DependentUpon>Proiect.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogIn.resx">
       <DependentUpon>LogIn.cs</DependentUpon>

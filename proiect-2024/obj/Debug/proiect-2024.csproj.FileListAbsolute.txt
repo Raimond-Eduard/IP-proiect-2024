@@ -17,3 +17,20 @@ C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\obj\Debu
 C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\obj\Debug\proiect_2024.ViewManager.resources
 C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\obj\Debug\proiect_2024.ViewAdmin.resources
 C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\obj\Debug\proiect_2024.ViewRezervariClient.resources
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\bin\Debug\proiect-2024.exe.config
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\bin\Debug\proiect-2024.exe
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\bin\Debug\proiect-2024.pdb
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect-2024.csproj.AssemblyReference.cache
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect_2024.AdaugaManager.resources
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect_2024.AdaugareCamera.resources
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect_2024.AdaugareRezervare.resources
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect_2024.LogIn.resources
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect_2024.Properties.Resources.resources
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect_2024.SignUp.resources
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect_2024.ViewAdmin.resources
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect_2024.ViewManager.resources
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect_2024.ViewRezervariClient.resources
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect-2024.csproj.GenerateResource.cache
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect-2024.csproj.CoreCompileInputs.cache
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect-2024.exe
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect-2024.pdb

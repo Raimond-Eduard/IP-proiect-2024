@@ -1,12 +1,121 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|e:\\facultate\\ip\\proiect ip 2024\\proiect-2024\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|e:\\facultate\\ip\\proiect ip 2024\\proiect-2024\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|e:\\facultate\\ip\\proiect ip 2024\\proiect-2024\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|e:\\facultate\\ip\\proiect ip 2024\\proiect-2024\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|e:\\facultate\\ip\\proiect ip 2024\\proiect-2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|e:\\facultate\\ip\\proiect ip 2024\\proiect-2024\\states\\loginstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:states\\loginstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignUp.cs [Design]",
+              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\SignUp.cs",
+              "RelativeDocumentMoniker": "SignUp.cs",
+              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\SignUp.cs [Design]",
+              "RelativeToolTip": "SignUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T13:04:14.544Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:59:47.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignUp.cs",
+              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\SignUp.cs",
+              "RelativeDocumentMoniker": "SignUp.cs",
+              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\SignUp.cs",
+              "RelativeToolTip": "SignUp.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:59:31.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LogIn.cs",
+              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\LogIn.cs",
+              "RelativeDocumentMoniker": "LogIn.cs",
+              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\LogIn.cs",
+              "RelativeToolTip": "LogIn.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAmwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:58:52.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LogInState.cs",
+              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\states\\LogInState.cs",
+              "RelativeDocumentMoniker": "states\\LogInState.cs",
+              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\states\\LogInState.cs",
+              "RelativeToolTip": "states\\LogInState.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:58:32.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAmwBgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:53:30.475Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
