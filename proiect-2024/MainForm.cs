@@ -18,10 +18,14 @@ namespace proiect_2024
         public IState _logInState;
         public IState _signUpState;
         public IState _clientViewState;
+        public IState _adminViewState;
+        public IState _managerViewState;
 
         private LogIn _logInForm;
         private SignUp _signUpForm;
         private ViewRezervariClient _viewClientForm;
+        private ViewAdmin _viewAdminForm;
+        private ViewManager _viewManagerForm;
 
         public MainForm()
         {
@@ -38,10 +42,14 @@ namespace proiect_2024
             _logInForm = new LogIn(this);
             _signUpForm = new SignUp(this);
             _viewClientForm = new ViewRezervariClient(this);
+            _viewAdminForm = new ViewAdmin(this);
+            _viewManagerForm = new ViewManager(this);
 
             _logInState = new LogInState(this);
             _signUpState = new SignUpState(this);
             _clientViewState = new ClientViewState(this);
+            _adminViewState = new AdminViewState(this);
+
             // Set initial state to LogInState
             SetState(_logInState);
         }
@@ -81,6 +89,26 @@ namespace proiect_2024
         public void HideClientView()
         {
             _viewClientForm.Hide();
+        }
+
+        public void ShowAdminForm()
+        {
+            _viewAdminForm.Show();
+        }
+
+        public void HideAdminForm()
+        {
+            _viewAdminForm.Hide();
+        }
+
+        public void ShowManagerForm()
+        {
+            _viewManagerForm.Show();
+        }
+
+        public void HideManagerForm()
+        {
+            _viewManagerForm.Hide();
         }
 
     }

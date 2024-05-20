@@ -108,10 +108,10 @@ namespace proiect_2024
                         _mainForm.SetState(new ClientViewState(_mainForm));
                         break;
                     case "manager":
-                        throw new Exception("Method not implemented");
+                        _mainForm.SetState(new ManagerViewState(_mainForm));
                         break;
                     case "admin":
-                        throw new Exception("Method not implemented");
+                        _mainForm.SetState(new AdminViewState(_mainForm));
                         break;
                     default:
                         MessageBox.Show("Atat s-a putut");

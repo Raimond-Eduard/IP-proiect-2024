@@ -42,19 +42,21 @@
             // 
             // buttonLogOut
             // 
-            this.buttonLogOut.Location = new System.Drawing.Point(1081, 28);
+            this.buttonLogOut.Location = new System.Drawing.Point(811, 23);
+            this.buttonLogOut.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonLogOut.Name = "buttonLogOut";
-            this.buttonLogOut.Size = new System.Drawing.Size(103, 38);
+            this.buttonLogOut.Size = new System.Drawing.Size(77, 31);
             this.buttonLogOut.TabIndex = 71;
             this.buttonLogOut.Text = "Log Out";
             this.buttonLogOut.UseVisualStyleBackColor = true;
+            this.buttonLogOut.Click += new System.EventHandler(this.buttonLogOut_Click);
             // 
             // toolStrip1
             // 
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1182, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(886, 25);
             this.toolStrip1.TabIndex = 70;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -66,27 +68,29 @@
             this.exitToolStripMenu});
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
-            this.menuPrincipal.Size = new System.Drawing.Size(1182, 28);
+            this.menuPrincipal.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuPrincipal.Size = new System.Drawing.Size(886, 24);
             this.menuPrincipal.TabIndex = 69;
             this.menuPrincipal.Text = "menuPrincipal";
             // 
             // aboutToolStripMenu
             // 
             this.aboutToolStripMenu.Name = "aboutToolStripMenu";
-            this.aboutToolStripMenu.Size = new System.Drawing.Size(64, 24);
+            this.aboutToolStripMenu.Size = new System.Drawing.Size(52, 20);
             this.aboutToolStripMenu.Text = "About";
             // 
             // exitToolStripMenu
             // 
             this.exitToolStripMenu.Name = "exitToolStripMenu";
-            this.exitToolStripMenu.Size = new System.Drawing.Size(47, 24);
+            this.exitToolStripMenu.Size = new System.Drawing.Size(38, 20);
             this.exitToolStripMenu.Text = "Exit";
             // 
             // buttonClientModificareRezervare
             // 
-            this.buttonClientModificareRezervare.Location = new System.Drawing.Point(954, 405);
+            this.buttonClientModificareRezervare.Location = new System.Drawing.Point(716, 329);
+            this.buttonClientModificareRezervare.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonClientModificareRezervare.Name = "buttonClientModificareRezervare";
-            this.buttonClientModificareRezervare.Size = new System.Drawing.Size(150, 34);
+            this.buttonClientModificareRezervare.Size = new System.Drawing.Size(112, 28);
             this.buttonClientModificareRezervare.TabIndex = 74;
             this.buttonClientModificareRezervare.Text = "Modificare Rezervare";
             this.buttonClientModificareRezervare.UseVisualStyleBackColor = true;
@@ -94,36 +98,36 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(-3, 84);
+            this.label1.Location = new System.Drawing.Point(-2, 68);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 16);
+            this.label1.Size = new System.Drawing.Size(84, 13);
             this.label1.TabIndex = 73;
             this.label1.Text = "Detalii Rezervari";
             // 
             // listBoxDetaliiRezervari
             // 
             this.listBoxDetaliiRezervari.FormattingEnabled = true;
-            this.listBoxDetaliiRezervari.ItemHeight = 16;
-            this.listBoxDetaliiRezervari.Location = new System.Drawing.Point(0, 123);
-            this.listBoxDetaliiRezervari.Margin = new System.Windows.Forms.Padding(4);
+            this.listBoxDetaliiRezervari.Location = new System.Drawing.Point(0, 100);
             this.listBoxDetaliiRezervari.Name = "listBoxDetaliiRezervari";
-            this.listBoxDetaliiRezervari.Size = new System.Drawing.Size(870, 532);
+            this.listBoxDetaliiRezervari.Size = new System.Drawing.Size(654, 433);
             this.listBoxDetaliiRezervari.TabIndex = 72;
             // 
             // buttonViewAdaugaRezervare
             // 
-            this.buttonViewAdaugaRezervare.Location = new System.Drawing.Point(954, 335);
+            this.buttonViewAdaugaRezervare.Location = new System.Drawing.Point(716, 272);
+            this.buttonViewAdaugaRezervare.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonViewAdaugaRezervare.Name = "buttonViewAdaugaRezervare";
-            this.buttonViewAdaugaRezervare.Size = new System.Drawing.Size(150, 34);
+            this.buttonViewAdaugaRezervare.Size = new System.Drawing.Size(112, 28);
             this.buttonViewAdaugaRezervare.TabIndex = 75;
             this.buttonViewAdaugaRezervare.Text = "Adauga Rezervare";
             this.buttonViewAdaugaRezervare.UseVisualStyleBackColor = true;
             // 
             // ViewRezervariClient
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1182, 653);
+            this.ClientSize = new System.Drawing.Size(886, 531);
             this.Controls.Add(this.buttonViewAdaugaRezervare);
             this.Controls.Add(this.buttonLogOut);
             this.Controls.Add(this.toolStrip1);
@@ -131,6 +135,7 @@
             this.Controls.Add(this.buttonClientModificareRezervare);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBoxDetaliiRezervari);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ViewRezervariClient";
             this.Text = "Rezervari";
             this.menuPrincipal.ResumeLayout(false);
