@@ -15,7 +15,7 @@ namespace proiect_2024
 {
     public partial class LogIn : Form
     {
-        private const string ConnectionString = "Data Source=hotel_db.db";
+        private const string ConnectionString = "Data Source=E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\hotel_db.db";
         private string _ownership;
 
         private MainForm _mainForm;
@@ -53,7 +53,7 @@ namespace proiect_2024
             {
                 MessageBox.Show("Va rog sa introduceti un nume de utilizator si parola");
             }
-            using (var connection = new SqliteConnection(ConnectionString))
+            using (SqliteConnection connection = new SqliteConnection(ConnectionString))
             {
                 connection.Open();
                 using (var command = connection.CreateCommand())
@@ -65,7 +65,7 @@ namespace proiect_2024
                         {
                             var id = reader.GetInt32(reader.GetOrdinal("id_utilizator"));
                             string dbUsername = reader.GetString(reader.GetOrdinal("username"));
-                            string dbPassword = reader.GetString(reader.GetOrdinal("password"));
+                            string dbPassword = reader.GetString(reader.GetOrdinal("parola"));
                             _ownership = reader.GetString(reader.GetOrdinal("rol"));
                             if(username == dbUsername && password == dbPassword)
                             {
@@ -98,7 +98,30 @@ namespace proiect_2024
             string password = GetSHA256Hash(textBoxPasswordLogIn.Text);
             if(CheckForLogInCredentials(username, password))
             {
-                throw new Exception("Method needs to be implemented");
+                //throw new Exception("Method needs to be implemented");
+                //logica de logare + state pentru utilizator
+                switch (_ownership){
+                    case null:
+                        MessageBox.Show("Eroare", "Utilizatorul nu are un rol sau nu a fost gasit vreun rol", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        break;
+                    case "user":
+                        _mainForm.SetState(new ClientViewState(_mainForm));
+                        break;
+                    case "manager":
+                        throw new Exception("Method not implemented");
+                        break;
+                    case "admin":
+                        throw new Exception("Method not implemented");
+                        break;
+                    default:
+                        MessageBox.Show("Atat s-a putut");
+                        break;
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("Nume sau parola gresite", "Daca nu ai cont dai pe Sign Up", MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
         }
     }

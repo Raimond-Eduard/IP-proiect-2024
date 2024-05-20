@@ -12,8 +12,10 @@ namespace proiect_2024
 {
     public partial class ViewRezervariClient : Form
     {
-        public ViewRezervariClient()
+        private MainForm _mainForm;
+        public ViewRezervariClient(MainForm mainForm)
         {
+            _mainForm = mainForm;
             InitializeComponent();
         }
     }
