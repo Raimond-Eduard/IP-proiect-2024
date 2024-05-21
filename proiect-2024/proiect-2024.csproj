@@ -104,7 +104,10 @@
     <Compile Include="AdaugareRezervare.Designer.cs">
       <DependentUpon>AdaugareRezervare.cs</DependentUpon>
     </Compile>
+    <Compile Include="helpers\AgeCalculatorHelper.cs" />
+    <Compile Include="helpers\HashHelper.cs" />
     <Compile Include="interfaces\IState.cs" />
+    <Compile Include="interfaces\IStrategy.cs" />
     <Compile Include="interfaces\IUser.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -131,6 +134,9 @@
     <Compile Include="states\LogInState.cs" />
     <Compile Include="states\ManagerViewState.cs" />
     <Compile Include="states\SignUpState.cs" />
+    <Compile Include="strategies\ValidateAgeStrategy.cs" />
+    <Compile Include="strategies\ValidateEmailStrategy.cs" />
+    <Compile Include="strategies\ValidatePhoneStrategy.cs" />
     <Compile Include="ViewAdmin.cs">
       <SubType>Form</SubType>
     </Compile>

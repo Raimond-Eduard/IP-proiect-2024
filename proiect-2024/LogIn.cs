@@ -11,12 +11,13 @@ using System.Windows.Forms;
 using System.Security.Cryptography;
 using Microsoft.Data.Sqlite;
 using System.IO;
+using proiect_2024.hash;
 
 namespace proiect_2024
 {
     public partial class LogIn : Form
     {
-        private string ConnectionString = "Data source=" + Directory.GetCurrentDirectory() + "\\hotel_db.db";//"Data Source=E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\hotel_db.db";
+        private string ConnectionString = "Data source=" + Directory.GetCurrentDirectory() + "\\hotel_db.db";
         private string _ownership;
 
         private MainForm _mainForm;
@@ -81,17 +82,7 @@ namespace proiect_2024
 
         private string GetSHA256Hash(string input)
         {
-            using (SHA256 sha256 = SHA256.Create())
-            {
-                byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(input));
-
-                StringBuilder builder = new StringBuilder();
-                for(int i = 0; i < bytes.Length; i++)
-                {
-                    builder.Append(bytes[i].ToString("x2"));
-                }
-                return builder.ToString();
-            }
+            return HashHelper.GetSHA256hash(input);
         }
         private void buttonLogIn_Click(object sender, EventArgs e)
         {
@@ -103,7 +94,7 @@ namespace proiect_2024
                 //logica de logare + state pentru utilizator
                 switch (_ownership){
                     case null:
-                        MessageBox.Show("Eroare", "Utilizatorul nu are un rol sau nu a fost gasit vreun rol", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Utilizatorul nu are un rol sau nu a fost gasit vreun rol", "Eroare", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         break;
                     case "user":
                         _mainForm.SetState(new ClientViewState(_mainForm));
