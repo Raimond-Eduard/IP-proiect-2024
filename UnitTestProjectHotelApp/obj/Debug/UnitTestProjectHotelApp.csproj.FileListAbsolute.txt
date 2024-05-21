@@ -1,0 +1,14 @@
+D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\UnitTestProjectHotelApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\UnitTestProjectHotelApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\UnitTestProjectHotelApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\UnitTestProjectHotelApp\bin\Debug\UnitTestProjectHotelApp.dll
+D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\UnitTestProjectHotelApp\bin\Debug\UnitTestProjectHotelApp.pdb
+D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\UnitTestProjectHotelApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\UnitTestProjectHotelApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\UnitTestProjectHotelApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\UnitTestProjectHotelApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\UnitTestProjectHotelApp\obj\Debug\UnitTestProjectHotelApp.csproj.AssemblyReference.cache
+D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\UnitTestProjectHotelApp\obj\Debug\UnitTestProjectHotelApp.csproj.CoreCompileInputs.cache
+D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\UnitTestProjectHotelApp\obj\Debug\UnitTestProjectHotelApp.csproj.CopyComplete
+D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\UnitTestProjectHotelApp\obj\Debug\UnitTestProjectHotelApp.dll
+D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\UnitTestProjectHotelApp\obj\Debug\UnitTestProjectHotelApp.pdb
