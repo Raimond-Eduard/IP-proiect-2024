@@ -10,12 +10,13 @@ using System.Threading;
 using System.Windows.Forms;
 using System.Security.Cryptography;
 using Microsoft.Data.Sqlite;
+using System.IO;
 
 namespace proiect_2024
 {
     public partial class LogIn : Form
     {
-        private const string ConnectionString = "Data Source=E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\hotel_db.db";
+        private string ConnectionString = "Data source=" + Directory.GetCurrentDirectory() + "\\hotel_db.db";//"Data Source=E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\hotel_db.db";
         private string _ownership;
 
         private MainForm _mainForm;

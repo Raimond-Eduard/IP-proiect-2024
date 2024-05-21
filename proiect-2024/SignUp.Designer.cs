@@ -109,7 +109,7 @@
             // textBoxPrenumeSignUp
             // 
             this.textBoxPrenumeSignUp.Location = new System.Drawing.Point(479, 205);
-            this.textBoxPrenumeSignUp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPrenumeSignUp.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPrenumeSignUp.Name = "textBoxPrenumeSignUp";
             this.textBoxPrenumeSignUp.Size = new System.Drawing.Size(169, 20);
             this.textBoxPrenumeSignUp.TabIndex = 33;
@@ -117,7 +117,7 @@
             // textBoxNumeSignUp
             // 
             this.textBoxNumeSignUp.Location = new System.Drawing.Point(479, 161);
-            this.textBoxNumeSignUp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxNumeSignUp.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxNumeSignUp.Name = "textBoxNumeSignUp";
             this.textBoxNumeSignUp.Size = new System.Drawing.Size(169, 20);
             this.textBoxNumeSignUp.TabIndex = 32;
@@ -145,7 +145,7 @@
             // textBoxPasswordSignUp
             // 
             this.textBoxPasswordSignUp.Location = new System.Drawing.Point(479, 119);
-            this.textBoxPasswordSignUp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPasswordSignUp.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPasswordSignUp.Name = "textBoxPasswordSignUp";
             this.textBoxPasswordSignUp.PasswordChar = '*';
             this.textBoxPasswordSignUp.Size = new System.Drawing.Size(169, 20);
@@ -154,7 +154,7 @@
             // textBoxUsernameSignUp
             // 
             this.textBoxUsernameSignUp.Location = new System.Drawing.Point(479, 79);
-            this.textBoxUsernameSignUp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxUsernameSignUp.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxUsernameSignUp.Name = "textBoxUsernameSignUp";
             this.textBoxUsernameSignUp.Size = new System.Drawing.Size(169, 20);
             this.textBoxUsernameSignUp.TabIndex = 28;
@@ -172,18 +172,21 @@
             // buttonSignUp
             // 
             this.buttonSignUp.Location = new System.Drawing.Point(405, 418);
-            this.buttonSignUp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonSignUp.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSignUp.Name = "buttonSignUp";
             this.buttonSignUp.Size = new System.Drawing.Size(86, 32);
             this.buttonSignUp.TabIndex = 38;
             this.buttonSignUp.Text = "Sign Up";
             this.buttonSignUp.UseVisualStyleBackColor = true;
+            this.buttonSignUp.Click += new System.EventHandler(this.buttonSignUp_Click);
             // 
             // dataNastereSignUp
             // 
+            this.dataNastereSignUp.CustomFormat = "";
             this.dataNastereSignUp.Location = new System.Drawing.Point(479, 330);
-            this.dataNastereSignUp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.dataNastereSignUp.MaxDate = new System.DateTime(2006, 12, 31, 0, 0, 0, 0);
+            this.dataNastereSignUp.Margin = new System.Windows.Forms.Padding(2);
+            this.dataNastereSignUp.MaxDate = new System.DateTime(2024, 5, 21, 0, 0, 0, 0);
+            this.dataNastereSignUp.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
             this.dataNastereSignUp.Name = "dataNastereSignUp";
             this.dataNastereSignUp.Size = new System.Drawing.Size(169, 20);
             this.dataNastereSignUp.TabIndex = 41;
@@ -212,7 +215,7 @@
             // textBoxEmailSignUp
             // 
             this.textBoxEmailSignUp.Location = new System.Drawing.Point(479, 290);
-            this.textBoxEmailSignUp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxEmailSignUp.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxEmailSignUp.Name = "textBoxEmailSignUp";
             this.textBoxEmailSignUp.Size = new System.Drawing.Size(169, 20);
             this.textBoxEmailSignUp.TabIndex = 43;
@@ -220,7 +223,7 @@
             // textBoxTelefonSignUp
             // 
             this.textBoxTelefonSignUp.Location = new System.Drawing.Point(479, 246);
-            this.textBoxTelefonSignUp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxTelefonSignUp.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxTelefonSignUp.Name = "textBoxTelefonSignUp";
             this.textBoxTelefonSignUp.Size = new System.Drawing.Size(169, 20);
             this.textBoxTelefonSignUp.TabIndex = 42;
@@ -228,7 +231,7 @@
             // buttonLogIn
             // 
             this.buttonLogIn.Location = new System.Drawing.Point(562, 370);
-            this.buttonLogIn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonLogIn.Margin = new System.Windows.Forms.Padding(2);
             this.buttonLogIn.Name = "buttonLogIn";
             this.buttonLogIn.Size = new System.Drawing.Size(86, 32);
             this.buttonLogIn.TabIndex = 46;
@@ -259,7 +262,7 @@
             this.Controls.Add(this.textBoxPasswordSignUp);
             this.Controls.Add(this.textBoxUsernameSignUp);
             this.Controls.Add(this.menuPrincipal);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "SignUp";
             this.Text = "Sign Up";
             this.menuPrincipal.ResumeLayout(false);
