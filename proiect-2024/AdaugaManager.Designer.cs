@@ -48,28 +48,32 @@
             // 
             // buttonBack
             // 
-            this.buttonBack.Location = new System.Drawing.Point(0, 28);
+            this.buttonBack.Location = new System.Drawing.Point(0, 23);
+            this.buttonBack.Margin = new System.Windows.Forms.Padding(2);
             this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(103, 38);
+            this.buttonBack.Size = new System.Drawing.Size(77, 31);
             this.buttonBack.TabIndex = 61;
             this.buttonBack.Text = "Back";
             this.buttonBack.UseVisualStyleBackColor = true;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
             // buttonLogOut
             // 
-            this.buttonLogOut.Location = new System.Drawing.Point(1079, 28);
+            this.buttonLogOut.Location = new System.Drawing.Point(809, 23);
+            this.buttonLogOut.Margin = new System.Windows.Forms.Padding(2);
             this.buttonLogOut.Name = "buttonLogOut";
-            this.buttonLogOut.Size = new System.Drawing.Size(103, 38);
+            this.buttonLogOut.Size = new System.Drawing.Size(77, 31);
             this.buttonLogOut.TabIndex = 60;
             this.buttonLogOut.Text = "Log Out";
             this.buttonLogOut.UseVisualStyleBackColor = true;
+            this.buttonLogOut.Click += new System.EventHandler(this.buttonLogOut_Click);
             // 
             // toolStrip1
             // 
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1182, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(886, 25);
             this.toolStrip1.TabIndex = 59;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -81,100 +85,112 @@
             this.exitToolStripMenu});
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
-            this.menuPrincipal.Size = new System.Drawing.Size(1182, 28);
+            this.menuPrincipal.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuPrincipal.Size = new System.Drawing.Size(886, 24);
             this.menuPrincipal.TabIndex = 58;
             this.menuPrincipal.Text = "menuPrincipal";
             // 
             // aboutToolStripMenu
             // 
             this.aboutToolStripMenu.Name = "aboutToolStripMenu";
-            this.aboutToolStripMenu.Size = new System.Drawing.Size(64, 24);
+            this.aboutToolStripMenu.Size = new System.Drawing.Size(52, 20);
             this.aboutToolStripMenu.Text = "About";
             // 
             // exitToolStripMenu
             // 
             this.exitToolStripMenu.Name = "exitToolStripMenu";
-            this.exitToolStripMenu.Size = new System.Drawing.Size(47, 24);
+            this.exitToolStripMenu.Size = new System.Drawing.Size(38, 20);
             this.exitToolStripMenu.Text = "Exit";
             // 
             // buttonManagerSignUp
             // 
-            this.buttonManagerSignUp.Location = new System.Drawing.Point(549, 416);
+            this.buttonManagerSignUp.Location = new System.Drawing.Point(412, 338);
+            this.buttonManagerSignUp.Margin = new System.Windows.Forms.Padding(2);
             this.buttonManagerSignUp.Name = "buttonManagerSignUp";
-            this.buttonManagerSignUp.Size = new System.Drawing.Size(114, 40);
+            this.buttonManagerSignUp.Size = new System.Drawing.Size(86, 32);
             this.buttonManagerSignUp.TabIndex = 71;
             this.buttonManagerSignUp.Text = "Sign Up";
             this.buttonManagerSignUp.UseVisualStyleBackColor = true;
+            this.buttonManagerSignUp.Click += new System.EventHandler(this.buttonManagerSignUp_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(492, 310);
+            this.label2.Location = new System.Drawing.Point(369, 252);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 16);
+            this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 69;
             this.label2.Text = "Prenume";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(492, 237);
+            this.label3.Location = new System.Drawing.Point(369, 193);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 16);
+            this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 68;
             this.label3.Text = "Nume";
             // 
             // textBoxPrenumeManagerSignUp
             // 
-            this.textBoxPrenumeManagerSignUp.Location = new System.Drawing.Point(495, 342);
+            this.textBoxPrenumeManagerSignUp.Location = new System.Drawing.Point(371, 278);
+            this.textBoxPrenumeManagerSignUp.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPrenumeManagerSignUp.Name = "textBoxPrenumeManagerSignUp";
-            this.textBoxPrenumeManagerSignUp.Size = new System.Drawing.Size(224, 22);
+            this.textBoxPrenumeManagerSignUp.Size = new System.Drawing.Size(169, 20);
             this.textBoxPrenumeManagerSignUp.TabIndex = 67;
             // 
             // textBoxNumeManagerSignUp
             // 
-            this.textBoxNumeManagerSignUp.Location = new System.Drawing.Point(495, 268);
+            this.textBoxNumeManagerSignUp.Location = new System.Drawing.Point(371, 218);
+            this.textBoxNumeManagerSignUp.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxNumeManagerSignUp.Name = "textBoxNumeManagerSignUp";
-            this.textBoxNumeManagerSignUp.Size = new System.Drawing.Size(224, 22);
+            this.textBoxNumeManagerSignUp.Size = new System.Drawing.Size(169, 20);
             this.textBoxNumeManagerSignUp.TabIndex = 66;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(492, 166);
+            this.label5.Location = new System.Drawing.Point(369, 135);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 16);
+            this.label5.Size = new System.Drawing.Size(53, 13);
             this.label5.TabIndex = 65;
             this.label5.Text = "Password";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(492, 97);
+            this.label6.Location = new System.Drawing.Point(369, 79);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(70, 16);
+            this.label6.Size = new System.Drawing.Size(55, 13);
             this.label6.TabIndex = 64;
             this.label6.Text = "Username";
             // 
             // textBoxPasswordManagerSignUp
             // 
-            this.textBoxPasswordManagerSignUp.Location = new System.Drawing.Point(495, 196);
+            this.textBoxPasswordManagerSignUp.Location = new System.Drawing.Point(371, 159);
+            this.textBoxPasswordManagerSignUp.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPasswordManagerSignUp.Name = "textBoxPasswordManagerSignUp";
-            this.textBoxPasswordManagerSignUp.Size = new System.Drawing.Size(224, 22);
+            this.textBoxPasswordManagerSignUp.PasswordChar = '*';
+            this.textBoxPasswordManagerSignUp.Size = new System.Drawing.Size(169, 20);
             this.textBoxPasswordManagerSignUp.TabIndex = 63;
             // 
             // textBoxUsernameManagerSignUp
             // 
-            this.textBoxUsernameManagerSignUp.Location = new System.Drawing.Point(495, 127);
+            this.textBoxUsernameManagerSignUp.Location = new System.Drawing.Point(371, 103);
+            this.textBoxUsernameManagerSignUp.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxUsernameManagerSignUp.Name = "textBoxUsernameManagerSignUp";
-            this.textBoxUsernameManagerSignUp.Size = new System.Drawing.Size(224, 22);
+            this.textBoxUsernameManagerSignUp.Size = new System.Drawing.Size(169, 20);
             this.textBoxUsernameManagerSignUp.TabIndex = 62;
             // 
             // AdaugaManager
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1182, 653);
+            this.ClientSize = new System.Drawing.Size(886, 531);
             this.Controls.Add(this.buttonManagerSignUp);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
@@ -188,6 +204,7 @@
             this.Controls.Add(this.buttonLogOut);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuPrincipal);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AdaugaManager";
             this.Text = "Adauga Manager";
             this.menuPrincipal.ResumeLayout(false);

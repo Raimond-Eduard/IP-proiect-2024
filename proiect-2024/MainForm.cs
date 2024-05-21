@@ -20,12 +20,14 @@ namespace proiect_2024
         public IState _clientViewState;
         public IState _adminViewState;
         public IState _managerViewState;
+        public IState _addManagerState;
 
         private LogIn _logInForm;
         private SignUp _signUpForm;
         private ViewRezervariClient _viewClientForm;
         private ViewAdmin _viewAdminForm;
         private ViewManager _viewManagerForm;
+        private AdaugaManager _adaugaManagerForm;
 
         public MainForm()
         {
@@ -44,11 +46,13 @@ namespace proiect_2024
             _viewClientForm = new ViewRezervariClient(this);
             _viewAdminForm = new ViewAdmin(this);
             _viewManagerForm = new ViewManager(this);
+            _adaugaManagerForm = new AdaugaManager(this);
 
             _logInState = new LogInState(this);
             _signUpState = new SignUpState(this);
             _clientViewState = new ClientViewState(this);
             _adminViewState = new AdminViewState(this);
+            _addManagerState = new AddManagerState(this);
 
             // Set initial state to LogInState
             SetState(_logInState);
@@ -109,6 +113,16 @@ namespace proiect_2024
         public void HideManagerForm()
         {
             _viewManagerForm.Hide();
+        }
+
+        public void ShowAddManagerForm()
+        {
+            _adaugaManagerForm.Show();
+        }
+
+        public void HideAddManagerForm()
+        {
+            _adaugaManagerForm.Hide();
         }
 
     }

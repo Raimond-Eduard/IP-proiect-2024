@@ -46,7 +46,7 @@
             // buttonLogOut
             // 
             this.buttonLogOut.Location = new System.Drawing.Point(811, 23);
-            this.buttonLogOut.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonLogOut.Margin = new System.Windows.Forms.Padding(2);
             this.buttonLogOut.Name = "buttonLogOut";
             this.buttonLogOut.Size = new System.Drawing.Size(77, 31);
             this.buttonLogOut.TabIndex = 71;
@@ -91,17 +91,18 @@
             // buttonViewAdaugaManager
             // 
             this.buttonViewAdaugaManager.Location = new System.Drawing.Point(468, 257);
-            this.buttonViewAdaugaManager.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonViewAdaugaManager.Margin = new System.Windows.Forms.Padding(2);
             this.buttonViewAdaugaManager.Name = "buttonViewAdaugaManager";
             this.buttonViewAdaugaManager.Size = new System.Drawing.Size(104, 28);
             this.buttonViewAdaugaManager.TabIndex = 78;
             this.buttonViewAdaugaManager.Text = "Adauga Manager";
             this.buttonViewAdaugaManager.UseVisualStyleBackColor = true;
+            this.buttonViewAdaugaManager.Click += new System.EventHandler(this.buttonViewAdaugaManager_Click);
             // 
             // buttonViewStergeUtilizator
             // 
             this.buttonViewStergeUtilizator.Location = new System.Drawing.Point(468, 310);
-            this.buttonViewStergeUtilizator.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonViewStergeUtilizator.Margin = new System.Windows.Forms.Padding(2);
             this.buttonViewStergeUtilizator.Name = "buttonViewStergeUtilizator";
             this.buttonViewStergeUtilizator.Size = new System.Drawing.Size(104, 28);
             this.buttonViewStergeUtilizator.TabIndex = 77;
@@ -129,7 +130,7 @@
             // buttonGenerareRaport
             // 
             this.buttonGenerareRaport.Location = new System.Drawing.Point(316, 310);
-            this.buttonGenerareRaport.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonGenerareRaport.Margin = new System.Windows.Forms.Padding(2);
             this.buttonGenerareRaport.Name = "buttonGenerareRaport";
             this.buttonGenerareRaport.Size = new System.Drawing.Size(104, 28);
             this.buttonGenerareRaport.TabIndex = 74;
@@ -169,7 +170,7 @@
             this.Controls.Add(this.buttonGenerareRaport);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBoxDetaliiRezervari);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ViewAdmin";
             this.Text = "Admin";
             this.menuPrincipal.ResumeLayout(false);

@@ -41,5 +41,10 @@ namespace proiect_2024
                 }
             }
         }
+
+        private void buttonViewAdaugaManager_Click(object sender, EventArgs e)
+        {
+            _mainForm.SetState(new AddManagerState(_mainForm));
+        }
     }
 }
