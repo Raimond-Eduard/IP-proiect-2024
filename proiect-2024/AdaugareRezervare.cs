@@ -22,11 +22,11 @@ namespace proiect_2024
         private string _tipCamera;
         private int _capacitate;
         private string _tipBalcon;
-        private int _pret_per_noapte;
+        private List<int> _pret_per_noapte;
         private DateTime _checkIn;
         private DateTime _checkOut;
-        private List<DateTime> _unavailableDates;
-        private bool _freeRoom;
+        
+        
 
         private List<int> _camerasIds;
         //baza de date
@@ -75,7 +75,69 @@ namespace proiect_2024
             _tipCamera = comboBoxTipulCamerei.SelectedItem.ToString();
             _tipBalcon = comboBoxTipBalcon.SelectedItem.ToString();
             _capacitate = Convert.ToInt32(comboBoxCapacitate.SelectedItem.ToString());
-            
+            _checkIn = datePickCheckIn.SelectionStart;
+            _checkOut = datePickCheckOut.SelectionStart;
+
+            using(SqliteConnection connection = new SqliteConnection(ConnectionString))
+            {
+                connection.Open();
+
+                string query = @"SELECT id_camera, pret_per_naopte FROM Camera WHERE tip_camera = @tip AND " +
+                    "tip_balcon = @balcon AND capcitate = @cap;";
+                using(SqliteCommand command = new SqliteCommand(query, connection)) 
+                {
+                    command.Parameters.AddWithValue("@tip", _tipCamera);
+                    command.Parameters.AddWithValue("@balcon", _tipBalcon);
+                    command.Parameters.AddWithValue("@cap", _capacitate);
+
+                    using(SqliteDataReader reader = command.ExecuteReader())
+                    {
+                        while(reader.Read())
+                        {
+                            if (reader.IsDBNull(reader.GetOrdinal("id_camera")))
+                            {
+                                continue;
+                            }
+                            else
+                            {
+                                _camerasIds.Add(reader.GetInt32(reader.GetOrdinal("id_camera")));
+                                _pret_per_noapte.Add(reader.GetInt32(reader.GetOrdinal("pret_per_noapte")));
+                            }
+                        }
+                    }
+                }
+
+                query = @"SELECT check_in, check_out FROM Rezervare WHERE id_camera = @camera;";
+                using(SqliteCommand command = new SqliteCommand(@query, connection))
+                {
+                    for(int i = 0; i < _camerasIds.Count; i++)
+                    {
+                        if (_camerasIds[i] == -1)
+                        {
+                            continue ;
+                        }
+                        else
+                        {
+                            command.Parameters.AddWithValue("@camera", _camerasIds[i]);
+
+                            using (SqliteDataReader reader = command.ExecuteReader())
+                            {
+                                while (reader.Read())
+                                {
+                                    if(reader.IsDBNull(reader.GetOrdinal("check_in")) || reader.IsDBNull(reader.GetOrdinal("check_out")))
+                                    {
+                                        continue;
+                                    }
+                                    else
+                                    {
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
