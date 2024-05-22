@@ -29,6 +29,7 @@ namespace proiect_2024
         private IStrategy _mailStrategy;
         private IStrategy _phoneStrategy;
         private IStrategy _ageStrategy;
+        private IStrategy _usernameStrategy;
 
         //conexiune cu baza de date
         private string ConnectionString = "Data source=" + Directory.GetCurrentDirectory() + "\\hotel_db.db";//"Data Source=E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\hotel_db.db";
@@ -78,6 +79,12 @@ namespace proiect_2024
             }
         }
 
+        private bool validateUsername(string username)
+        {
+            _usernameStrategy = new ValidateUsernameStrategy();
+            return _usernameStrategy.Check(username);
+        }
+
         private bool validPhoneNumber(string phone)
         {
             _phoneStrategy = new ValidatePhoneStrategy();
@@ -105,14 +112,14 @@ namespace proiect_2024
             
 
 
-            if (textBoxPasswordSignUp.Text == null)
+            if (textBoxPasswordSignUp.Text == null || textBoxPasswordSignUp.Text == "")
             {
                 MessageBox.Show("Parola lipsa", "Introduceti o parola, nu lasati campuri necompletate");
                 return;
             }
             _password = GetSHA256Hash(textBoxPasswordSignUp.Text);
 
-            if (textBoxNumeSignUp.Text == null)
+            if (textBoxNumeSignUp.Text == null || textBoxNumeSignUp.Text == "")
             {
                 MessageBox.Show("Nume lipsa", "Introduceti numele dumneavoastra, nu lasati campuri necompletate");
                 return;
@@ -121,7 +128,7 @@ namespace proiect_2024
 
             _first_name = textBoxNumeSignUp.Text;
 
-            if (textBoxPrenumeSignUp.Text == null)
+            if (textBoxPrenumeSignUp.Text == null || textBoxPrenumeSignUp.Text == "")
             {
                 MessageBox.Show("Prenume lipsa", "Introduceti prenumele dumneavoastra, nu lasati campuri necompletate");
                 return;
@@ -130,7 +137,7 @@ namespace proiect_2024
 
             _last_name = textBoxPrenumeSignUp.Text;
 
-            if (textBoxTelefonSignUp.Text == null)
+            if (textBoxTelefonSignUp.Text == null || textBoxTelefonSignUp.Text == "")
             {
                 MessageBox.Show("Numar de telefon lipsa", "Introduceti numarul de telefon pentru a putea fi contactat");
                 return;
@@ -146,7 +153,7 @@ namespace proiect_2024
 
             }
 
-            if (textBoxEmailSignUp.Text == null)
+            if (textBoxEmailSignUp.Text == null || textBoxEmailSignUp.Text == "")
             {
                 MessageBox.Show("Email lipsa", "Introduceti si adresa de email");
                 return;
@@ -170,13 +177,19 @@ namespace proiect_2024
 
             _age = AgeCalculatorHelper.calculateAge(_birthDate);
 
-            if (textBoxUsernameSignUp.Text == null)
+            if (textBoxUsernameSignUp.Text == null || textBoxUsernameSignUp.Text == "")
             {
                 MessageBox.Show("Eroare", "Introduceti un nume de utilizator", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             else
             {
+                if (!validateUsername(textBoxUsernameSignUp.Text))
+                {
+                    MessageBox.Show("Username-ul nu poate contine spatii", "Eroare", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+                
                 _username = textBoxUsernameSignUp.Text;
                 using (SqliteConnection connection = new SqliteConnection(ConnectionString))
                 {

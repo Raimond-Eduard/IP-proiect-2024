@@ -1,12 +1,59 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|e:\\facultate\\ip\\proiect ip 2024\\proiect-2024\\adaugarerezervare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:adaugarerezervare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|e:\\facultate\\ip\\proiect ip 2024\\proiect-2024\\adaugarerezervare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:adaugarerezervare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdaugareRezervare.cs",
+              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\AdaugareRezervare.cs",
+              "RelativeDocumentMoniker": "AdaugareRezervare.cs",
+              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\AdaugareRezervare.cs",
+              "RelativeToolTip": "AdaugareRezervare.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:14:29.449Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdaugareRezervare.cs [Design]",
+              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\AdaugareRezervare.cs",
+              "RelativeDocumentMoniker": "AdaugareRezervare.cs",
+              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\AdaugareRezervare.cs [Design]",
+              "RelativeToolTip": "AdaugareRezervare.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:16:38.664Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

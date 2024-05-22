@@ -21,6 +21,8 @@ namespace proiect_2024
         public IState _adminViewState;
         public IState _managerViewState;
         public IState _addManagerState;
+        public IState _addReservationState;
+        public IState _addRoomState;
 
         private LogIn _logInForm;
         private SignUp _signUpForm;
@@ -28,6 +30,8 @@ namespace proiect_2024
         private ViewAdmin _viewAdminForm;
         private ViewManager _viewManagerForm;
         private AdaugaManager _adaugaManagerForm;
+        private AdaugareRezervare _adaugaRezervareForm;
+        private AdaugareCamera _adaugareCameraForm;
 
         public MainForm()
         {
@@ -47,12 +51,14 @@ namespace proiect_2024
             _viewAdminForm = new ViewAdmin(this);
             _viewManagerForm = new ViewManager(this);
             _adaugaManagerForm = new AdaugaManager(this);
+            _adaugaRezervareForm = new AdaugareRezervare(this);
 
             _logInState = new LogInState(this);
             _signUpState = new SignUpState(this);
             _clientViewState = new ClientViewState(this);
             _adminViewState = new AdminViewState(this);
             _addManagerState = new AddManagerState(this);
+            _addReservationState = new AddReservationState(this);
 
             // Set initial state to LogInState
             SetState(_logInState);
@@ -124,6 +130,18 @@ namespace proiect_2024
         {
             _adaugaManagerForm.Hide();
         }
+
+        public void ShowReservationForm()
+        {
+            _adaugaRezervareForm.Show();
+        }
+
+        public void HideReservationForm()
+        {
+            _adaugaRezervareForm.Hide();
+        }
+
+       
 
     }
 }

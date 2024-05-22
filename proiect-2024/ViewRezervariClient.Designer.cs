@@ -43,7 +43,7 @@
             // buttonLogOut
             // 
             this.buttonLogOut.Location = new System.Drawing.Point(811, 23);
-            this.buttonLogOut.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonLogOut.Margin = new System.Windows.Forms.Padding(2);
             this.buttonLogOut.Name = "buttonLogOut";
             this.buttonLogOut.Size = new System.Drawing.Size(77, 31);
             this.buttonLogOut.TabIndex = 71;
@@ -88,7 +88,7 @@
             // buttonClientModificareRezervare
             // 
             this.buttonClientModificareRezervare.Location = new System.Drawing.Point(716, 329);
-            this.buttonClientModificareRezervare.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonClientModificareRezervare.Margin = new System.Windows.Forms.Padding(2);
             this.buttonClientModificareRezervare.Name = "buttonClientModificareRezervare";
             this.buttonClientModificareRezervare.Size = new System.Drawing.Size(112, 28);
             this.buttonClientModificareRezervare.TabIndex = 74;
@@ -116,12 +116,13 @@
             // buttonViewAdaugaRezervare
             // 
             this.buttonViewAdaugaRezervare.Location = new System.Drawing.Point(716, 272);
-            this.buttonViewAdaugaRezervare.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonViewAdaugaRezervare.Margin = new System.Windows.Forms.Padding(2);
             this.buttonViewAdaugaRezervare.Name = "buttonViewAdaugaRezervare";
             this.buttonViewAdaugaRezervare.Size = new System.Drawing.Size(112, 28);
             this.buttonViewAdaugaRezervare.TabIndex = 75;
             this.buttonViewAdaugaRezervare.Text = "Adauga Rezervare";
             this.buttonViewAdaugaRezervare.UseVisualStyleBackColor = true;
+            this.buttonViewAdaugaRezervare.Click += new System.EventHandler(this.buttonViewAdaugaRezervare_Click);
             // 
             // ViewRezervariClient
             // 
@@ -135,7 +136,7 @@
             this.Controls.Add(this.buttonClientModificareRezervare);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBoxDetaliiRezervari);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ViewRezervariClient";
             this.Text = "Rezervari";
             this.menuPrincipal.ResumeLayout(false);

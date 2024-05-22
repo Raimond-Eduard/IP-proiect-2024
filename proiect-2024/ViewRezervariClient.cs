@@ -40,5 +40,10 @@ namespace proiect_2024
                 }
             }
         }
+
+        private void buttonViewAdaugaRezervare_Click(object sender, EventArgs e)
+        {
+            _mainForm.SetState(new AddReservationState(_mainForm));
+        }
     }
 }

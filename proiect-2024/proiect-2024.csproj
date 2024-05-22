@@ -134,6 +134,7 @@
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
     <Compile Include="states\AddManagerState.cs" />
+    <Compile Include="states\AddReservationState.cs" />
     <Compile Include="states\AdminViewState.cs" />
     <Compile Include="states\ClientViewState.cs" />
     <Compile Include="states\LogInState.cs" />
@@ -142,6 +143,7 @@
     <Compile Include="strategies\ValidateAgeStrategy.cs" />
     <Compile Include="strategies\ValidateEmailStrategy.cs" />
     <Compile Include="strategies\ValidatePhoneStrategy.cs" />
+    <Compile Include="strategies\ValidateUsernameStrategy.cs" />
     <Compile Include="ViewAdmin.cs">
       <SubType>Form</SubType>
     </Compile>

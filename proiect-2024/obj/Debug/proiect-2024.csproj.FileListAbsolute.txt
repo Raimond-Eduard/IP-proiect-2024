@@ -86,3 +86,7 @@ D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\proiect-2024\bin\Debug\UnitTestProjec
 D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\proiect-2024\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\proiect-2024\bin\Debug\UnitTestProjectHotelApp.pdb
 D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\proiect-2024\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\bin\Debug\UnitTestProjectHotelApp.dll
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\bin\Debug\UnitTestProjectHotelApp.pdb
+E:\Facultate\IP\Proiect IP 2024\proiect-2024\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
