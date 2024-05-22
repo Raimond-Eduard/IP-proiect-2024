@@ -21,14 +21,10 @@
           "SQLitePCLRaw.core": "2.1.2"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -194,14 +190,10 @@
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Buffers.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/System.Buffers.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Buffers.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Buffers.dll": {}
         }
       },
       "System.Memory/4.5.3": {
@@ -212,14 +204,10 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Memory.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Memory.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Memory.dll": {}
         }
       },
       "System.Numerics.Vectors/4.4.0": {
@@ -229,27 +217,19 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
+          "ref/net46/System.Numerics.Vectors.dll": {}
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
+          "lib/net46/System.Numerics.Vectors.dll": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       }
     },
@@ -273,14 +253,10 @@
           "SQLitePCLRaw.core": "2.1.2"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -360,14 +336,10 @@
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Buffers.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/System.Buffers.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Buffers.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Buffers.dll": {}
         }
       },
       "System.Memory/4.5.3": {
@@ -378,14 +350,10 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Memory.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Memory.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Memory.dll": {}
         }
       },
       "System.Numerics.Vectors/4.4.0": {
@@ -395,196 +363,19 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
+          "ref/net46/System.Numerics.Vectors.dll": {}
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
+          "lib/net46/System.Numerics.Vectors.dll": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        }
-      }
-    },
-    ".NETFramework,Version=v4.7.2/win-arm64": {
-      "Microsoft.Data.Sqlite/7.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "7.0.0",
-          "SQLitePCLRaw.bundle_e_sqlite3": "2.1.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        }
-      },
-      "Microsoft.Data.Sqlite.Core/7.0.0": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.1.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3": "2.1.2",
-          "SQLitePCLRaw.provider.dynamic_cdecl": "2.1.2"
-        },
-        "compile": {
-          "lib/net461/SQLitePCLRaw.batteries_v2.dll": {}
-        },
-        "runtime": {
-          "lib/net461/SQLitePCLRaw.batteries_v2.dll": {}
-        }
-      },
-      "SQLitePCLRaw.bundle_sqlite3/2.0.7": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.7",
-          "SQLitePCLRaw.provider.sqlite3": "2.0.7"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.1.2": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3/2.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net461/_._": {}
-        },
-        "runtime": {
-          "lib/net461/_._": {}
-        },
-        "native": {
-          "runtimes/win-arm64/native/e_sqlite3.dll": {}
-        },
-        "build": {
-          "buildTransitive/net461/SQLitePCLRaw.lib.e_sqlite3.targets": {}
-        }
-      },
-      "SQLitePCLRaw.provider.dynamic_cdecl/2.1.2": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.1.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        }
-      },
-      "SQLitePCLRaw.provider.sqlite3/2.0.7": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.7"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.sqlite3.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.sqlite3.dll": {}
-        }
-      },
-      "System.Buffers/4.4.0": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/System.Buffers.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Buffers.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.4.0",
-          "System.Numerics.Vectors": "4.4.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/System.Memory.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Memory.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Numerics.Vectors/4.4.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Numerics",
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       }
     },
@@ -608,14 +399,10 @@
           "SQLitePCLRaw.core": "2.1.2"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -698,14 +485,10 @@
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Buffers.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/System.Buffers.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Buffers.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Buffers.dll": {}
         }
       },
       "System.Memory/4.5.3": {
@@ -716,14 +499,10 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Memory.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Memory.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Memory.dll": {}
         }
       },
       "System.Numerics.Vectors/4.4.0": {
@@ -733,27 +512,19 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
+          "ref/net46/System.Numerics.Vectors.dll": {}
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
+          "lib/net46/System.Numerics.Vectors.dll": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       }
     },
@@ -777,14 +548,10 @@
           "SQLitePCLRaw.core": "2.1.2"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -867,14 +634,10 @@
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Buffers.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/System.Buffers.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Buffers.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Buffers.dll": {}
         }
       },
       "System.Memory/4.5.3": {
@@ -885,14 +648,10 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Memory.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Memory.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Memory.dll": {}
         }
       },
       "System.Numerics.Vectors/4.4.0": {
@@ -902,27 +661,19 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
+          "ref/net46/System.Numerics.Vectors.dll": {}
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
+          "lib/net46/System.Numerics.Vectors.dll": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       }
     }
@@ -1193,21 +944,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Raimond\\.nuget\\packages\\": {}
+    "C:\\Users\\Nutu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\proiect-2024.csproj",
+      "projectUniqueName": "D:\\AN3EU\\sem2\\IP\\ProiectIP\\IP-proiect-2024\\proiect-2024\\proiect-2024.csproj",
       "projectName": "proiect-2024",
-      "projectPath": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\proiect-2024.csproj",
-      "packagesPath": "C:\\Users\\Raimond\\.nuget\\packages\\",
-      "outputPath": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\obj\\",
+      "projectPath": "D:\\AN3EU\\sem2\\IP\\ProiectIP\\IP-proiect-2024\\proiect-2024\\proiect-2024.csproj",
+      "packagesPath": "C:\\Users\\Nutu\\.nuget\\packages\\",
+      "outputPath": "D:\\AN3EU\\sem2\\IP\\ProiectIP\\IP-proiect-2024\\proiect-2024\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Raimond\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Nutu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net472"
@@ -1220,11 +976,6 @@
         "net472": {
           "projectReferences": {}
         }
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1243,9 +994,6 @@
     },
     "runtimes": {
       "win": {
-        "#import": []
-      },
-      "win-arm64": {
         "#import": []
       },
       "win-x64": {
