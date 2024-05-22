@@ -18,26 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdaugareRezervare.cs",
-              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\AdaugareRezervare.cs",
-              "RelativeDocumentMoniker": "AdaugareRezervare.cs",
-              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\AdaugareRezervare.cs",
-              "RelativeToolTip": "AdaugareRezervare.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwDMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T13:14:29.449Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -48,8 +29,21 @@
               "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\AdaugareRezervare.cs [Design]",
               "RelativeToolTip": "AdaugareRezervare.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T13:16:38.664Z",
+              "WhenOpened": "2024-05-22T16:36:44.817Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdaugareRezervare.cs",
+              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\AdaugareRezervare.cs",
+              "RelativeDocumentMoniker": "AdaugareRezervare.cs",
+              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\AdaugareRezervare.cs",
+              "RelativeToolTip": "AdaugareRezervare.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAASwE0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:14:29.449Z",
+              "EditorCaption": ""
             }
           ]
         }

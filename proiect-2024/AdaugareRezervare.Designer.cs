@@ -103,6 +103,7 @@
             this.buttonAdaugaRezervare.TabIndex = 78;
             this.buttonAdaugaRezervare.Text = "Adauga Rezervare";
             this.buttonAdaugaRezervare.UseVisualStyleBackColor = true;
+            this.buttonAdaugaRezervare.Click += new System.EventHandler(this.buttonAdaugaRezervare_Click);
             // 
             // comboBoxTipBalcon
             // 

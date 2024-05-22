@@ -1,9 +1,11 @@
-﻿using proiect_2024.states;
+﻿using Microsoft.Data.Sqlite;
+using proiect_2024.states;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,11 +25,21 @@ namespace proiect_2024
         private int _pret_per_noapte;
         private DateTime _checkIn;
         private DateTime _checkOut;
+        private List<DateTime> _unavailableDates;
+        private bool _freeRoom;
+
+        private List<int> _camerasIds;
+        //baza de date
+        private string ConnectionString = "Data source=" + Directory.GetCurrentDirectory() + "\\hotel_db.db";
+
+
         public AdaugareRezervare(MainForm mainForm)
         {
             _mainForm = mainForm;
             InitializeComponent();
         }
+
+
 
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
@@ -55,7 +67,15 @@ namespace proiect_2024
         private void buttonLogOut_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new LogInState(_mainForm));
+            
+        }
 
+        private void buttonAdaugaRezervare_Click(object sender, EventArgs e)
+        {
+            _tipCamera = comboBoxTipulCamerei.SelectedItem.ToString();
+            _tipBalcon = comboBoxTipBalcon.SelectedItem.ToString();
+            _capacitate = Convert.ToInt32(comboBoxCapacitate.SelectedItem.ToString());
+            
         }
     }
 }
