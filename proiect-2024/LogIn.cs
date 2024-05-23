@@ -12,6 +12,7 @@ using System.Security.Cryptography;
 using Microsoft.Data.Sqlite;
 using System.IO;
 using proiect_2024.hash;
+using proiect_2024.helpers;
 
 namespace proiect_2024
 {
@@ -19,6 +20,7 @@ namespace proiect_2024
     {
         private string ConnectionString = "Data source=" + Directory.GetCurrentDirectory() + "\\hotel_db.db";
         private string _ownership;
+        private int _idUser;
 
         private MainForm _mainForm;
         public LogIn(MainForm mainForm)
@@ -65,7 +67,7 @@ namespace proiect_2024
                     {
                         while (reader.Read())
                         {
-                            var id = reader.GetInt32(reader.GetOrdinal("id_utilizator"));
+                            _idUser = reader.GetInt32(reader.GetOrdinal("id_utilizator"));
                             string dbUsername = reader.GetString(reader.GetOrdinal("username"));
                             string dbPassword = reader.GetString(reader.GetOrdinal("parola"));
                             _ownership = reader.GetString(reader.GetOrdinal("rol"));
@@ -90,6 +92,7 @@ namespace proiect_2024
             string password = GetSHA256Hash(textBoxPasswordLogIn.Text);
             if(CheckForLogInCredentials(username, password))
             {
+                UserSession.UserId = _idUser;
                 //throw new Exception("Method needs to be implemented");
                 //logica de logare + state pentru utilizator
                 switch (_ownership){

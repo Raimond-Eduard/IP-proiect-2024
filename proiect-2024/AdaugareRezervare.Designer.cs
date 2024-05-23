@@ -46,12 +46,15 @@
             this.datePickCheckOut = new System.Windows.Forms.MonthCalendar();
             this.buttonRezervari = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.buttonRezervareCautareCamera = new System.Windows.Forms.Button();
+            this.listBoxAdaugareRezervare = new System.Windows.Forms.ListBox();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonLogOut
             // 
-            this.buttonLogOut.Location = new System.Drawing.Point(809, 23);
+            this.buttonLogOut.Location = new System.Drawing.Point(1320, 26);
             this.buttonLogOut.Margin = new System.Windows.Forms.Padding(2);
             this.buttonLogOut.Name = "buttonLogOut";
             this.buttonLogOut.Size = new System.Drawing.Size(77, 31);
@@ -65,7 +68,7 @@
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(886, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1408, 25);
             this.toolStrip1.TabIndex = 63;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -78,7 +81,7 @@
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
             this.menuPrincipal.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuPrincipal.Size = new System.Drawing.Size(886, 24);
+            this.menuPrincipal.Size = new System.Drawing.Size(1408, 24);
             this.menuPrincipal.TabIndex = 62;
             this.menuPrincipal.Text = "menuPrincipal";
             // 
@@ -236,11 +239,41 @@
             this.label6.TabIndex = 84;
             this.label6.Text = "***Rezervarea nu poate fi stearsa decat de catre MANAGER***";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(851, 67);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(168, 13);
+            this.label5.TabIndex = 86;
+            this.label5.Text = "Camere care se potrivesc selectiei";
+            // 
+            // buttonRezervareCautareCamera
+            // 
+            this.buttonRezervareCautareCamera.Location = new System.Drawing.Point(714, 129);
+            this.buttonRezervareCautareCamera.Name = "buttonRezervareCautareCamera";
+            this.buttonRezervareCautareCamera.Size = new System.Drawing.Size(106, 23);
+            this.buttonRezervareCautareCamera.TabIndex = 87;
+            this.buttonRezervareCautareCamera.Text = "Cauta";
+            this.buttonRezervareCautareCamera.UseVisualStyleBackColor = true;
+            this.buttonRezervareCautareCamera.Click += new System.EventHandler(this.buttonRezervareCautareCamera_Click);
+            // 
+            // listBoxAdaugareRezervare
+            // 
+            this.listBoxAdaugareRezervare.FormattingEnabled = true;
+            this.listBoxAdaugareRezervare.Location = new System.Drawing.Point(854, 90);
+            this.listBoxAdaugareRezervare.Name = "listBoxAdaugareRezervare";
+            this.listBoxAdaugareRezervare.Size = new System.Drawing.Size(543, 433);
+            this.listBoxAdaugareRezervare.TabIndex = 88;
+            // 
             // AdaugareRezervare
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(886, 531);
+            this.ClientSize = new System.Drawing.Size(1408, 531);
+            this.Controls.Add(this.listBoxAdaugareRezervare);
+            this.Controls.Add(this.buttonRezervareCautareCamera);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.buttonRezervari);
             this.Controls.Add(this.datePickCheckOut);
@@ -286,5 +319,8 @@
         private System.Windows.Forms.MonthCalendar datePickCheckOut;
         private System.Windows.Forms.Button buttonRezervari;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button buttonRezervareCautareCamera;
+        private System.Windows.Forms.ListBox listBoxAdaugareRezervare;
     }
 }
