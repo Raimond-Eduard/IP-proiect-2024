@@ -114,7 +114,6 @@
     <Compile Include="helpers\UserSession.cs" />
     <Compile Include="interfaces\IState.cs" />
     <Compile Include="interfaces\IStrategy.cs" />
-    <Compile Include="interfaces\IUser.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>

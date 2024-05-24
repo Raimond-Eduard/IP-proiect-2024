@@ -1,6 +1,6 @@
 ﻿/**************************************************************************
  *                                                                        *
- *  File:        UserSession.cs                                   *
+ *  File:        UserSession.cs                                           *
  *  Copyright:   (c) 2024, Butnaru Raimond-Eduard,			              *
  *			   Maieczki Petronela-Sînziana,			                      *
  *			   Lupu Andreea-Sabina,				                          *

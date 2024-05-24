@@ -59,7 +59,7 @@
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1229, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1389, 25);
             this.toolStrip1.TabIndex = 59;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -72,7 +72,7 @@
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
             this.menuPrincipal.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuPrincipal.Size = new System.Drawing.Size(1229, 24);
+            this.menuPrincipal.Size = new System.Drawing.Size(1389, 24);
             this.menuPrincipal.TabIndex = 58;
             this.menuPrincipal.Text = "menuPrincipal";
             // 
@@ -91,15 +91,15 @@
             // listBoxDetaliiRezervari
             // 
             this.listBoxDetaliiRezervari.FormattingEnabled = true;
-            this.listBoxDetaliiRezervari.Location = new System.Drawing.Point(0, 111);
+            this.listBoxDetaliiRezervari.Location = new System.Drawing.Point(0, 98);
             this.listBoxDetaliiRezervari.Name = "listBoxDetaliiRezervari";
-            this.listBoxDetaliiRezervari.Size = new System.Drawing.Size(295, 420);
+            this.listBoxDetaliiRezervari.Size = new System.Drawing.Size(544, 420);
             this.listBoxDetaliiRezervari.TabIndex = 62;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(-2, 77);
+            this.label1.Location = new System.Drawing.Point(-3, 68);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 13);
@@ -108,7 +108,7 @@
             // 
             // buttonViewStergereRezervare
             // 
-            this.buttonViewStergereRezervare.Location = new System.Drawing.Point(315, 310);
+            this.buttonViewStergereRezervare.Location = new System.Drawing.Point(571, 382);
             this.buttonViewStergereRezervare.Margin = new System.Windows.Forms.Padding(2);
             this.buttonViewStergereRezervare.Name = "buttonViewStergereRezervare";
             this.buttonViewStergereRezervare.Size = new System.Drawing.Size(104, 28);
@@ -119,15 +119,15 @@
             // listBoxDetaliiCamere
             // 
             this.listBoxDetaliiCamere.FormattingEnabled = true;
-            this.listBoxDetaliiCamere.Location = new System.Drawing.Point(649, 99);
+            this.listBoxDetaliiCamere.Location = new System.Drawing.Point(817, 98);
             this.listBoxDetaliiCamere.Name = "listBoxDetaliiCamere";
-            this.listBoxDetaliiCamere.Size = new System.Drawing.Size(569, 420);
+            this.listBoxDetaliiCamere.Size = new System.Drawing.Size(560, 420);
             this.listBoxDetaliiCamere.TabIndex = 65;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(646, 77);
+            this.label2.Location = new System.Drawing.Point(814, 68);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 13);
@@ -136,7 +136,7 @@
             // 
             // buttonViewStergeCamera
             // 
-            this.buttonViewStergeCamera.Location = new System.Drawing.Point(540, 285);
+            this.buttonViewStergeCamera.Location = new System.Drawing.Point(684, 180);
             this.buttonViewStergeCamera.Margin = new System.Windows.Forms.Padding(2);
             this.buttonViewStergeCamera.Name = "buttonViewStergeCamera";
             this.buttonViewStergeCamera.Size = new System.Drawing.Size(104, 28);
@@ -146,7 +146,7 @@
             // 
             // buttonViewAdaugaCamera
             // 
-            this.buttonViewAdaugaCamera.Location = new System.Drawing.Point(540, 168);
+            this.buttonViewAdaugaCamera.Location = new System.Drawing.Point(684, 111);
             this.buttonViewAdaugaCamera.Margin = new System.Windows.Forms.Padding(2);
             this.buttonViewAdaugaCamera.Name = "buttonViewAdaugaCamera";
             this.buttonViewAdaugaCamera.Size = new System.Drawing.Size(104, 28);
@@ -158,7 +158,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1229, 531);
+            this.ClientSize = new System.Drawing.Size(1389, 531);
             this.Controls.Add(this.buttonViewAdaugaCamera);
             this.Controls.Add(this.buttonViewStergeCamera);
             this.Controls.Add(this.label2);
