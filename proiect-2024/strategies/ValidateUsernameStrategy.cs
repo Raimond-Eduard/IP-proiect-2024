@@ -30,8 +30,16 @@ using System.Threading.Tasks;
 
 namespace proiect_2024.strategies
 {
+    /// <summary>
+    /// Clasa folosita pentru validarea numelui de utilizator astfel incat acesta sa nu fie null.
+    /// </summary>
     public class ValidateUsernameStrategy : IStrategy
     {
+        /// <summary>
+        /// Verifica daca numele de utilizator dat nu contine spatii.
+        /// </summary>
+        /// <param name="username">Numele de utilizator care trebuie verificat.</param>
+        /// <returns>True daca numele de utilizator este valid, altfel false.</returns>
         public bool Check(string username)
         {
             for(int i = 0; i < username.Length; i++)

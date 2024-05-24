@@ -26,16 +26,27 @@ namespace proiect_2024
         private List<int> _camerasNumber;
         private List<DateTime> _checkInCheckOut;
 
+        /// <summary>
+        /// Constructor pentru clasa ViewRezervariClient.
+        /// </summary>
+        /// <param name="mainForm">Formul principal al aplicatiei.</param>
         public ViewRezervariClient(MainForm mainForm)
         {
             _mainForm = mainForm;
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Metoda pentru deconectarea utilizatorului si revenirea la starea de conectare.
+        /// </summary>
         private void buttonLogOut_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new LogInState(_mainForm));
         }
+
+        /// <summary>
+        /// Metoda pentru inchiderea formularului si inchiderea aplicatiei la cererea utilizatorului.
+        /// </summary>
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             base.OnFormClosing(e);
@@ -53,10 +64,17 @@ namespace proiect_2024
             }
         }
 
+        /// <summary>
+        /// Metoda pentru navigarea catre formularul de adaugare a unei rezervari noi.
+        /// </summary>
         private void buttonViewAdaugaRezervare_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new AddReservationState(_mainForm));
         }
+
+        /// <summary>
+        /// Metoda pentru actualizarea interfetei cu datele rezervarilor clientului.
+        /// </summary>
         private void UpdateInterface()
         {
             _reservationId = new List<int>();
@@ -119,12 +137,19 @@ namespace proiect_2024
                 }
             }
         }
+
+        /// <summary>
+        /// Metoda apelata la incarcarea formularului pentru actualizarea interfetei.
+        /// </summary>
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
             UpdateInterface();
         }
 
+        /// <summary>
+        /// Metoda pentru reimprospatarea listei de rezervari la cererea utilizatorului.
+        /// </summary>
         private void buttonClientRefresh_Click(object sender, EventArgs e)
         {
             listBoxDetaliiRezervari.Items.Clear();

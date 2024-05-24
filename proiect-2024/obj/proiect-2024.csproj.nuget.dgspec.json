@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\proiect-2024.csproj": {}
+    "C:\\Users\\sanzi\\Source\\Repos\\Raimond-Eduard\\IP-proiect-2024\\proiect-2024\\proiect-2024.csproj": {}
   },
   "projects": {
-    "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\proiect-2024.csproj": {
+    "C:\\Users\\sanzi\\Source\\Repos\\Raimond-Eduard\\IP-proiect-2024\\proiect-2024\\proiect-2024.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\proiect-2024.csproj",
+        "projectUniqueName": "C:\\Users\\sanzi\\Source\\Repos\\Raimond-Eduard\\IP-proiect-2024\\proiect-2024\\proiect-2024.csproj",
         "projectName": "proiect-2024",
-        "projectPath": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\proiect-2024.csproj",
-        "packagesPath": "C:\\Users\\Raimond\\.nuget\\packages\\",
-        "outputPath": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\obj\\",
+        "projectPath": "C:\\Users\\sanzi\\Source\\Repos\\Raimond-Eduard\\IP-proiect-2024\\proiect-2024\\proiect-2024.csproj",
+        "packagesPath": "C:\\Users\\sanzi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sanzi\\Source\\Repos\\Raimond-Eduard\\IP-proiect-2024\\proiect-2024\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Raimond\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sanzi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,11 +33,6 @@
           "net472": {
             "projectReferences": {}
           }
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -52,9 +51,6 @@
       },
       "runtimes": {
         "win": {
-          "#import": []
-        },
-        "win-arm64": {
           "#import": []
         },
         "win-x64": {

@@ -1,21 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "FkPKkEWadgoJnX3S9VTbJN5cLsT04NwPZOX0qRBFOYcMcbV5bHS9r4G1k48usM3lWEMlsKmo/gT6qHAdDnX2OQ==",
+  "dgSpecHash": "yCYWAJk9D5NxtS9stvvKNn+P16RP+9rL/12nJ90KEjs4kTraedyON++Q/TlR4amtPcB5Xn3EpNwsK1iSyYd8+g==",
   "success": true,
-  "projectFilePath": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\proiect-2024.csproj",
+  "projectFilePath": "C:\\Users\\sanzi\\Source\\Repos\\Raimond-Eduard\\IP-proiect-2024\\proiect-2024\\proiect-2024.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Raimond\\.nuget\\packages\\microsoft.data.sqlite\\7.0.0\\microsoft.data.sqlite.7.0.0.nupkg.sha512",
-    "C:\\Users\\Raimond\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
-    "C:\\Users\\Raimond\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.2\\sqlitepclraw.bundle_e_sqlite3.2.1.2.nupkg.sha512",
-    "C:\\Users\\Raimond\\.nuget\\packages\\sqlitepclraw.bundle_sqlite3\\2.0.7\\sqlitepclraw.bundle_sqlite3.2.0.7.nupkg.sha512",
-    "C:\\Users\\Raimond\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
-    "C:\\Users\\Raimond\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.2\\sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",
-    "C:\\Users\\Raimond\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.1.2\\sqlitepclraw.provider.dynamic_cdecl.2.1.2.nupkg.sha512",
-    "C:\\Users\\Raimond\\.nuget\\packages\\sqlitepclraw.provider.sqlite3\\2.0.7\\sqlitepclraw.provider.sqlite3.2.0.7.nupkg.sha512",
-    "C:\\Users\\Raimond\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
-    "C:\\Users\\Raimond\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
-    "C:\\Users\\Raimond\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
-    "C:\\Users\\Raimond\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    "C:\\Users\\sanzi\\.nuget\\packages\\microsoft.data.sqlite\\7.0.0\\microsoft.data.sqlite.7.0.0.nupkg.sha512",
+    "C:\\Users\\sanzi\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
+    "C:\\Users\\sanzi\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.2\\sqlitepclraw.bundle_e_sqlite3.2.1.2.nupkg.sha512",
+    "C:\\Users\\sanzi\\.nuget\\packages\\sqlitepclraw.bundle_sqlite3\\2.0.7\\sqlitepclraw.bundle_sqlite3.2.0.7.nupkg.sha512",
+    "C:\\Users\\sanzi\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
+    "C:\\Users\\sanzi\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.2\\sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",
+    "C:\\Users\\sanzi\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.1.2\\sqlitepclraw.provider.dynamic_cdecl.2.1.2.nupkg.sha512",
+    "C:\\Users\\sanzi\\.nuget\\packages\\sqlitepclraw.provider.sqlite3\\2.0.7\\sqlitepclraw.provider.sqlite3.2.0.7.nupkg.sha512",
+    "C:\\Users\\sanzi\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\sanzi\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\sanzi\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\sanzi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
   ],
   "logs": []
 }

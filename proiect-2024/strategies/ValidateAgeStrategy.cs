@@ -31,8 +31,16 @@ using System.Threading.Tasks;
 
 namespace proiect_2024.strategies
 {
+    /// <summary>
+    /// Clasa folosita pentru validarea varstei utilizatorului astfel incat acesta sa fie major.
+    /// </summary>
     public class ValidateAgeStrategy : IStrategy
     {
+        /// <summary>
+        /// Verifica daca textul dat reprezinta o varsta majora.
+        /// </summary>
+        /// <param name="text">Textul care trebuie verificat.</param>
+        /// <returns>True daca varsta este majora, altfel false.</returns>
 
         public bool Check(string text)
         {

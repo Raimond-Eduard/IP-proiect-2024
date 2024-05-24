@@ -29,8 +29,22 @@ using System.Threading.Tasks;
 
 namespace proiect_2024.helpers
 {
+    /// <summary>
+    /// Clasa statica pentru validarea datelor de rezervare.
+    /// </summary>
+    /// <remarks>
+    /// Aceasta clasa contine metode statice pentru a valida daca datele de check-in
+    /// si check-out sunt in intervalele disponibile.
+    /// </remarks>
     public static class StopUnavailableDates
     {
+        /// <summary>
+        /// Valideaza daca data de check-in este in intervalul dat.
+        /// </summary>
+        /// <param name="checkIn">Data de check-in.</param>
+        /// <param name="date1">Prima data a intervalului.</param>
+        /// <param name="date2">A doua data a intervalului.</param>
+        /// <returns>True daca data de check-in este in interval, altfel false.</returns>
         public static bool validateCheckInCheckOut(DateTime checkIn, DateTime date1, DateTime date2)
         {
             if(checkIn >= date1 && checkIn <= date2)
@@ -40,6 +54,14 @@ namespace proiect_2024.helpers
             return false;
         }
 
+        /// <summary>
+        /// Valideaza daca datele de check-in si check-out sunt in intervalul dat.
+        /// </summary>
+        /// <param name="checkIn">Data de check-in.</param>
+        /// <param name="checkOut">Data de check-out.</param>
+        /// <param name="date1">Prima data a intervalului.</param>
+        /// <param name="date2">A doua data a intervalului.</param>
+        /// <returns>True daca ambele date sunt in interval, altfel false.</returns>
         public static bool validateSmallerLargerInterval(DateTime checkIn,DateTime checkOut, DateTime date1, DateTime date2)
         {
             if(checkIn >= date1 && checkIn <= date2 && checkOut >= date1 && checkOut <= date2)

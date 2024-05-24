@@ -29,8 +29,16 @@ using System.Threading.Tasks;
 
 namespace proiect_2024.interfaces
 {
+    /// <summary>
+    /// Interfata pentru implementarea sablonului Strategy in interfețele aplicației.
+    /// </summary>
     public interface IStrategy
     {
+        /// <summary>
+        /// Verifica daca textul dat corespunde strategiei.
+        /// </summary>
+        /// <param name="text">Textul care trebuie verificat.</param>
+        /// <returns>True daca textul corespunde strategiei, altfel false.</returns>
         bool Check(string text);
     }
 }

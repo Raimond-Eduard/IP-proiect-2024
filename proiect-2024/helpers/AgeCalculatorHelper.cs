@@ -29,8 +29,25 @@ using System.Threading.Tasks;
 
 namespace proiect_2024.helpers
 {
+    /// <summary>
+    /// Clasa statica pentru calculul varstei utilizatorului.
+    /// </summary>
+    /// <remarks>
+    /// Aceasta clasa contine o metoda statica pentru calcularea varstei utilizatorului
+    /// pe baza datei de nastere.
+    /// </remarks>
     public static class AgeCalculatorHelper
     {
+        /// <summary>
+        /// Calculeaza varsta utilizatorului.
+        /// </summary>
+        /// <param name="birthDate">Data de nastere a utilizatorului.</param>
+        /// <returns>Varsta calculata a utilizatorului.</returns>
+        /// <remarks>
+        /// Aceasta metoda calculeaza varsta utilizatorului in functie de data curenta.
+        /// Daca data de nastere este dupa ziua curenta din anul curent, varsta este
+        /// decrementata cu un an.
+        /// </remarks>
         public static int calculateAge(DateTime birthDate)
         {
             DateTime currentDate = DateTime.Today;

@@ -29,9 +29,19 @@ using System.Threading.Tasks;
 
 namespace proiect_2024.interfaces
 {
+    /// <summary>
+    /// Interfata pentru implementarea sablonului State in interfețele aplicației.
+    /// </summary>
     public interface IState
     {
+        /// <summary>
+        /// Metoda apelata la intrarea in starea specifica.
+        /// </summary>
         void Enter();
+
+        /// <summary>
+        /// Metoda apelata la iesirea din starea specifica.
+        /// </summary>
         void Exit();
     }
 }

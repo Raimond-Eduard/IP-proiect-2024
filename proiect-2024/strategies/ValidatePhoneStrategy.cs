@@ -30,8 +30,16 @@ using System.Threading.Tasks;
 
 namespace proiect_2024.strategies
 {
+    /// <summary>
+    /// Clasa folosita pentru validarea numarului de telefon al utilizatorului astfel incat acesta sa nu fie null.
+    /// </summary>
     public class ValidatePhoneStrategy : IStrategy
     {
+        /// <summary>
+        /// Verifica daca textul dat reprezinta un numar de telefon valid.
+        /// </summary>
+        /// <param name="text">Textul care trebuie verificat.</param>
+        /// <returns>True daca textul reprezinta un numar de telefon valid, altfel false.</returns>
         public bool Check(string text)
         {
             for (int i = 0; i < text.Length; i++)

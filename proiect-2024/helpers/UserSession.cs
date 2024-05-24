@@ -28,8 +28,14 @@ using System.Threading.Tasks;
 
 namespace proiect_2024.helpers
 {
+    /// <summary>
+    /// Clasa statica ce retine id-ul de logare al utilizatorului.
+    /// </summary>
     public static class UserSession
     {
+        /// <summary>
+        /// Id-ul de logare al utilizatorului.
+        /// </summary>
         public static int UserId { get; set; }
     }
 }

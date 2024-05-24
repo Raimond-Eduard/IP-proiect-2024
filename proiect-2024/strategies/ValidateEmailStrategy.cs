@@ -32,8 +32,16 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace proiect_2024.strategies
 {
+    /// <summary>
+    /// Clasa folosita pentru validarea email-ului utilizatorului.
+    /// </summary>
     public class ValidateEmailStrategy : IStrategy
     {
+        /// <summary>
+        /// Verifica daca textul dat reprezinta un email valid.
+        /// </summary>
+        /// <param name="text">Textul care trebuie verificat.</param>
+        /// <returns>True daca textul reprezinta un email valid, altfel false.</returns>
         public bool Check(string text)
         {
             try
