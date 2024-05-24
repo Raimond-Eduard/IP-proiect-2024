@@ -1,4 +1,30 @@
-﻿using Microsoft.Data.Sqlite;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        SignUp.cs                                                *
+ *  Copyright:   (c) 2024, Butnaru Raimond-Eduard,			              *
+ *			   Maieczki Petronela-Sînziana,			                      *
+ *			   Lupu Andreea-Sabina,				                          *
+ *			   Guriuc Vlad-Ionuț                                          *
+ *  E-mail:                                                               *
+ *       raimond-eduard.butnaru@Student.tuiasi.ro 	                      *
+ *		 petronela-sinziana.maieczki@student.tuiasi.ro		              *
+ *		 andreea-sabina.lupu@student.tuiasi.ro 			                  *
+ *		 vlad-ionut.guriuc@student.tuiasi.ro                              *
+ *  Description:  Clasă care reprezintă formularul pentru înregistrarea   *
+ *       unui nou utilizator în aplicație. Clasa este responsabilă        *
+ *       pentru validarea datelor introduse de utilizator și stocarea     *
+ *       acestora în baza de date, asigurând în același timp securitatea  *
+ *       și integritatea informațiilor.                                   *
+ *                                                                        *
+ *  This code and information is provided "as is" without warranty of     *
+ *  any kind, either expressed or implied, including but not limited      *
+ *  to the implied warranties of merchantability or fitness for a         *
+ *  particular purpose. You are free to use this source code in your      *
+ *  applications as long as the original copyright notice is included.    *
+ *                                                                        *
+ **************************************************************************/
+
+using Microsoft.Data.Sqlite;
 using proiect_2024.hash;
 using proiect_2024.helpers;
 using proiect_2024.interfaces;
@@ -20,6 +46,13 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace proiect_2024
 {
+    /// <summary>
+    /// Formularul pentru inregistrarea unui nou utilizator.
+    /// </summary>
+    /// <param name="_mainForm">Referinta catre formularul principal.</param>
+    /// <remarks>
+    /// Clasa defineste formularul pentru inregistrarea unui nou utilizator in aplicatie.
+    /// </remarks>
     public partial class SignUp : Form
     {
         //state manager
@@ -46,22 +79,31 @@ namespace proiect_2024
         private int _id;
         private int _age;
 
+        /// <summary>
+        /// Constructor pentru clasa SignUp.
+        /// </summary>
+        /// <param name="mainForm">Formularul principal al aplicatiei.</param>
         public SignUp(MainForm mainForm)
         {
             _mainForm = mainForm;
 
             InitializeComponent();
         }
+
         /// <summary>
-        /// Functia apelata la click trimite utilizatorul catre starea de login
+        /// Functie pentru gestionarea evenimentului de apasare a butonului de logare.
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender">Obiectul care a declansat evenimentul.</param>
+        /// <param name="e">Argumentele evenimentului.</param>
         private void buttonLogIn_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new LogInState(_mainForm));
         }
 
+        /// <summary>
+        /// Functie pentru gestionarea evenimentului de inchidere a formularului.
+        /// </summary>
+        /// <param name="e">Argumentele evenimentului.</param>
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             base.OnFormClosing(e);
@@ -79,33 +121,66 @@ namespace proiect_2024
             }
         }
 
+        /// <summary>
+        /// Functie pentru validarea unui nume de utilizator.
+        /// </summary>
+        /// <param name="username">Numele de utilizator de validat.</param>
+        /// <returns>True daca numele de utilizator este valid, altfel false.</returns>
         private bool validateUsername(string username)
         {
             _usernameStrategy = new ValidateUsernameStrategy();
             return _usernameStrategy.Check(username);
         }
 
+        /// <summary>
+        /// Functie pentru validarea unui numar de telefon.
+        /// </summary>
+        /// <param name="phone">Numarul de telefon de validat.</param>
+        /// <returns>True daca numarul de telefon este valid, altfel false.</returns>
         private bool validPhoneNumber(string phone)
         {
             _phoneStrategy = new ValidatePhoneStrategy();
             return _phoneStrategy.Check(phone);
         }
 
+        /// <summary>
+        /// Functie pentru validarea unei adrese de email.
+        /// </summary>
+        /// <param name="email">Adresa de email de validat.</param>
+        /// <returns>True daca adresa de email este valida, altfel false.</returns>
         private bool validEmail(string email)
         {
             _mailStrategy = new ValidateEmailStrategy();
             return _mailStrategy.Check(email);
         }
+
+        /// <summary>
+        /// Functie pentru verificarea varstei utilizatorului.
+        /// </summary>
+        /// <param name="date">Data de nastere a utilizatorului.</param>
+        /// <returns>True daca utilizatorul este major, altfel false.</returns>
         private bool checkAge(DateTime date)
         {
             _ageStrategy = new ValidateAgeStrategy();
             return _ageStrategy.Check(date.ToString());
 
         }
+
+        /// <summary>
+        /// Functie pentru generarea hash-ului SHA256 pentru un text dat.
+        /// </summary>
+        /// <param name="input">Textul pentru care se genereaza hash-ul.</param>
+        /// <returns>Hash-ul SHA256 al textului dat.</returns>
         private string GetSHA256Hash(string input)
         {
             return HashHelper.GetSHA256hash(input);
         }
+
+        /// <summary>
+        /// Functie pentru gestionarea evenimentului de apasare a butonului de inregistrare.
+        /// </summary>
+        /// <param name="sender">Obiectul care a declansat evenimentul.</param>
+        /// <param name="e">Argumentele evenimentului.</param>
         private void buttonSignUp_Click(object sender, EventArgs e)
         {
             //variabile temporare pentru verificare unicitate email si numar de telefon

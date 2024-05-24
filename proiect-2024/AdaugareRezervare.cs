@@ -1,4 +1,28 @@
-﻿using Microsoft.Data.Sqlite;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        AdaugareRezervare.cs                                     *
+ *  Copyright:   (c) 2024, Butnaru Raimond-Eduard,			              *
+ *			   Maieczki Petronela-Sînziana,			                      *
+ *			   Lupu Andreea-Sabina,				                          *
+ *			   Guriuc Vlad-Ionuț                                          *
+ *  E-mail:                                                               *
+ *       raimond-eduard.butnaru@Student.tuiasi.ro 	                      *
+ *		 petronela-sinziana.maieczki@student.tuiasi.ro		              *
+ *		 andreea-sabina.lupu@student.tuiasi.ro 			                  *
+ *		 vlad-ionut.guriuc@student.tuiasi.ro                              *
+ *  Description:  Clasă care gestionează procesul de adăugare a unei      *
+ *       rezervări pentru un client în aplicație, asigurând că datele     *
+ *       sunt gestionate corect și în siguranță.                          *
+ *                                                                        *
+ *  This code and information is provided "as is" without warranty of     *
+ *  any kind, either expressed or implied, including but not limited      *
+ *  to the implied warranties of merchantability or fitness for a         *
+ *  particular purpose. You are free to use this source code in your      *
+ *  applications as long as the original copyright notice is included.    *
+ *                                                                        *
+ **************************************************************************/
+
+using Microsoft.Data.Sqlite;
 using proiect_2024.helpers;
 using proiect_2024.states;
 using System;
@@ -14,6 +38,9 @@ using System.Windows.Forms;
 
 namespace proiect_2024
 {
+    /// <summary>
+    /// Formularul pentru adaugarea unei rezervari clientului.
+    /// </summary>
     public partial class AdaugareRezervare : Form
     {
         //state manager
@@ -36,7 +63,10 @@ namespace proiect_2024
         //baza de date
         private string ConnectionString = "Data source=" + Directory.GetCurrentDirectory() + "\\hotel_db.db";
 
-
+        /// <summary>
+        /// Constructor pentru clasa AdaugareRezervare.
+        /// </summary>
+        /// <param name="mainForm">Formularul principal al aplicatiei.</param>
         public AdaugareRezervare(MainForm mainForm)
         {
             _mainForm = mainForm;
@@ -44,7 +74,10 @@ namespace proiect_2024
         }
 
 
-
+        /// <summary>
+        /// Inchide formularul si, daca inchiderea este cauzata de utilizator, solicita confirmare.
+        /// </summary>
+        /// <param name="e">Argumentele evenimentului de inchidere a formularului.</param>
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             base.OnFormClosing(e);
@@ -62,18 +95,27 @@ namespace proiect_2024
             }
         }
 
+        /// <summary>
+        /// Comuta la vizualizarea rezervarilor de client.
+        /// </summary>
         private void buttonRezervari_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new ClientViewState(_mainForm));
 
         }
-        
+
+        /// <summary>
+        /// Deconecteaza utilizatorul si revine la starea de autentificare.
+        /// </summary>
         private void buttonLogOut_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new LogInState(_mainForm));
             
         }
 
+        /// <summary>
+        /// Adauga o noua rezervare in baza de date.
+        /// </summary>
         private void buttonAdaugaRezervare_Click(object sender, EventArgs e)
         {
             if(listBoxAdaugareRezervare.Items.Count <= 0)
@@ -182,10 +224,18 @@ namespace proiect_2024
             }
             MessageBox.Show("Rezervare creata cu succes", "Succes");
         }
+
+        /// <summary>
+        /// Afiseaza un mesaj de eroare pentru datele selectate.
+        /// </summary>
         private void ShowErrorForDates()
         {
             MessageBox.Show("Alegeti alt intervald e date sau alta camera", "Camera ocupata", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
+
+        /// <summary>
+        /// Cauta camere disponibile in functie de criteriile specificate.
+        /// </summary>
         private void buttonRezervareCautareCamera_Click(object sender, EventArgs e)
         {
             _tipCamera = comboBoxTipulCamerei.SelectedItem.ToString();

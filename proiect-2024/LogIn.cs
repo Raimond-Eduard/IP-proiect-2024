@@ -1,4 +1,29 @@
-﻿using proiect_2024.states;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        LogIn.cs                                                 *
+ *  Copyright:   (c) 2024, Butnaru Raimond-Eduard,			              *
+ *			   Maieczki Petronela-Sînziana,			                      *
+ *			   Lupu Andreea-Sabina,				                          *
+ *			   Guriuc Vlad-Ionuț                                          *
+ *  E-mail:                                                               *
+ *       raimond-eduard.butnaru@Student.tuiasi.ro 	                      *
+ *		 petronela-sinziana.maieczki@student.tuiasi.ro		              *
+ *		 andreea-sabina.lupu@student.tuiasi.ro 			                  *
+ *		 vlad-ionut.guriuc@student.tuiasi.ro                              *
+ *  Description:  Clasă care reprezintă formularul de autentificare în    *
+ *       aplicație. Este responsabilă pentru verificarea și gestionarea   *
+ *       credențialelor de autentificare ale utilizatorilor în baza de    *
+ *       date, asigurând securitatea și integritatea datelor.             *
+ *                                                                        *
+ *  This code and information is provided "as is" without warranty of     *
+ *  any kind, either expressed or implied, including but not limited      *
+ *  to the implied warranties of merchantability or fitness for a         *
+ *  particular purpose. You are free to use this source code in your      *
+ *  applications as long as the original copyright notice is included.    *
+ *                                                                        *
+ **************************************************************************/
+
+using proiect_2024.states;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,6 +41,9 @@ using proiect_2024.helpers;
 
 namespace proiect_2024
 {
+    /// <summary>
+    /// Formularul pentru autentificare.
+    /// </summary>
     public partial class LogIn : Form
     {
         private string ConnectionString = "Data source=" + Directory.GetCurrentDirectory() + "\\hotel_db.db";
@@ -23,6 +51,11 @@ namespace proiect_2024
         private int _idUser;
 
         private MainForm _mainForm;
+
+        /// <summary>
+        /// Constructorul clasei LogIn.
+        /// </summary>
+        /// <param name="mainForm">Formularul principal al aplicatiei.</param>
         public LogIn(MainForm mainForm)
         {
             _mainForm = mainForm;
@@ -30,11 +63,20 @@ namespace proiect_2024
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Metoda apelata la apasarea butonului "Sign Up", care initiaza procesul de inregistrare.
+        /// </summary>
+        /// <param name="sender">Obiectul care a generat evenimentul.</param>
+        /// <param name="e">Argumentele evenimentului.</param>
         private void buttonSignUp_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new SignUpState(_mainForm));
         }
 
+        /// <summary>
+        /// Metoda apelata la inchiderea formularului, pentru confirmarea inchiderii.
+        /// </summary>
+        /// <param name="e">Argumentele evenimentului.</param>
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             base.OnFormClosing(e);
@@ -51,6 +93,18 @@ namespace proiect_2024
                 }
             }
         }
+
+        /// <summary>
+        /// Verifica credentialele de autentificare in baza de date.
+        /// </summary>
+        /// <param name="username">Numele de utilizator introdus.</param>
+        /// <param name="password">Parola introdusa.</param>
+        /// <returns>True daca credentialele sunt corecte, altfel False.</returns>
+        /// <remarks>
+        /// Aceasta metoda verifica daca perechea de nume de utilizator si parola introduse
+        /// corespund cu inregistrarile din baza de date a aplicatiei. Returneaza true daca
+        /// autentificarea este reusita si false in caz contrar.
+        /// </remarks>
         private bool CheckForLogInCredentials(string username, string password)
         {
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
@@ -82,10 +136,24 @@ namespace proiect_2024
             return false;
         }
 
+        /// <summary>
+        /// Obtine hash-ul SHA256 al unui text.
+        /// </summary>
+        /// <param name="input">Textul de care se doreste obtinerea hash-ului.</param>
+        /// <returns>Hash-ul SHA256 al textului.</returns>
+        /// <remarks>
+        /// Aceasta metoda utilizeaza algoritmul SHA256 pentru a calcula hash-ul unui text dat.
+        /// </remarks>
         private string GetSHA256Hash(string input)
         {
             return HashHelper.GetSHA256hash(input);
         }
+
+        /// <summary>
+        /// Metoda apelata la apasarea butonului "Log In".
+        /// </summary>
+        /// <param name="sender">Obiectul care a generat evenimentul.</param>
+        /// <param name="e">Argumentele evenimentului.</param>
         private void buttonLogIn_Click(object sender, EventArgs e)
         {
             string username = textBoxUsernameLogIn.Text;

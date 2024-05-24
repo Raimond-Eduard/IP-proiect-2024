@@ -1,4 +1,28 @@
-﻿using Microsoft.Data.Sqlite;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        AdaugaManager.cs                                         *
+ *  Copyright:   (c) 2024, Butnaru Raimond-Eduard,			              *
+ *			   Maieczki Petronela-Sînziana,			                      *
+ *			   Lupu Andreea-Sabina,				                          *
+ *			   Guriuc Vlad-Ionuț                                          *
+ *  E-mail:                                                               *
+ *       raimond-eduard.butnaru@Student.tuiasi.ro 	                      *
+ *		 petronela-sinziana.maieczki@student.tuiasi.ro		              *
+ *		 andreea-sabina.lupu@student.tuiasi.ro 			                  *
+ *		 vlad-ionut.guriuc@student.tuiasi.ro                              *
+ *  Description:  Clasă care gestionează adăugarea unui nou manager       *
+ *       în aplicație, asigurând în același timp securitatea și           *
+ *       integritatea datelor.                                            *
+ *                                                                        *
+ *  This code and information is provided "as is" without warranty of     *
+ *  any kind, either expressed or implied, including but not limited      *
+ *  to the implied warranties of merchantability or fitness for a         *
+ *  particular purpose. You are free to use this source code in your      *
+ *  applications as long as the original copyright notice is included.    *
+ *                                                                        *
+ **************************************************************************/
+
+using Microsoft.Data.Sqlite;
 using proiect_2024.hash;
 using proiect_2024.states;
 using System;
@@ -16,6 +40,9 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace proiect_2024
 {
+    /// <summary>
+    /// Formularul pentru adaugarea unui manager.
+    /// </summary>
     public partial class AdaugaManager : Form
     {
         //state
@@ -31,22 +58,42 @@ namespace proiect_2024
         //Referinta catre baza de date
         private string ConnectionString = "Data source=" + Directory.GetCurrentDirectory() + "\\hotel_db.db";//"Data Source=E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\hotel_db.db";
 
+        /// <summary>
+        /// Constructor pentru clasa AdaugaManager.
+        /// </summary>
+        /// <param name="mainForm">Formularul principal al aplicatiei.</param>
         public AdaugaManager(MainForm mainForm)
         {
             _mainForm = mainForm;
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Comuta la vizualizarea administratorului.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonBack_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new AdminViewState(_mainForm));
         }
 
+        /// <summary>
+        /// Returneaza parola hashata utilizand algoritmul SHA256.
+        /// </summary>
+        /// <param name="password">Parola de hashat.</param>
+        /// <returns>Parola hashata.</returns>
         private string hashPassword(string password)
         {
             return HashHelper.GetSHA256hash(password);
         }
 
+        /// <summary>
+        /// Gestionare evenimentului de clic pe butonul "Sign Up" pentru manager.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        /// <exception cref="Exception"></exception>
         private void buttonManagerSignUp_Click(object sender, EventArgs e)
         {
             if(textBoxNumeManagerSignUp.Text == null || textBoxPasswordManagerSignUp.Text == null || textBoxNumeManagerSignUp.Text == null || textBoxPrenumeManagerSignUp.Text == null)
@@ -123,11 +170,20 @@ namespace proiect_2024
 
         }
 
+        /// <summary>
+        /// Deconecteaza utilizatorul si revine la starea de autentificare.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonLogOut_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new LogInState(_mainForm));
         }
 
+        /// <summary>
+        /// Apelata inainte de inchiderea formularului.
+        /// </summary>
+        /// <param name="e"></param>
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             base.OnFormClosing(e);

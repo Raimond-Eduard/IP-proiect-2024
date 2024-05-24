@@ -1,4 +1,32 @@
-﻿using Microsoft.Data.Sqlite;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        ViewRezervariClient.cs                                   *
+ *  Copyright:   (c) 2024, Butnaru Raimond-Eduard,			              *
+ *			   Maieczki Petronela-Sînziana,			                      *
+ *			   Lupu Andreea-Sabina,				                          *
+ *			   Guriuc Vlad-Ionuț                                          *
+ *  E-mail:                                                               *
+ *       raimond-eduard.butnaru@Student.tuiasi.ro 	                      *
+ *		 petronela-sinziana.maieczki@student.tuiasi.ro		              *
+ *		 andreea-sabina.lupu@student.tuiasi.ro 			                  *
+ *		 vlad-ionut.guriuc@student.tuiasi.ro                              *
+ *  Description:  Clasă care reprezintă formularul pentru vizualizarea    *
+ *       rezervărilor unui client în aplicație. Această clasă este        *
+ *       responsabilă pentru afișarea informațiilor despre rezervările    *
+ *       clientului în interfața utilizatorului, extragerea acestor       *
+ *       informații din baza de date și actualizarea interfeței în        *
+ *       funcție de acestea. De asemenea, permite utilizatorului să se    *
+ *       deconecteze și să adauge o nouă rezervare.                       *
+ *                                                                        *
+ *  This code and information is provided "as is" without warranty of     *
+ *  any kind, either expressed or implied, including but not limited      *
+ *  to the implied warranties of merchantability or fitness for a         *
+ *  particular purpose. You are free to use this source code in your      *
+ *  applications as long as the original copyright notice is included.    *
+ *                                                                        *
+ **************************************************************************/
+
+using Microsoft.Data.Sqlite;
 using proiect_2024.states;
 using System;
 using System.Collections.Generic;
@@ -14,6 +42,9 @@ using proiect_2024.helpers;
 
 namespace proiect_2024
 {
+    /// <summary>
+    /// Formularul pentru vizualizarea rezervarilor clientului.
+    /// </summary>
     public partial class ViewRezervariClient : Form
     {
         private MainForm _mainForm;
@@ -39,6 +70,8 @@ namespace proiect_2024
         /// <summary>
         /// Metoda pentru deconectarea utilizatorului si revenirea la starea de conectare.
         /// </summary>
+        /// <param name="sender">Obiectul care a generat evenimentul.</param>
+        /// <param name="e">Argumentele evenimentului.</param>
         private void buttonLogOut_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new LogInState(_mainForm));
@@ -47,6 +80,7 @@ namespace proiect_2024
         /// <summary>
         /// Metoda pentru inchiderea formularului si inchiderea aplicatiei la cererea utilizatorului.
         /// </summary>
+        /// <param name="e">Argumentele evenimentului.</param>
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             base.OnFormClosing(e);
@@ -67,6 +101,8 @@ namespace proiect_2024
         /// <summary>
         /// Metoda pentru navigarea catre formularul de adaugare a unei rezervari noi.
         /// </summary>
+        /// <param name="sender">Obiectul care a generat evenimentul.</param>
+        /// <param name="e">Argumentele evenimentului.</param>
         private void buttonViewAdaugaRezervare_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new AddReservationState(_mainForm));
@@ -75,6 +111,10 @@ namespace proiect_2024
         /// <summary>
         /// Metoda pentru actualizarea interfetei cu datele rezervarilor clientului.
         /// </summary>
+        /// <remarks>
+        /// Aceasta metoda extrage informatiile despre rezervarile clientului din baza de date
+        /// si le afiseaza in interfata utilizatorului.
+        /// </remarks>
         private void UpdateInterface()
         {
             _reservationId = new List<int>();
@@ -141,6 +181,7 @@ namespace proiect_2024
         /// <summary>
         /// Metoda apelata la incarcarea formularului pentru actualizarea interfetei.
         /// </summary>
+        /// <param name="e">Argumentele evenimentului.</param>
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
@@ -150,6 +191,8 @@ namespace proiect_2024
         /// <summary>
         /// Metoda pentru reimprospatarea listei de rezervari la cererea utilizatorului.
         /// </summary>
+        /// <param name="sender">Obiectul care a generat evenimentul.</param>
+        /// <param name="e">Argumentele evenimentului.</param>
         private void buttonClientRefresh_Click(object sender, EventArgs e)
         {
             listBoxDetaliiRezervari.Items.Clear();
