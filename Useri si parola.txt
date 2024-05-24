@@ -3,3 +3,8 @@
 3. user: admin, parola: admin.
 4. user: jamal, parola: jamal.
 5. manager: slupu, parola: slupu
+6. user: rm123, parola: madrid
+7. user: tobik, parola: tobi
+8. user: flolo, parola: moldova
+9. manager: sinzi,parola: sinzi
+10.manager: braimond, parola: honkai

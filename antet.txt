@@ -1,6 +1,6 @@
-﻿/**************************************************************************
+/**************************************************************************
  *                                                                        *
- *  File:        ValidatePhoneStrategy.cs                                 *
+ *  File:        AgeCalculatorHelper.cs                                   *
  *  Copyright:   (c) 2024, Butnaru Raimond-Eduard,			              *
  *			   Maieczki Petronela-Sînziana,			                      *
  *			   Lupu Andreea-Sabina,				                          *
@@ -10,8 +10,8 @@
  *		 petronela-sinziana.maieczki@student.tuiasi.ro		              *
  *		 andreea-sabina.lupu@student.tuiasi.ro 			                  *
  *		 vlad-ionut.guriuc@student.tuiasi.ro                              *
- *  Description:  Clasă folosită pentru validarea numărului de telefon al *
- *               utilizatorului astfel încat acesta să nu fie null.       *
+ *  Description: This function is a helper created to calculate and       *
+ *              constraint the age of the users                           *
  *                                                                        *
  *  This code and information is provided "as is" without warranty of     *
  *  any kind, either expressed or implied, including but not limited      *
@@ -21,28 +21,4 @@
  *                                                                        *
  **************************************************************************/
 
-using proiect_2024.interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace proiect_2024.strategies
-{
-    public class ValidatePhoneStrategy : IStrategy
-    {
-        public bool Check(string text)
-        {
-            for (int i = 0; i < text.Length; i++)
-            {
-                if (text[i] < '0' || text[i] > '9')
-                {
-                    return false;
-                }
-            }
-            return true;
-        }
-
-    }
-}
+////////stelele se asaza ele in program la copy paste

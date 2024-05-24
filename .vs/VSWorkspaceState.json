@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\proiect-2024",
+    "\\proiect-2024\\strategies",
+    "\\UnitTestProjectHotelApp"
   ],
-  "SelectedNode": "\\proiect-2024.sln",
+  "SelectedNode": "\\proiect-2024\\strategies\\ValidateEmailStrategy.cs",
   "PreviewInSolutionExplorer": false
 }
