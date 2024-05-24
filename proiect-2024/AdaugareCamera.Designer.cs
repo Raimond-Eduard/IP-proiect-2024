@@ -60,103 +60,113 @@
             this.exitToolStripMenu});
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
-            this.menuPrincipal.Size = new System.Drawing.Size(1182, 28);
+            this.menuPrincipal.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuPrincipal.Size = new System.Drawing.Size(886, 24);
             this.menuPrincipal.TabIndex = 10;
             this.menuPrincipal.Text = "menuPrincipal";
             // 
             // aboutToolStripMenu
             // 
             this.aboutToolStripMenu.Name = "aboutToolStripMenu";
-            this.aboutToolStripMenu.Size = new System.Drawing.Size(64, 24);
+            this.aboutToolStripMenu.Size = new System.Drawing.Size(52, 20);
             this.aboutToolStripMenu.Text = "About";
             // 
             // exitToolStripMenu
             // 
             this.exitToolStripMenu.Name = "exitToolStripMenu";
-            this.exitToolStripMenu.Size = new System.Drawing.Size(47, 24);
+            this.exitToolStripMenu.Size = new System.Drawing.Size(38, 20);
             this.exitToolStripMenu.Text = "Exit";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(318, 271);
+            this.label2.Location = new System.Drawing.Point(238, 220);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 16);
+            this.label2.Size = new System.Drawing.Size(71, 13);
             this.label2.TabIndex = 43;
             this.label2.Text = "Tipul Camerei";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(319, 210);
+            this.label3.Location = new System.Drawing.Point(239, 171);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 16);
+            this.label3.Size = new System.Drawing.Size(63, 13);
             this.label3.TabIndex = 42;
             this.label3.Text = "Etaj (numar)";
             // 
             // textBoxNumarEtaj
             // 
-            this.textBoxNumarEtaj.Location = new System.Drawing.Point(577, 210);
+            this.textBoxNumarEtaj.Location = new System.Drawing.Point(433, 171);
+            this.textBoxNumarEtaj.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxNumarEtaj.Name = "textBoxNumarEtaj";
-            this.textBoxNumarEtaj.Size = new System.Drawing.Size(224, 22);
+            this.textBoxNumarEtaj.Size = new System.Drawing.Size(169, 20);
             this.textBoxNumarEtaj.TabIndex = 40;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(319, 154);
+            this.label5.Location = new System.Drawing.Point(239, 125);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(143, 16);
+            this.label5.Size = new System.Drawing.Size(115, 13);
             this.label5.TabIndex = 39;
             this.label5.Text = "Pret pe noapte (numar)";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(318, 94);
+            this.label6.Location = new System.Drawing.Point(238, 76);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(98, 16);
+            this.label6.Size = new System.Drawing.Size(77, 13);
             this.label6.TabIndex = 38;
             this.label6.Text = "Numar Camera";
             // 
             // textBoxPretNoapte
             // 
-            this.textBoxPretNoapte.Location = new System.Drawing.Point(577, 154);
+            this.textBoxPretNoapte.Location = new System.Drawing.Point(433, 125);
+            this.textBoxPretNoapte.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxPretNoapte.Name = "textBoxPretNoapte";
-            this.textBoxPretNoapte.Size = new System.Drawing.Size(224, 22);
+            this.textBoxPretNoapte.Size = new System.Drawing.Size(169, 20);
             this.textBoxPretNoapte.TabIndex = 37;
             // 
             // textBoxNumarCamera
             // 
-            this.textBoxNumarCamera.Location = new System.Drawing.Point(577, 94);
+            this.textBoxNumarCamera.Location = new System.Drawing.Point(433, 76);
+            this.textBoxNumarCamera.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxNumarCamera.Name = "textBoxNumarCamera";
-            this.textBoxNumarCamera.Size = new System.Drawing.Size(224, 22);
+            this.textBoxNumarCamera.Size = new System.Drawing.Size(169, 20);
             this.textBoxNumarCamera.TabIndex = 36;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(318, 327);
+            this.label4.Location = new System.Drawing.Point(238, 266);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(141, 16);
+            this.label4.Size = new System.Drawing.Size(111, 13);
             this.label4.TabIndex = 44;
             this.label4.Text = "Capacitate (persoane)";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(319, 381);
+            this.label7.Location = new System.Drawing.Point(239, 310);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(72, 16);
+            this.label7.Size = new System.Drawing.Size(58, 13);
             this.label7.TabIndex = 46;
             this.label7.Text = "Tip Balcon";
             // 
             // toolStrip1
             // 
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1182, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(886, 25);
             this.toolStrip1.TabIndex = 51;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -173,9 +183,10 @@
             "Standard",
             "Deluxe",
             "Apartament"});
-            this.comboBoxTipulCamerei.Location = new System.Drawing.Point(577, 263);
+            this.comboBoxTipulCamerei.Location = new System.Drawing.Point(433, 214);
+            this.comboBoxTipulCamerei.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBoxTipulCamerei.Name = "comboBoxTipulCamerei";
-            this.comboBoxTipulCamerei.Size = new System.Drawing.Size(224, 24);
+            this.comboBoxTipulCamerei.Size = new System.Drawing.Size(169, 21);
             this.comboBoxTipulCamerei.TabIndex = 52;
             this.comboBoxTipulCamerei.Text = "Standard";
             // 
@@ -189,9 +200,10 @@
             "4",
             "5",
             "6"});
-            this.comboBoxCapacitate.Location = new System.Drawing.Point(577, 319);
+            this.comboBoxCapacitate.Location = new System.Drawing.Point(433, 259);
+            this.comboBoxCapacitate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBoxCapacitate.Name = "comboBoxCapacitate";
-            this.comboBoxCapacitate.Size = new System.Drawing.Size(224, 24);
+            this.comboBoxCapacitate.Size = new System.Drawing.Size(169, 21);
             this.comboBoxCapacitate.TabIndex = 53;
             this.comboBoxCapacitate.Text = "1";
             // 
@@ -202,44 +214,51 @@
             "Fara",
             "Propriu",
             "Comun"});
-            this.comboBoxTipBalcon.Location = new System.Drawing.Point(577, 373);
+            this.comboBoxTipBalcon.Location = new System.Drawing.Point(433, 303);
+            this.comboBoxTipBalcon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBoxTipBalcon.Name = "comboBoxTipBalcon";
-            this.comboBoxTipBalcon.Size = new System.Drawing.Size(224, 24);
+            this.comboBoxTipBalcon.Size = new System.Drawing.Size(169, 21);
             this.comboBoxTipBalcon.TabIndex = 54;
             this.comboBoxTipBalcon.Text = "Fara";
             // 
             // buttonAdaugaCamera
             // 
-            this.buttonAdaugaCamera.Location = new System.Drawing.Point(472, 465);
+            this.buttonAdaugaCamera.Location = new System.Drawing.Point(354, 378);
+            this.buttonAdaugaCamera.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonAdaugaCamera.Name = "buttonAdaugaCamera";
-            this.buttonAdaugaCamera.Size = new System.Drawing.Size(224, 57);
+            this.buttonAdaugaCamera.Size = new System.Drawing.Size(168, 46);
             this.buttonAdaugaCamera.TabIndex = 55;
             this.buttonAdaugaCamera.Text = "Adauga Camera";
             this.buttonAdaugaCamera.UseVisualStyleBackColor = true;
+            this.buttonAdaugaCamera.Click += new System.EventHandler(this.buttonAdaugaCamera_Click);
             // 
             // buttonLogOut
             // 
-            this.buttonLogOut.Location = new System.Drawing.Point(1079, 28);
+            this.buttonLogOut.Location = new System.Drawing.Point(809, 23);
+            this.buttonLogOut.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonLogOut.Name = "buttonLogOut";
-            this.buttonLogOut.Size = new System.Drawing.Size(103, 38);
+            this.buttonLogOut.Size = new System.Drawing.Size(77, 31);
             this.buttonLogOut.TabIndex = 56;
             this.buttonLogOut.Text = "Log Out";
             this.buttonLogOut.UseVisualStyleBackColor = true;
+            this.buttonLogOut.Click += new System.EventHandler(this.buttonLogOut_Click);
             // 
             // buttonBack
             // 
-            this.buttonBack.Location = new System.Drawing.Point(0, 28);
+            this.buttonBack.Location = new System.Drawing.Point(0, 23);
+            this.buttonBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(103, 38);
+            this.buttonBack.Size = new System.Drawing.Size(77, 31);
             this.buttonBack.TabIndex = 57;
             this.buttonBack.Text = "Back";
             this.buttonBack.UseVisualStyleBackColor = true;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
             // AdaugareCamera
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1182, 653);
+            this.ClientSize = new System.Drawing.Size(886, 531);
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.buttonLogOut);
             this.Controls.Add(this.buttonAdaugaCamera);
@@ -257,6 +276,7 @@
             this.Controls.Add(this.textBoxPretNoapte);
             this.Controls.Add(this.textBoxNumarCamera);
             this.Controls.Add(this.menuPrincipal);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AdaugareCamera";
             this.Text = "AdaugareCamera";
             this.menuPrincipal.ResumeLayout(false);

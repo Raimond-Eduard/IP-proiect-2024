@@ -136,6 +136,7 @@
     </Compile>
     <Compile Include="states\AddManagerState.cs" />
     <Compile Include="states\AddReservationState.cs" />
+    <Compile Include="states\AddRoomState.cs" />
     <Compile Include="states\AdminViewState.cs" />
     <Compile Include="states\ClientViewState.cs" />
     <Compile Include="states\LogInState.cs" />

@@ -40,6 +40,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.buttonViewStergeCamera = new System.Windows.Forms.Button();
             this.buttonViewAdaugaCamera = new System.Windows.Forms.Button();
+            this.buttonViewManagerRefresh = new System.Windows.Forms.Button();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -115,6 +116,7 @@
             this.buttonViewStergereRezervare.TabIndex = 64;
             this.buttonViewStergereRezervare.Text = "Sterge Rezervare";
             this.buttonViewStergereRezervare.UseVisualStyleBackColor = true;
+            this.buttonViewStergereRezervare.Click += new System.EventHandler(this.buttonViewStergereRezervare_Click);
             // 
             // listBoxDetaliiCamere
             // 
@@ -143,6 +145,7 @@
             this.buttonViewStergeCamera.TabIndex = 67;
             this.buttonViewStergeCamera.Text = "Sterge Camera";
             this.buttonViewStergeCamera.UseVisualStyleBackColor = true;
+            this.buttonViewStergeCamera.Click += new System.EventHandler(this.buttonViewStergeCamera_Click);
             // 
             // buttonViewAdaugaCamera
             // 
@@ -153,12 +156,25 @@
             this.buttonViewAdaugaCamera.TabIndex = 68;
             this.buttonViewAdaugaCamera.Text = "Adauga Camera";
             this.buttonViewAdaugaCamera.UseVisualStyleBackColor = true;
+            this.buttonViewAdaugaCamera.Click += new System.EventHandler(this.buttonViewAdaugaCamera_Click);
+            // 
+            // buttonViewManagerRefresh
+            // 
+            this.buttonViewManagerRefresh.Location = new System.Drawing.Point(684, 251);
+            this.buttonViewManagerRefresh.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonViewManagerRefresh.Name = "buttonViewManagerRefresh";
+            this.buttonViewManagerRefresh.Size = new System.Drawing.Size(104, 28);
+            this.buttonViewManagerRefresh.TabIndex = 69;
+            this.buttonViewManagerRefresh.Text = "Reimprospatare";
+            this.buttonViewManagerRefresh.UseVisualStyleBackColor = true;
+            this.buttonViewManagerRefresh.Click += new System.EventHandler(this.buttonViewManagerRefresh_Click);
             // 
             // ViewManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1389, 531);
+            this.Controls.Add(this.buttonViewManagerRefresh);
             this.Controls.Add(this.buttonViewAdaugaCamera);
             this.Controls.Add(this.buttonViewStergeCamera);
             this.Controls.Add(this.label2);
@@ -193,5 +209,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button buttonViewStergeCamera;
         private System.Windows.Forms.Button buttonViewAdaugaCamera;
+        private System.Windows.Forms.Button buttonViewManagerRefresh;
     }
 }

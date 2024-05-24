@@ -17,7 +17,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 188,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -28,9 +28,9 @@
               "RelativeDocumentMoniker": "ViewManager.cs",
               "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\ViewManager.cs",
               "RelativeToolTip": "ViewManager.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAkwGQAAAANAAAA",
+              "ViewState": "AQIAAMEAAAAAAAAAAAAiwM4AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T13:21:14.063Z",
+              "WhenOpened": "2024-05-24T15:51:38.504Z",
               "EditorCaption": ""
             },
             {
@@ -42,7 +42,7 @@
               "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\ViewManager.cs [Design]",
               "RelativeToolTip": "ViewManager.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T13:21:08.361Z",
+              "WhenOpened": "2024-05-24T15:51:25Z",
               "EditorCaption": " [Design]"
             }
           ]
