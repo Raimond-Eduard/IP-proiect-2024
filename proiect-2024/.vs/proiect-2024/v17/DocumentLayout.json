@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|e:\\facultate\\ip\\proiect ip 2024\\proiect-2024\\viewrezervariclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:viewrezervariclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|e:\\facultate\\ip\\proiect ip 2024\\proiect-2024\\adaugarerezervare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:adaugarerezervare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|e:\\facultate\\ip\\proiect ip 2024\\proiect-2024\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdaugareRezervare.cs",
+              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\AdaugareRezervare.cs",
+              "RelativeDocumentMoniker": "AdaugareRezervare.cs",
+              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\AdaugareRezervare.cs",
+              "RelativeToolTip": "AdaugareRezervare.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAADwv3MAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:49:56.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewRezervariClient.cs",
+              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\ViewRezervariClient.cs",
+              "RelativeDocumentMoniker": "ViewRezervariClient.cs",
+              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\ViewRezervariClient.cs",
+              "RelativeToolTip": "ViewRezervariClient.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAQwHEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:42:26.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogIn.cs",
+              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\LogIn.cs",
+              "RelativeDocumentMoniker": "LogIn.cs",
+              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\LogIn.cs",
+              "RelativeToolTip": "LogIn.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAiwF4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:42:47.844Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

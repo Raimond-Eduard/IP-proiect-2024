@@ -1,19 +1,31 @@
-﻿using proiect_2024.states;
+﻿using Microsoft.Data.Sqlite;
+using proiect_2024.states;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using proiect_2024.helpers;
 
 namespace proiect_2024
 {
     public partial class ViewRezervariClient : Form
     {
         private MainForm _mainForm;
+
+        private string ConnectionString = "Data source=" + Directory.GetCurrentDirectory() + "\\hotel_db.db";
+
+        private List<int> _camerasId = new List<int>();
+        private List<int> _reservationId = new List<int>();
+        private List<int> _payment = new List<int>();
+        private List<int> _camerasNumber = new List<int>();
+        private List<DateTime> _checkInCheckOut = new List<DateTime>();
+
         public ViewRezervariClient(MainForm mainForm)
         {
             _mainForm = mainForm;
@@ -44,6 +56,64 @@ namespace proiect_2024
         private void buttonViewAdaugaRezervare_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new AddReservationState(_mainForm));
+        }
+        private void UpdateInterface()
+        {
+            using (SqliteConnection connection = new SqliteConnection(ConnectionString))
+            {
+                connection.Open();
+                string query = @"SELECT id_rezervare, id_camera, total_plata, check_in, check_out FROM Rezervare WHERE id_client = @id;";
+
+                using (SqliteCommand command = new SqliteCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@id", UserSession.UserId);
+                    using (SqliteDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read() && !reader.IsDBNull(reader.GetOrdinal("id_rezervare")))
+                        {
+                            _reservationId.Add(reader.GetInt32(reader.GetOrdinal("id_rezervare")));
+                            _camerasId.Add(reader.GetInt32(reader.GetOrdinal("id_camera")));
+                            _payment.Add(reader.GetInt32(reader.GetOrdinal("total_plata")));
+                            _checkInCheckOut.Add(DateTime.Parse(reader.GetString(reader.GetOrdinal("check_in"))));
+                            _checkInCheckOut.Add(DateTime.Parse(reader.GetString(reader.GetOrdinal("check_out"))));
+                        }
+                    }
+                }
+                query = @"SELECT numar_camera FROM Camera WHERE id_camera = @camera;";
+
+                using (SqliteCommand command = new SqliteCommand(query, connection))
+                {
+                    if (_camerasId.Count > 0)
+                    {
+                        for (int i = 0; i < _camerasId.Count; i++)
+                        {
+                            command.Parameters.AddWithValue("@camera", _camerasId[i]);
+                            using (SqliteDataReader reader = command.ExecuteReader())
+                            {
+                                if (reader.Read())
+                                {
+                                    _camerasNumber.Add(reader.GetInt32(reader.GetOrdinal("numar_camera")));
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            int j = 0;
+            if (_reservationId.Count > 0)
+            {
+                for (int i = 0; i < _reservationId.Count; i++)
+                {
+                    string formatted = $"ID: {_reservationId[i],-10}; Camera: {_camerasNumber[i],-10}; Cost ( Lei ): {_payment[i],-10}; Check In: {_checkInCheckOut[j].ToString().Substring(0, 10),-20}; " +
+                        $"Check Out: {_checkInCheckOut[j + 1].ToString().Substring(0, 10),-20};";
+                    listBoxDetaliiRezervari.Items.Add(formatted);
+                }
+            }
+        }
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+            UpdateInterface();
         }
     }
 }
