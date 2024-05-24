@@ -102,8 +102,8 @@ namespace proiect_2024
                             }
                             else
                             {
-                                _unavailableDates.Add(DateTime.Parse(reader.GetString(reader.GetOrdinal("check_in"))));
-                                _unavailableDates.Add(DateTime.Parse(reader.GetString(reader.GetOrdinal("check_out"))));
+                                _unavailableDates.Add(DateTime.ParseExact(reader.GetString(reader.GetOrdinal("check_in")),"yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture));
+                                _unavailableDates.Add(DateTime.ParseExact(reader.GetString(reader.GetOrdinal("check_out")), "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture));
                             }
                         }
                     }
@@ -165,8 +165,8 @@ namespace proiect_2024
                         command.Parameters.AddWithValue("@client", UserSession.UserId);
                         command.Parameters.AddWithValue("@camera", _camerasIds[index]);
                         command.Parameters.AddWithValue("@plata", _totalPlata);
-                        command.Parameters.AddWithValue("@check_in", _checkIn.ToString());
-                        command.Parameters.AddWithValue("@check_out", _checkOut.ToString());
+                        command.Parameters.AddWithValue("@check_in", _checkIn.ToString("yyyy-MM-dd"));
+                        command.Parameters.AddWithValue("@check_out", _checkOut.ToString("yyyy-MM-dd"));
 
                         command.ExecuteNonQuery();
                     }

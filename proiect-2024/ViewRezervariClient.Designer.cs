@@ -33,7 +33,7 @@
             this.menuPrincipal = new System.Windows.Forms.MenuStrip();
             this.aboutToolStripMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.buttonClientModificareRezervare = new System.Windows.Forms.Button();
+            this.buttonClientRefresh = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.listBoxDetaliiRezervari = new System.Windows.Forms.ListBox();
             this.buttonViewAdaugaRezervare = new System.Windows.Forms.Button();
@@ -85,15 +85,16 @@
             this.exitToolStripMenu.Size = new System.Drawing.Size(38, 20);
             this.exitToolStripMenu.Text = "Exit";
             // 
-            // buttonClientModificareRezervare
+            // buttonClientRefresh
             // 
-            this.buttonClientModificareRezervare.Location = new System.Drawing.Point(1027, 319);
-            this.buttonClientModificareRezervare.Margin = new System.Windows.Forms.Padding(2);
-            this.buttonClientModificareRezervare.Name = "buttonClientModificareRezervare";
-            this.buttonClientModificareRezervare.Size = new System.Drawing.Size(112, 28);
-            this.buttonClientModificareRezervare.TabIndex = 74;
-            this.buttonClientModificareRezervare.Text = "Modificare Rezervare";
-            this.buttonClientModificareRezervare.UseVisualStyleBackColor = true;
+            this.buttonClientRefresh.Location = new System.Drawing.Point(1027, 319);
+            this.buttonClientRefresh.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonClientRefresh.Name = "buttonClientRefresh";
+            this.buttonClientRefresh.Size = new System.Drawing.Size(112, 28);
+            this.buttonClientRefresh.TabIndex = 74;
+            this.buttonClientRefresh.Text = "Reimprospatare";
+            this.buttonClientRefresh.UseVisualStyleBackColor = true;
+            this.buttonClientRefresh.Click += new System.EventHandler(this.buttonClientRefresh_Click);
             // 
             // label1
             // 
@@ -133,7 +134,7 @@
             this.Controls.Add(this.buttonLogOut);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuPrincipal);
-            this.Controls.Add(this.buttonClientModificareRezervare);
+            this.Controls.Add(this.buttonClientRefresh);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBoxDetaliiRezervari);
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -153,7 +154,7 @@
         private System.Windows.Forms.MenuStrip menuPrincipal;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenu;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenu;
-        private System.Windows.Forms.Button buttonClientModificareRezervare;
+        private System.Windows.Forms.Button buttonClientRefresh;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox listBoxDetaliiRezervari;
         private System.Windows.Forms.Button buttonViewAdaugaRezervare;

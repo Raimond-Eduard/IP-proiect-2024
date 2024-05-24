@@ -20,11 +20,11 @@ namespace proiect_2024
 
         private string ConnectionString = "Data source=" + Directory.GetCurrentDirectory() + "\\hotel_db.db";
 
-        private List<int> _camerasId = new List<int>();
-        private List<int> _reservationId = new List<int>();
-        private List<int> _payment = new List<int>();
-        private List<int> _camerasNumber = new List<int>();
-        private List<DateTime> _checkInCheckOut = new List<DateTime>();
+        private List<int> _camerasId;
+        private List<int> _reservationId;
+        private List<int> _payment;
+        private List<int> _camerasNumber;
+        private List<DateTime> _checkInCheckOut;
 
         public ViewRezervariClient(MainForm mainForm)
         {
@@ -59,6 +59,13 @@ namespace proiect_2024
         }
         private void UpdateInterface()
         {
+            _reservationId = new List<int>();
+            _camerasId = new List<int>();
+            _reservationId = new List<int>();
+            _payment = new List<int>();
+            _camerasNumber = new List<int>();
+            _checkInCheckOut = new List<DateTime>();
+            
             using (SqliteConnection connection = new SqliteConnection(ConnectionString))
             {
                 connection.Open();
@@ -80,12 +87,11 @@ namespace proiect_2024
                     }
                 }
                 query = @"SELECT numar_camera FROM Camera WHERE id_camera = @camera;";
-
-                using (SqliteCommand command = new SqliteCommand(query, connection))
+                if (_camerasId.Count > 0)
                 {
-                    if (_camerasId.Count > 0)
+                    for (int i = 0; i < _camerasId.Count; i++)
                     {
-                        for (int i = 0; i < _camerasId.Count; i++)
+                        using (SqliteCommand command = new SqliteCommand(query, connection))
                         {
                             command.Parameters.AddWithValue("@camera", _camerasId[i]);
                             using (SqliteDataReader reader = command.ExecuteReader())
@@ -96,23 +102,32 @@ namespace proiect_2024
                                 }
                             }
                         }
+                        
                     }
                 }
+               
             }
             int j = 0;
             if (_reservationId.Count > 0)
             {
                 for (int i = 0; i < _reservationId.Count; i++)
                 {
-                    string formatted = $"ID: {_reservationId[i],-10}; Camera: {_camerasNumber[i],-10}; Cost ( Lei ): {_payment[i],-10}; Check In: {_checkInCheckOut[j].ToString().Substring(0, 10),-20}; " +
-                        $"Check Out: {_checkInCheckOut[j + 1].ToString().Substring(0, 10),-20};";
+                    string formatted = $"ID: {_reservationId[i],-10}; Camera: {_camerasNumber[i],-10}; Cost ( Lei ): {_payment[i],-10}; Check In: {_checkInCheckOut[j],-20}; " +
+                        $"Check Out: {_checkInCheckOut[j + 1],-20};";
                     listBoxDetaliiRezervari.Items.Add(formatted);
+                    j = j + 2;
                 }
             }
         }
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
+            UpdateInterface();
+        }
+
+        private void buttonClientRefresh_Click(object sender, EventArgs e)
+        {
+            listBoxDetaliiRezervari.Items.Clear();
             UpdateInterface();
         }
     }
