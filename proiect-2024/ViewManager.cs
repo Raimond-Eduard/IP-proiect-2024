@@ -139,7 +139,7 @@ namespace proiect_2024
             for(int i = 0; i < _reservationId.Count; i++)
             {
                 string formatted = $"ID: {_reservationId[i], -5} | Client (ID): {_clientId[i], -5} | Camera (ID): {_cameraId[i], -5} | " +
-                    $"Plata: {_payment[i], -5} | Check in: {_dates[j].ToString("yyyy-MM-dd"), -10} | Check out: {_dates[j].ToString("yyyy-MM-dd"), -10}";
+                    $"Plata: {_payment[i], -5} | Check in: {_dates[j], -10:yyyy-MM-dd} | Check out: {_dates[j], -10:yyyy-MM-dd}";
                 j += 2;
                 listBoxDetaliiRezervari.Items.Add(formatted);
             }
@@ -160,12 +160,12 @@ namespace proiect_2024
 
         private void buttonViewStergeCamera_Click(object sender, EventArgs e)
         {
-            if(listBoxDetaliiCamere.SelectedItems.Count <= 0)
+            if(listBoxDetaliiCamere.SelectedItems.Count != 1)
             {
-                MessageBox.Show("Alegeti din lista din dreapta o camera pe care sa o stergeti mai intai", "Eroare", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Alegeti din lista din dreapta o singura camera pe care sa o stergeti mai intai", "Eroare", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            int id = listBoxDetaliiCamere.SelectedIndex + 1;
+            int id = listBoxDetaliiCamere.SelectedIndex;
             using(SqliteConnection connection = new SqliteConnection(ConnectionString))
             {
                 connection.Open();
@@ -173,7 +173,7 @@ namespace proiect_2024
 
                 using (SqliteCommand command = new SqliteCommand(deletion, connection))
                 {
-                    command.Parameters.AddWithValue("@id", id);
+                    command.Parameters.AddWithValue("@id", _id[id]);
                     try
                     {
                         int rowsAffected = command.ExecuteNonQuery();
@@ -199,9 +199,9 @@ namespace proiect_2024
 
         private void buttonViewStergereRezervare_Click(object sender, EventArgs e)
         {
-            if(listBoxDetaliiRezervari.SelectedItems.Count <= 0)
+            if(listBoxDetaliiRezervari.SelectedItems.Count != 1)
             {
-                MessageBox.Show("Mai intai selectati o rezervare din lista din stanga", "Eroare", MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show("Mai intai selectati o singura rezervare din lista din stanga", "Eroare", MessageBoxButtons.OK,MessageBoxIcon.Error);
                 return;
             }
             int id = listBoxDetaliiRezervari.SelectedIndex + 1;

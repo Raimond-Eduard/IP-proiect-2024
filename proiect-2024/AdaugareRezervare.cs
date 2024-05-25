@@ -152,7 +152,7 @@ namespace proiect_2024
                 }
 
                 query = @"SELECT MAX(id_rezervare) FROM Rezervare;";
-                _totalPlata = ((_checkOut - _checkIn).Days + 1) * _camerasPrices[index];
+              
                 using(SqliteCommand command = new SqliteCommand(query, connection))
                 {
                     using(SqliteDataReader reader = command.ExecuteReader())
@@ -166,6 +166,13 @@ namespace proiect_2024
             }
             _checkIn = datePickCheckIn.SelectionStart;
             _checkOut = datePickCheckOut.SelectionStart;
+            _totalPlata = ((_checkOut.Date - _checkIn.Date).Days + 1) * _camerasPrices[index];
+            if (_checkOut <= _checkIn)
+            {
+                MessageBox.Show("Mai intai data de check in apoi data de check out", "Eroare", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             if (_unavailableDates.Count > 0)
             {
 

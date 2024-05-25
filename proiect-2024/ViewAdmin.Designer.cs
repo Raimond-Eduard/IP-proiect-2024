@@ -37,15 +37,16 @@
             this.buttonViewStergeUtilizator = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.listBoxDetaliiUtilizatori = new System.Windows.Forms.ListBox();
-            this.buttonGenerareRaport = new System.Windows.Forms.Button();
+            this.buttonRefreshAll = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.listBoxDetaliiRezervari = new System.Windows.Forms.ListBox();
+            this.buttonStergereRezervare = new System.Windows.Forms.Button();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonLogOut
             // 
-            this.buttonLogOut.Location = new System.Drawing.Point(811, 23);
+            this.buttonLogOut.Location = new System.Drawing.Point(1362, 18);
             this.buttonLogOut.Margin = new System.Windows.Forms.Padding(2);
             this.buttonLogOut.Name = "buttonLogOut";
             this.buttonLogOut.Size = new System.Drawing.Size(77, 31);
@@ -59,7 +60,7 @@
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(886, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1439, 25);
             this.toolStrip1.TabIndex = 70;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -72,7 +73,7 @@
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
             this.menuPrincipal.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuPrincipal.Size = new System.Drawing.Size(886, 24);
+            this.menuPrincipal.Size = new System.Drawing.Size(1439, 24);
             this.menuPrincipal.TabIndex = 69;
             this.menuPrincipal.Text = "menuPrincipal";
             // 
@@ -90,7 +91,7 @@
             // 
             // buttonViewAdaugaManager
             // 
-            this.buttonViewAdaugaManager.Location = new System.Drawing.Point(468, 257);
+            this.buttonViewAdaugaManager.Location = new System.Drawing.Point(703, 236);
             this.buttonViewAdaugaManager.Margin = new System.Windows.Forms.Padding(2);
             this.buttonViewAdaugaManager.Name = "buttonViewAdaugaManager";
             this.buttonViewAdaugaManager.Size = new System.Drawing.Size(104, 28);
@@ -101,18 +102,19 @@
             // 
             // buttonViewStergeUtilizator
             // 
-            this.buttonViewStergeUtilizator.Location = new System.Drawing.Point(468, 310);
+            this.buttonViewStergeUtilizator.Location = new System.Drawing.Point(703, 288);
             this.buttonViewStergeUtilizator.Margin = new System.Windows.Forms.Padding(2);
             this.buttonViewStergeUtilizator.Name = "buttonViewStergeUtilizator";
             this.buttonViewStergeUtilizator.Size = new System.Drawing.Size(104, 28);
             this.buttonViewStergeUtilizator.TabIndex = 77;
             this.buttonViewStergeUtilizator.Text = "Sterge Utilizator";
             this.buttonViewStergeUtilizator.UseVisualStyleBackColor = true;
+            this.buttonViewStergeUtilizator.Click += new System.EventHandler(this.buttonViewStergeUtilizator_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(593, 77);
+            this.label2.Location = new System.Drawing.Point(819, 77);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(81, 13);
@@ -122,25 +124,26 @@
             // listBoxDetaliiUtilizatori
             // 
             this.listBoxDetaliiUtilizatori.FormattingEnabled = true;
-            this.listBoxDetaliiUtilizatori.Location = new System.Drawing.Point(596, 111);
+            this.listBoxDetaliiUtilizatori.Location = new System.Drawing.Point(822, 99);
             this.listBoxDetaliiUtilizatori.Name = "listBoxDetaliiUtilizatori";
-            this.listBoxDetaliiUtilizatori.Size = new System.Drawing.Size(294, 420);
+            this.listBoxDetaliiUtilizatori.Size = new System.Drawing.Size(605, 420);
             this.listBoxDetaliiUtilizatori.TabIndex = 75;
             // 
-            // buttonGenerareRaport
+            // buttonRefreshAll
             // 
-            this.buttonGenerareRaport.Location = new System.Drawing.Point(316, 310);
-            this.buttonGenerareRaport.Margin = new System.Windows.Forms.Padding(2);
-            this.buttonGenerareRaport.Name = "buttonGenerareRaport";
-            this.buttonGenerareRaport.Size = new System.Drawing.Size(104, 28);
-            this.buttonGenerareRaport.TabIndex = 74;
-            this.buttonGenerareRaport.Text = "Generare Raport";
-            this.buttonGenerareRaport.UseVisualStyleBackColor = true;
+            this.buttonRefreshAll.Location = new System.Drawing.Point(652, 99);
+            this.buttonRefreshAll.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonRefreshAll.Name = "buttonRefreshAll";
+            this.buttonRefreshAll.Size = new System.Drawing.Size(104, 28);
+            this.buttonRefreshAll.TabIndex = 74;
+            this.buttonRefreshAll.Text = "Reimprospatare";
+            this.buttonRefreshAll.UseVisualStyleBackColor = true;
+            this.buttonRefreshAll.Click += new System.EventHandler(this.buttonRefreshAll_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(-1, 77);
+            this.label1.Location = new System.Drawing.Point(11, 77);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 13);
@@ -150,16 +153,28 @@
             // listBoxDetaliiRezervari
             // 
             this.listBoxDetaliiRezervari.FormattingEnabled = true;
-            this.listBoxDetaliiRezervari.Location = new System.Drawing.Point(2, 111);
+            this.listBoxDetaliiRezervari.Location = new System.Drawing.Point(12, 99);
             this.listBoxDetaliiRezervari.Name = "listBoxDetaliiRezervari";
-            this.listBoxDetaliiRezervari.Size = new System.Drawing.Size(295, 420);
+            this.listBoxDetaliiRezervari.Size = new System.Drawing.Size(558, 420);
             this.listBoxDetaliiRezervari.TabIndex = 72;
+            // 
+            // buttonStergereRezervare
+            // 
+            this.buttonStergereRezervare.Location = new System.Drawing.Point(575, 265);
+            this.buttonStergereRezervare.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonStergereRezervare.Name = "buttonStergereRezervare";
+            this.buttonStergereRezervare.Size = new System.Drawing.Size(104, 28);
+            this.buttonStergereRezervare.TabIndex = 79;
+            this.buttonStergereRezervare.Text = "Sterge Rezervare";
+            this.buttonStergereRezervare.UseVisualStyleBackColor = true;
+            this.buttonStergereRezervare.Click += new System.EventHandler(this.buttonStergereRezervare_Click);
             // 
             // ViewAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(886, 531);
+            this.ClientSize = new System.Drawing.Size(1439, 531);
+            this.Controls.Add(this.buttonStergereRezervare);
             this.Controls.Add(this.buttonLogOut);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuPrincipal);
@@ -167,7 +182,7 @@
             this.Controls.Add(this.buttonViewStergeUtilizator);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.listBoxDetaliiUtilizatori);
-            this.Controls.Add(this.buttonGenerareRaport);
+            this.Controls.Add(this.buttonRefreshAll);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBoxDetaliiRezervari);
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -191,8 +206,9 @@
         private System.Windows.Forms.Button buttonViewStergeUtilizator;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ListBox listBoxDetaliiUtilizatori;
-        private System.Windows.Forms.Button buttonGenerareRaport;
+        private System.Windows.Forms.Button buttonRefreshAll;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox listBoxDetaliiRezervari;
+        private System.Windows.Forms.Button buttonStergereRezervare;
     }
 }
