@@ -25,7 +25,7 @@
  **************************************************************************/
 
 using Microsoft.Data.Sqlite;
-using proiect_2024.hash;
+//using proiect_2024.hash;
 using proiect_2024.helpers;
 using proiect_2024.interfaces;
 using proiect_2024.states;
@@ -173,7 +173,7 @@ namespace proiect_2024
         /// <returns>Hash-ul SHA256 al textului dat.</returns>
         private string GetSHA256Hash(string input)
         {
-            return HashHelper.GetSHA256hash(input);
+            return Helpers.HashHelper.GetSHA256hash(input);
         }
 
         /// <summary>
@@ -250,7 +250,7 @@ namespace proiect_2024
                 return;
             }
 
-            _age = AgeCalculatorHelper.calculateAge(_birthDate);
+            _age = Helpers.AgeCalculatorHelper.calculateAge(_birthDate);
 
             if (textBoxUsernameSignUp.Text == null || textBoxUsernameSignUp.Text == "")
             {

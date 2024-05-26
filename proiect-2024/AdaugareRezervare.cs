@@ -27,15 +27,8 @@ using proiect_2024.helpers;
 using proiect_2024.states;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace proiect_2024
 {
     /// <summary>
@@ -178,22 +171,22 @@ namespace proiect_2024
 
                 for (int i = 0; i < _unavailableDates.Count; i = i + 2)
                 {
-                    if (StopUnavailableDates.validateCheckInCheckOut(_checkIn, _unavailableDates[i], _unavailableDates[i + 1]))
+                    if (Helpers.StopUnavailableDates.validateCheckInCheckOut(_checkIn, _unavailableDates[i], _unavailableDates[i + 1]))
                     {
                         ShowErrorForDates();
                         return;
                     }
-                    if (StopUnavailableDates.validateCheckInCheckOut(_checkOut, _unavailableDates[i], _unavailableDates[i + 1]))
+                    if (Helpers.StopUnavailableDates.validateCheckInCheckOut(_checkOut, _unavailableDates[i], _unavailableDates[i + 1]))
                     {
                         ShowErrorForDates();
                         return;
                     }
-                    if (StopUnavailableDates.validateSmallerLargerInterval(_checkIn, _checkOut, _unavailableDates[i], _unavailableDates[i + 1]))
+                    if (Helpers.StopUnavailableDates.validateSmallerLargerInterval(_checkIn, _checkOut, _unavailableDates[i], _unavailableDates[i + 1]))
                     {
                         ShowErrorForDates();
                         return;
                     }
-                    if (StopUnavailableDates.validateSmallerLargerInterval(_unavailableDates[i], _unavailableDates[i + 1], _checkIn, _checkOut))
+                    if (Helpers.StopUnavailableDates.validateSmallerLargerInterval(_unavailableDates[i], _unavailableDates[i + 1], _checkIn, _checkOut))
                     {
                         ShowErrorForDates();
                         return;

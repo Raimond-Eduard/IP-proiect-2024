@@ -36,7 +36,7 @@ using System.Windows.Forms;
 using System.Security.Cryptography;
 using Microsoft.Data.Sqlite;
 using System.IO;
-using proiect_2024.hash;
+//using proiect_2024.hash;
 using proiect_2024.helpers;
 
 namespace proiect_2024
@@ -146,7 +146,7 @@ namespace proiect_2024
         /// </remarks>
         private string GetSHA256Hash(string input)
         {
-            return HashHelper.GetSHA256hash(input);
+            return Helpers.HashHelper.GetSHA256hash(input);
         }
 
         /// <summary>

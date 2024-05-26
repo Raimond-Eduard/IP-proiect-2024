@@ -23,7 +23,7 @@
  **************************************************************************/
 
 using Microsoft.Data.Sqlite;
-using proiect_2024.hash;
+//using proiect_2024.hash;
 using proiect_2024.states;
 using System;
 using System.Collections.Generic;
@@ -85,7 +85,7 @@ namespace proiect_2024
         /// <returns>Parola hashata.</returns>
         private string hashPassword(string password)
         {
-            return HashHelper.GetSHA256hash(password);
+            return Helpers.HashHelper.GetSHA256hash(password);
         }
 
         /// <summary>
