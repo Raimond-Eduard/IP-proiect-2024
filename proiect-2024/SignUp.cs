@@ -252,6 +252,12 @@ namespace proiect_2024
 
             _age = Helpers.AgeCalculatorHelper.calculateAge(_birthDate);
 
+            if(_age < 18)
+            {
+                MessageBox.Show("Nu aveti voie sa creati cont daca sunteti minor", "Verificare varsta");
+                return;
+            }
+
             if (textBoxUsernameSignUp.Text == null || textBoxUsernameSignUp.Text == "")
             {
                 MessageBox.Show("Eroare", "Introduceti un nume de utilizator", MessageBoxButtons.OK, MessageBoxIcon.Error);

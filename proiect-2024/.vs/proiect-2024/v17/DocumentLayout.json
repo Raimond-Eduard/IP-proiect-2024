@@ -3,7 +3,8 @@
   "WorkspaceRootPath": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD91163C-28B6-41DF-A2A3-40177A390AB8}|..\\UnitTestHotelWizard\\UnitTestHotelWizard.csproj|e:\\facultate\\ip\\proiect ip 2024\\unittesthotelwizard\\unittesthotelwizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|e:\\facultate\\ip\\proiect ip 2024\\proiect-2024\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UnitTestHotelWizard.cs",
-              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\UnitTestHotelWizard\\UnitTestHotelWizard.cs",
-              "RelativeDocumentMoniker": "..\\UnitTestHotelWizard\\UnitTestHotelWizard.cs",
-              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\UnitTestHotelWizard\\UnitTestHotelWizard.cs",
-              "RelativeToolTip": "..\\UnitTestHotelWizard\\UnitTestHotelWizard.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAmwG8AAAA0AAAA",
+              "Title": "SignUp.cs",
+              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\SignUp.cs",
+              "RelativeDocumentMoniker": "SignUp.cs",
+              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\SignUp.cs",
+              "RelativeToolTip": "SignUp.cs",
+              "ViewState": "AQIAAOEAAAAAAAAAAAAEwAEBAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T12:10:27.211Z",
+              "WhenOpened": "2024-05-27T18:46:02.426Z",
               "EditorCaption": ""
             }
           ]
