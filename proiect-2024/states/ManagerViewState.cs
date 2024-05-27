@@ -31,19 +31,40 @@ using proiect_2024.interfaces;
 
 namespace proiect_2024.states
 {
+    /// <summary>
+    /// Clasa ManagerViewState implementeaza interfata IState si gestioneaza 
+    /// tranzitiile starii pentru afisarea interfetei corespunzatoare managerului.
+    /// </summary>
     public class ManagerViewState : IState
     {
         private MainForm _mainForm;
 
+        /// <summary>
+        /// Constructor pentru clasa ManagerViewState.
+        /// </summary>
+        /// <param name="mainForm">Referinta catre instanta MainForm.</param>
         public ManagerViewState(MainForm mainForm)
         {
             _mainForm = mainForm;
         }
 
+        /// <summary>
+        /// Metoda care este apelata atunci cand se intra in starea ManagerView.
+        /// </summary>
+        /// <remarks>
+        /// Aceasta metoda afiseaza interfata pentru manager.
+        /// </remarks>
         public void Enter()
         {
             _mainForm.ShowManagerForm();
         }
+
+        /// <summary>
+        /// Metoda care este apelata atunci cand se iese din starea ManagerView.
+        /// </summary>
+        /// <remarks>
+        /// Aceasta metoda ascunde interfata pentru manager.
+        /// </remarks>
         public void Exit()
         {
             _mainForm.HideManagerForm();

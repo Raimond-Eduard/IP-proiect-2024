@@ -1,4 +1,32 @@
-﻿using Microsoft.Data.Sqlite;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        ViewRezervariClient.cs                                   *
+ *  Copyright:   (c) 2024, Butnaru Raimond-Eduard,			              *
+ *			   Maieczki Petronela-Sînziana,			                      *
+ *			   Lupu Andreea-Sabina,				                          *
+ *			   Guriuc Vlad-Ionuț                                          *
+ *  E-mail:                                                               *
+ *       raimond-eduard.butnaru@Student.tuiasi.ro 	                      *
+ *		 petronela-sinziana.maieczki@student.tuiasi.ro		              *
+ *		 andreea-sabina.lupu@student.tuiasi.ro 			                  *
+ *		 vlad-ionut.guriuc@student.tuiasi.ro                              *
+ *  Description:  Clasă care gestionează logica pentru adăugarea unei     *
+ *       camere noi în baza de date. Este responsabilă pentru             *
+ *       validarea datelor introduse și inserarea unei noi camere         *
+ *       în baza de date în cazul în care datele sunt corecte.            *
+ *       De asemenea, oferă utilizatorului posibilitatea de a se          *
+ *       deconecta și de a reveni la starea anterioară.                   *
+ *                                                                        *
+ *  This code and information is provided "as is" without warranty of     *
+ *  any kind, either expressed or implied, including but not limited      *
+ *  to the implied warranties of merchantability or fitness for a         *
+ *  particular purpose. You are free to use this source code in your      *
+ *  applications as long as the original copyright notice is included.    *
+ *                                                                        *
+ **************************************************************************/
+
+
+using Microsoft.Data.Sqlite;
 using proiect_2024.states;
 using System;
 using System.Collections.Generic;
@@ -13,6 +41,9 @@ using System.Windows.Forms;
 
 namespace proiect_2024
 {
+    /// <summary>
+    /// Clasa AdaugareCamera gestioneaza logica pentru adaugarea unei camere noi in baza de date.
+    /// </summary>
     public partial class AdaugareCamera : Form
     {
         //State
@@ -29,12 +60,25 @@ namespace proiect_2024
         //conexiune cu baza de date
         private string ConnectionString = "Data source=" + Directory.GetCurrentDirectory() + "\\hotel_db.db";//"Data Source=E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\hotel_db.db";
 
+        /// <summary>
+        /// Constructor pentru clasa AdaugareCamera.
+        /// </summary>
+        /// <param name="mainForm">Referinta catre instanta MainForm.</param>
         public AdaugareCamera(MainForm mainForm)
         {
             _mainForm = mainForm;
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Metoda apelata la click pe butonul de adaugare a camerei.
+        /// </summary>
+        /// <param name="sender">Obiectul care a declansat evenimentul.</param>
+        /// <param name="e">Argumentele evenimentului.</param>
+        /// <returns>Nu returneaza nimic.</returns>
+        /// <remarks>
+        /// Aceasta metoda valideaza datele introduse si insereaza o noua camera in baza de date daca datele sunt corecte.
+        /// </remarks>
         private void buttonAdaugaCamera_Click(object sender, EventArgs e)
         {
             int maxID;
@@ -51,13 +95,13 @@ namespace proiect_2024
 
                 string query = @"SELECT * FROM Camera WHERE numar_camera = @camera;";
 
-                using(SqliteCommand command = new SqliteCommand(query, connection))
+                using (SqliteCommand command = new SqliteCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@camera", _numarCamera);
 
-                    using(SqliteDataReader reader = command.ExecuteReader())
+                    using (SqliteDataReader reader = command.ExecuteReader())
                     {
-                        if (reader.Read()) 
+                        if (reader.Read())
                         {
                             cameraExistenta = true;
                         }
@@ -103,15 +147,24 @@ namespace proiect_2024
                         command.ExecuteNonQuery();
                     }
                 }
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 throw new Exception("Ceva nu a mers bine cu baza de date\n", ex);
             }
 
             MessageBox.Show("Adaugarea a avut succes", "Succes");
 
-    }
+        }
 
+        /// <summary>
+        /// Metoda care este apelata la inchiderea formularului.
+        /// </summary>
+        /// <param name="e">Argumentele evenimentului de inchidere a formularului.</param>
+        /// <returns>Nu returneaza nimic.</returns>
+        /// <remarks>
+        /// Aceasta metoda cere confirmarea utilizatorului inainte de a inchide aplicatia.
+        /// </remarks>
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             base.OnFormClosing(e);
@@ -129,16 +182,34 @@ namespace proiect_2024
             }
         }
 
+        /// <summary>
+        /// Metoda apelata la click pe butonul de revenire.
+        /// </summary>
+        /// <param name="sender">Obiectul care a declansat evenimentul.</param>
+        /// <param name="e">Argumentele evenimentului.</param>
+        /// <returns>Nu returneaza nimic.</returns>
+        /// <remarks>
+        /// Aceasta metoda schimba starea aplicatiei la ManagerViewState.
+        /// </remarks>
         private void buttonBack_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new ManagerViewState(_mainForm));
         }
 
+        /// <summary>
+        /// Metoda apelata la click pe butonul de deconectare.
+        /// </summary>
+        /// <param name="sender">Obiectul care a declansat evenimentul.</param>
+        /// <param name="e">Argumentele evenimentului.</param>
+        /// <returns>Nu returneaza nimic.</returns>
+        /// <remarks>
+        /// Aceasta metoda schimba starea aplicatiei la LogInState.
+        /// </remarks>
         private void buttonLogOut_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new LogInState(_mainForm));
         }
 
-        
+
     }
 }

@@ -31,19 +31,40 @@ using System.Threading.Tasks;
 
 namespace proiect_2024.states
 {
+    /// <summary>
+    /// Clasa AddManagerState implementeaza interfata IState si gestioneaza 
+    /// tranzitiile starii pentru adaugarea unui manager din postura de admin.
+    /// </summary>
     public class AddManagerState : IState
     {
         private MainForm _mainForm;
+        
+        /// <summary>
+        /// Constructor pentru clasa AddManagerState.
+        /// </summary>
+        /// <param name="mainForm">Referinta catre instanta MainForm.</param>
         public AddManagerState(MainForm mainForm)
         {
             _mainForm = mainForm;
         }
 
+        /// <summary>
+        /// Metoda care este apelata atunci cand se intra in starea AddManager.
+        /// </summary>
+        /// <remarks>
+        /// Aceasta metoda afiseaza formularul pentru adaugarea unui manager.
+        /// </remarks>
         public void Enter()
         {
             _mainForm.ShowAddManagerForm();
         }
 
+        /// <summary>
+        /// Metoda care este apelata atunci cand se iese din starea AddManager.
+        /// </summary>
+        /// <remarks>
+        /// Aceasta metoda ascunde formularul pentru adaugarea unui manager.
+        /// </remarks>
         public void Exit()
         {
             _mainForm.HideAddManagerForm();

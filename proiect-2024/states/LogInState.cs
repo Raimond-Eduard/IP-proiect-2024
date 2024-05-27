@@ -32,19 +32,40 @@ using System.Windows.Forms;
 
 namespace proiect_2024.states
 {
+    /// <summary>
+    /// Clasa LogInState implementeaza interfata IState si gestioneaza 
+    /// tranzitiile starii pentru afisarea interfetei de logare.
+    /// </summary>
     public class LogInState : IState
     {
         private MainForm _mainForm;
+
+        /// <summary>
+        /// Constructor pentru clasa LogInState.
+        /// </summary>
+        /// <param name="mainForm">Referinta catre instanta MainForm.</param>
         public LogInState(MainForm mainForm)
         {
             _mainForm = mainForm;
         }
 
+        /// <summary>
+        /// Metoda care este apelata atunci cand se intra in starea LogIn.
+        /// </summary>
+        /// <remarks>
+        /// Aceasta metoda afiseaza interfata pentru logare.
+        /// </remarks>
         public void Enter()
         {
             _mainForm.ShowLogInForm();
         }
 
+        /// <summary>
+        /// Metoda care este apelata atunci cand se iese din starea LogIn.
+        /// </summary>
+        /// <remarks>
+        /// Aceasta metoda ascunde interfata pentru logare.
+        /// </remarks>
         public void Exit()
         {
             _mainForm.HideLogInForm();

@@ -41,7 +41,6 @@ namespace proiect_2024.strategies
         /// </summary>
         /// <param name="text">Textul care trebuie verificat.</param>
         /// <returns>True daca varsta este majora, altfel false.</returns>
-
         public bool Check(string text)
         {
             DateTime parsedDate = DateTime.Parse(text);

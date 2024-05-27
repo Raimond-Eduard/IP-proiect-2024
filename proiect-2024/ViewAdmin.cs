@@ -1,4 +1,34 @@
-﻿using Microsoft.Data.Sqlite;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        ViewRezervariClient.cs                                   *
+ *  Copyright:   (c) 2024, Butnaru Raimond-Eduard,			              *
+ *			   Maieczki Petronela-Sînziana,			                      *
+ *			   Lupu Andreea-Sabina,				                          *
+ *			   Guriuc Vlad-Ionuț                                          *
+ *  E-mail:                                                               *
+ *       raimond-eduard.butnaru@Student.tuiasi.ro 	                      *
+ *		 petronela-sinziana.maieczki@student.tuiasi.ro		              *
+ *		 andreea-sabina.lupu@student.tuiasi.ro 			                  *
+ *		 vlad-ionut.guriuc@student.tuiasi.ro                              *
+ *  Description:  Clasă care reprezintă formularul pentru vizualizarea    *
+ *       utilizatorilor și rezervărilor din perspectiva adminului.        *
+ *       Este responsabilă pentru afișarea informațiilor despre           *
+ *       utilizatori și rezervări în interfața utilizatorului,            *
+ *       extragerea acestor informații din baza de date și                *
+ *       actualizarea interfeței în funcție de acestea. De                *
+ *       asemenea, permite adminului să se deconecteze și să              *
+ *       adauge un nou manager.                                           * 
+ *                                                                        *
+ *  This code and information is provided "as is" without warranty of     *
+ *  any kind, either expressed or implied, including but not limited      *
+ *  to the implied warranties of merchantability or fitness for a         *
+ *  particular purpose. You are free to use this source code in your      *
+ *  applications as long as the original copyright notice is included.    *
+ *                                                                        *
+ **************************************************************************/
+
+
+using Microsoft.Data.Sqlite;
 using proiect_2024.states;
 using System;
 using System.Collections.Generic;
@@ -14,6 +44,9 @@ using proiect_2024.helpers;
 
 namespace proiect_2024
 {
+    /// <summary>
+    /// Formularul pentru vizualizarea utilizatorilor si rezervarilor din perspectiva adminului.
+    /// </summary>
     public partial class ViewAdmin : Form
     {
         //state manager
@@ -34,6 +67,11 @@ namespace proiect_2024
         private List<int> _cameraID;
         private List<int> _payment;
         private List<DateTime> _dates;
+
+        /// <summary>
+        /// Constructor pentru clasa ViewAdmin.
+        /// </summary>
+        /// <param name="mainForm">Referinta catre instanta MainForm.</param>
         public ViewAdmin(MainForm mainForm)
         {
             _mainForm = mainForm;
@@ -41,10 +79,17 @@ namespace proiect_2024
             
         }
 
+        /// <summary>
+        /// Handler pentru butonul de deconectare.
+        /// </summary>
         private void buttonLogOut_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new LogInState(_mainForm));
         }
+
+        /// <summary>
+        /// Inchide formularul si, daca inchiderea este cauzata de utilizator, solicita confirmare.
+        /// </summary>
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             base.OnFormClosing(e);
@@ -62,6 +107,9 @@ namespace proiect_2024
             }
         }
 
+        /// <summary>
+        /// Incarca interfata utilizatorului.
+        /// </summary>
         private void LoadInterface()
         {
             _usersID = new List<int>();
@@ -131,17 +179,26 @@ namespace proiect_2024
             }
         }
 
+        /// <summary>
+        /// Handler pentru evenimentul de incarcare a formularului.
+        /// </summary>
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
             LoadInterface();
         }
 
+        /// <summary>
+        /// Handler pentru butonul de adaugare manager.
+        /// </summary>
         private void buttonViewAdaugaManager_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new AddManagerState(_mainForm));
         }
 
+        /// <summary>
+        /// Handler pentru butonul de actualizare.
+        /// </summary>
         private void buttonRefreshAll_Click(object sender, EventArgs e)
         {
             listBoxDetaliiRezervari.Items.Clear();
@@ -149,6 +206,9 @@ namespace proiect_2024
             LoadInterface();
         }
 
+        /// <summary>
+        /// Handler pentru butonul de stergere utilizator.
+        /// </summary>
         private void buttonViewStergeUtilizator_Click(object sender, EventArgs e)
         {
             if(listBoxDetaliiUtilizatori.SelectedItems.Count != 1)
@@ -190,6 +250,9 @@ namespace proiect_2024
 
         }
 
+        /// <summary>
+        /// Handler pentru butonul de stergere rezervare.
+        /// </summary>
         private void buttonStergereRezervare_Click(object sender, EventArgs e)
         {
             if (listBoxDetaliiRezervari.SelectedItems.Count != 1)

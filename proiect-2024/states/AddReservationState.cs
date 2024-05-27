@@ -30,20 +30,40 @@ using System.Threading.Tasks;
 
 namespace proiect_2024.states
 {
+    /// <summary>
+    /// Clasa AddReservationState implementeaza interfata IState si gestioneaza 
+    /// tranzitiile starii pentru adaugarea unei rezervari din postura de client sau de manager.
+    /// </summary>
     public class AddReservationState : IState
     {
         private MainForm _mainForm;
 
+        /// <summary>
+        /// Constructor pentru clasa AddReservationState.
+        /// </summary>
+        /// <param name="mainForm">Referinta catre instanta MainForm.</param>
         public AddReservationState(MainForm mainForm)
         {
             _mainForm = mainForm;
         }
 
+        /// <summary>
+        /// Metoda care este apelata atunci cand se intra in starea AddReservation.
+        /// </summary>
+        /// <remarks>
+        /// Aceasta metoda afiseaza formularul pentru adaugarea unei rezervari.
+        /// </remarks>
         public void Enter()
         {
             _mainForm.ShowReservationForm();
         }
 
+        /// <summary>
+        /// Metoda care este apelata atunci cand se iese din starea AddReservation.
+        /// </summary>
+        /// <remarks>
+        /// Aceasta metoda ascunde formularul pentru adaugarea unei rezervari.
+        /// </remarks>
         public void Exit()
         {
             _mainForm.HideReservationForm();

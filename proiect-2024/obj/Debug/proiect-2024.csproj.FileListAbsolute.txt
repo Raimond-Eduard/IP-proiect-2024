@@ -64,7 +64,6 @@ C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\bin\Debu
 C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\bin\Debug\SQLitePCLRaw.batteries_v2.dll
 C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\bin\Debug\SQLitePCLRaw.core.dll
 C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
-C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\bin\Debug\UnitTestProjectHotelApp.dll
 C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\bin\Debug\Microsoft.Data.Sqlite.xml
 C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\bin\Debug\UnitTestProjectHotelApp.pdb

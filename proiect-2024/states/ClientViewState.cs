@@ -31,20 +31,40 @@ using System.Threading.Tasks;
 
 namespace proiect_2024.states
 {
+    /// <summary>
+    /// Clasa ClientViewState implementeaza interfata IState si gestioneaza 
+    /// tranzitiile starii pentru afisarea interfetei clientului.
+    /// </summary>
     public class ClientViewState : IState
     {
         private MainForm _mainForm;
 
+        /// <summary>
+        /// Constructor pentru clasa ClientViewState.
+        /// </summary>
+        /// <param name="mainForm">Referinta catre instanta MainForm.</param>
         public ClientViewState(MainForm mainForm)
         {
             _mainForm = mainForm;
         }
 
+        /// <summary>
+        /// Metoda care este apelata atunci cand se intra in starea ClientView.
+        /// </summary>
+        /// <remarks>
+        /// Aceasta metoda afiseaza interfata pentru client.
+        /// </remarks>
         public void Enter()
         {
             _mainForm.ShowClientView();
         }
 
+        /// <summary>
+        /// Metoda care este apelata atunci cand se iese din starea ClientView.
+        /// </summary>
+        /// <remarks>
+        /// Aceasta metoda ascunde interfata pentru client.
+        /// </remarks>
         public void Exit()
         {
             _mainForm.HideClientView();

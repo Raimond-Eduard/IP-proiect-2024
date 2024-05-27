@@ -31,19 +31,40 @@ using System.Threading.Tasks;
 
 namespace proiect_2024.states
 {
+    /// <summary>
+    /// Clasa AdminViewState implementeaza interfata IState si gestioneaza 
+    /// tranzitiile starii pentru vizualizarea rezervarilor de catre administrator.
+    /// </summary>
     public class AdminViewState : IState
     {
         private MainForm _mainForm;
 
+        /// <summary>
+        /// Constructor pentru clasa AdminViewState.
+        /// </summary>
+        /// <param name="mainForm">Referinta catre instanta MainForm.</param>
         public AdminViewState(MainForm mainForm)
         {
             _mainForm = mainForm;
         }
 
+        /// <summary>
+        /// Metoda care este apelata atunci cand se intra in starea AdminView.
+        /// </summary>
+        /// <remarks>
+        /// Aceasta metoda afiseaza formularul pentru vizualizarea rezervarilor de catre administrator.
+        /// </remarks>
         public void Enter()
         {
             _mainForm.ShowAdminForm();
         }
+
+        /// <summary>
+        /// Metoda care este apelata atunci cand se iese din starea AdminView.
+        /// </summary>
+        /// <remarks>
+        /// Aceasta metoda ascunde formularul pentru vizualizarea rezervarilor de catre administrator.
+        /// </remarks>
 
         public void Exit()
         {
