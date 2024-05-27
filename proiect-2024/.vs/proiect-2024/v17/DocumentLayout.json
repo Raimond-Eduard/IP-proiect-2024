@@ -3,20 +3,7 @@
   "WorkspaceRootPath": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|e:\\facultate\\ip\\proiect ip 2024\\proiect-2024\\adaugarerezervare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:adaugarerezervare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\adaugamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:adaugamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD91163C-28B6-41DF-A2A3-40177A390AB8}|..\\UnitTestHotelWizard\\UnitTestHotelWizard.csproj|e:\\facultate\\ip\\proiect ip 2024\\unittesthotelwizard\\unittesthotelwizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,51 +18,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdaugareRezervare.cs",
-              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\AdaugareRezervare.cs",
-              "RelativeDocumentMoniker": "AdaugareRezervare.cs",
-              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\AdaugareRezervare.cs",
-              "RelativeToolTip": "AdaugareRezervare.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAwwCEAAAARAAAA",
+              "Title": "UnitTestHotelWizard.cs",
+              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\UnitTestHotelWizard\\UnitTestHotelWizard.cs",
+              "RelativeDocumentMoniker": "..\\UnitTestHotelWizard\\UnitTestHotelWizard.cs",
+              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\UnitTestHotelWizard\\UnitTestHotelWizard.cs",
+              "RelativeToolTip": "..\\UnitTestHotelWizard\\UnitTestHotelWizard.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAmwG8AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T16:16:07.835Z",
+              "WhenOpened": "2024-05-27T12:10:27.211Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SignUp.cs",
-              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\SignUp.cs",
-              "RelativeDocumentMoniker": "SignUp.cs",
-              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\SignUp.cs",
-              "RelativeToolTip": "SignUp.cs",
-              "ViewState": "AQIAAOsAAAAAAAAAAAAYwAQBAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T16:15:38.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LogIn.cs",
-              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\LogIn.cs",
-              "RelativeDocumentMoniker": "LogIn.cs",
-              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\LogIn.cs",
-              "RelativeToolTip": "LogIn.cs",
-              "ViewState": "AQIAAIIAAAAAAAAAAAArwJQAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T16:15:32.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdaugaManager.cs",
-              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\AdaugaManager.cs",
-              "RelativeDocumentMoniker": "AdaugaManager.cs",
-              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\AdaugaManager.cs",
-              "RelativeToolTip": "AdaugaManager.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAkwFgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T16:15:09.08Z"
             }
           ]
         }
