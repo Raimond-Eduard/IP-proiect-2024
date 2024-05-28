@@ -238,6 +238,7 @@ namespace proiect_2024
         /// </summary>
         private void buttonRezervareCautareCamera_Click(object sender, EventArgs e)
         {
+            listBoxAdaugareRezervare.Items.Clear();
             _tipCamera = comboBoxTipulCamerei.SelectedItem.ToString();
             _tipBalcon = comboBoxTipBalcon.SelectedItem.ToString();
             _capacitate = Convert.ToInt32(comboBoxCapacitate.SelectedItem.ToString());
