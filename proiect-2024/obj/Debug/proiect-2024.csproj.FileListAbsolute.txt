@@ -48,7 +48,6 @@ D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\proiect-2024\obj\Debug\proiect-2024.c
 D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\proiect-2024\obj\Debug\proiect-2024.csproj.CopyComplete
 D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\proiect-2024\obj\Debug\proiect-2024.exe
 D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\proiect-2024\obj\Debug\proiect-2024.pdb
-D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\proiect-2024\bin\Debug\UnitTestProjectHotelApp.dll
 D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\proiect-2024\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\proiect-2024\bin\Debug\UnitTestProjectHotelApp.pdb
 D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\proiect-2024\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
@@ -108,3 +107,4 @@ E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect-2024.exe
 E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect-2024.pdb
 C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\bin\Debug\proiect-2024.xml
 E:\Facultate\IP\Proiect IP 2024\proiect-2024\bin\Debug\proiect-2024.xml
+D:\AN3EU\sem2\IP\ProiectIP\IP-proiect-2024\proiect-2024\bin\Debug\proiect-2024.xml
