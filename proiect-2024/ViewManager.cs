@@ -198,17 +198,23 @@ namespace proiect_2024
 
         }
 
+<<<<<<< Updated upstream
         /// <summary>
         /// Handler pentru butonul de adaugare camera.
         /// </summary>
+=======
+>>>>>>> Stashed changes
         private void buttonViewAdaugaCamera_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new AddRoomState(_mainForm));
         }
 
+<<<<<<< Updated upstream
         /// <summary>
         /// Handler pentru butonul de actualizare.
         /// </summary>
+=======
+>>>>>>> Stashed changes
         private void buttonViewManagerRefresh_Click(object sender, EventArgs e)
         {
             listBoxDetaliiCamere.Items.Clear();
@@ -216,6 +222,7 @@ namespace proiect_2024
             LoadData();
         }
 
+<<<<<<< Updated upstream
         /// <summary>
         /// Handler pentru butonul de stergere camera.
         /// </summary>
@@ -278,13 +285,28 @@ namespace proiect_2024
             }
 
             using (SqliteConnection connection = new SqliteConnection(ConnectionString))
+=======
+        private void buttonViewStergeCamera_Click(object sender, EventArgs e)
+        {
+            if(listBoxDetaliiCamere.SelectedItems.Count <= 0)
+            {
+                MessageBox.Show("Alegeti din lista din dreapta o camera pe care sa o stergeti mai intai", "Eroare", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            int id = listBoxDetaliiCamere.SelectedIndex + 1;
+            using(SqliteConnection connection = new SqliteConnection(ConnectionString))
+>>>>>>> Stashed changes
             {
                 connection.Open();
                 string deletion = @"DELETE FROM Camera WHERE id_camera = @id;";
 
                 using (SqliteCommand command = new SqliteCommand(deletion, connection))
                 {
+<<<<<<< Updated upstream
                     command.Parameters.AddWithValue("@id", _id[id]);
+=======
+                    command.Parameters.AddWithValue("@id", id);
+>>>>>>> Stashed changes
                     try
                     {
                         int rowsAffected = command.ExecuteNonQuery();
@@ -299,7 +321,11 @@ namespace proiect_2024
                         }
                     }catch(Exception ex)
                     {
+<<<<<<< Updated upstream
                         throw new Exception("Probleme la baza de date la stergerea camerelor in view Manager\n" + ex);
+=======
+                        throw new Exception("Probleme la baza de date\n", ex);
+>>>>>>> Stashed changes
                     }
                 }
                 
@@ -308,6 +334,7 @@ namespace proiect_2024
             MessageBox.Show("Stergere realizata cu succes", "Succes");
         }
 
+<<<<<<< Updated upstream
         /// <summary>
         /// Handler pentru butonul de stergere rezervare.
         /// </summary>
@@ -316,6 +343,13 @@ namespace proiect_2024
             if(listBoxDetaliiRezervari.SelectedItems.Count != 1)
             {
                 MessageBox.Show("Mai intai selectati o singura rezervare din lista din stanga", "Eroare", MessageBoxButtons.OK,MessageBoxIcon.Error);
+=======
+        private void buttonViewStergereRezervare_Click(object sender, EventArgs e)
+        {
+            if(listBoxDetaliiRezervari.SelectedItems.Count <= 0)
+            {
+                MessageBox.Show("Mai intai selectati o rezervare din lista din stanga", "Eroare", MessageBoxButtons.OK,MessageBoxIcon.Error);
+>>>>>>> Stashed changes
                 return;
             }
             int id = listBoxDetaliiRezervari.SelectedIndex + 1;
@@ -351,6 +385,7 @@ namespace proiect_2024
             MessageBox.Show("Stergere realizata cu succes", "Succes");
 
         }
+<<<<<<< Updated upstream
 
         private void exitToolStripMenu_Click(object sender, EventArgs e)
         {
@@ -366,5 +401,7 @@ namespace proiect_2024
             string helpLocation = System.Environment.CurrentDirectory + "\\help_hotel.chm";
             Help.ShowHelp(this, helpLocation);
         }
+=======
+>>>>>>> Stashed changes
     }
 }
