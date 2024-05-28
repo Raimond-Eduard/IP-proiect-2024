@@ -184,7 +184,7 @@ namespace proiect_2024
             }
             else
             {
-                MessageBox.Show("Nume sau parola gresite", "Daca nu ai cont dai pe Sign Up", MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show("Daca nu ai cont dai pe Sign Up", "Nume sau parola gresite", MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
         }
 
