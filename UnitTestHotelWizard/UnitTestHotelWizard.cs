@@ -72,6 +72,13 @@ namespace UnitTestHotelWizard
             Assert.IsFalse(test.Check("2008-10-07"));
         }
 
+        [TestMethod]
+        public void InValid_AgeValidationCheck_Under_18()
+        {
+            IStrategy test = new ValidateAgeStrategy();
+            Assert.IsFalse(test.Check("2010-100"));
+        }
+
         /// <summary>
         /// Validare email, format corect
         /// </summary>
@@ -97,7 +104,6 @@ namespace UnitTestHotelWizard
         }
 
         [TestMethod]
-        [ExpectedException(typeof(FormatException))]
         public void EmailValidateCheck_WrongFormat()
         {
             IStrategy test = new ValidateEmailStrategy();
@@ -105,7 +111,6 @@ namespace UnitTestHotelWizard
         }
 
         [TestMethod]
-        [ExpectedException(typeof(FormatException))]
         public void EmailValidateCheck_InvalidFormat2() 
         {
             IStrategy test = new ValidateEmailStrategy();
@@ -148,6 +153,13 @@ namespace UnitTestHotelWizard
             IStrategy test = new ValidatePhoneStrategy();
             Assert.IsFalse(test.Check("07 n-am cartela"));
         }
+
+        [TestMethod]
+        public void PhoneNumberValidation_IncorrectFormat3()
+        {
+            IStrategy test = new ValidatePhoneStrategy();
+            Assert.IsTrue(test.Check(" "));
+        }
         /// <summary>
         /// Validare username sa nu contina spatii
         /// </summary>
@@ -163,6 +175,13 @@ namespace UnitTestHotelWizard
         {
             IStrategy test = new ValidateUsernameStrategy();
             Assert.IsTrue(test.Check("ProgramatorulNotoriu69"));
+        }
+
+        [TestMethod]
+        public void UsernameValidation_CorrectFormat3()
+        {
+            IStrategy test = new ValidateUsernameStrategy();
+            Assert.IsTrue(test.Check("User1"));
         }
 
         //Variante invalide

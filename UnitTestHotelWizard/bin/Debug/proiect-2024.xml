@@ -1,0 +1,912 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>proiect-2024</name>
+    </assembly>
+    <members>
+        <member name="T:proiect_2024.AdaugaManager">
+            <summary>
+            Formularul pentru adaugarea unui manager.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.AdaugaManager.#ctor(proiect_2024.MainForm)">
+            <summary>
+            Constructor pentru clasa AdaugaManager.
+            </summary>
+            <param name="mainForm">Formularul principal al aplicatiei.</param>
+        </member>
+        <member name="M:proiect_2024.AdaugaManager.buttonBack_Click(System.Object,System.EventArgs)">
+            <summary>
+            Comuta la vizualizarea administratorului.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:proiect_2024.AdaugaManager.hashPassword(System.String)">
+            <summary>
+            Returneaza parola hashata utilizand algoritmul SHA256.
+            </summary>
+            <param name="password">Parola de hashat.</param>
+            <returns>Parola hashata.</returns>
+        </member>
+        <member name="M:proiect_2024.AdaugaManager.buttonManagerSignUp_Click(System.Object,System.EventArgs)">
+            <summary>
+            Gestionare evenimentului de clic pe butonul "Sign Up" pentru manager.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:proiect_2024.AdaugaManager.buttonLogOut_Click(System.Object,System.EventArgs)">
+            <summary>
+            Deconecteaza utilizatorul si revine la starea de autentificare.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:proiect_2024.AdaugaManager.OnFormClosing(System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            Apelata inainte de inchiderea formularului.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="F:proiect_2024.AdaugaManager.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.AdaugaManager.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:proiect_2024.AdaugaManager.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:proiect_2024.AdaugareCamera">
+            <summary>
+            Clasa AdaugareCamera gestioneaza logica pentru adaugarea unei camere noi in baza de date.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.AdaugareCamera.#ctor(proiect_2024.MainForm)">
+            <summary>
+            Constructor pentru clasa AdaugareCamera.
+            </summary>
+            <param name="mainForm">Referinta catre instanta MainForm.</param>
+        </member>
+        <member name="M:proiect_2024.AdaugareCamera.buttonAdaugaCamera_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda apelata la click pe butonul de adaugare a camerei.
+            </summary>
+            <param name="sender">Obiectul care a declansat evenimentul.</param>
+            <param name="e">Argumentele evenimentului.</param>
+            <returns>Nu returneaza nimic.</returns>
+            <remarks>
+            Aceasta metoda valideaza datele introduse si insereaza o noua camera in baza de date daca datele sunt corecte.
+            </remarks>
+        </member>
+        <member name="M:proiect_2024.AdaugareCamera.OnFormClosing(System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            Metoda care este apelata la inchiderea formularului.
+            </summary>
+            <param name="e">Argumentele evenimentului de inchidere a formularului.</param>
+            <returns>Nu returneaza nimic.</returns>
+            <remarks>
+            Aceasta metoda cere confirmarea utilizatorului inainte de a inchide aplicatia.
+            </remarks>
+        </member>
+        <member name="M:proiect_2024.AdaugareCamera.buttonBack_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda apelata la click pe butonul de revenire.
+            </summary>
+            <param name="sender">Obiectul care a declansat evenimentul.</param>
+            <param name="e">Argumentele evenimentului.</param>
+            <returns>Nu returneaza nimic.</returns>
+            <remarks>
+            Aceasta metoda schimba starea aplicatiei la ManagerViewState.
+            </remarks>
+        </member>
+        <member name="M:proiect_2024.AdaugareCamera.buttonLogOut_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda apelata la click pe butonul de deconectare.
+            </summary>
+            <param name="sender">Obiectul care a declansat evenimentul.</param>
+            <param name="e">Argumentele evenimentului.</param>
+            <returns>Nu returneaza nimic.</returns>
+            <remarks>
+            Aceasta metoda schimba starea aplicatiei la LogInState.
+            </remarks>
+        </member>
+        <member name="F:proiect_2024.AdaugareCamera.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.AdaugareCamera.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:proiect_2024.AdaugareCamera.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:proiect_2024.AdaugareRezervare">
+            <summary>
+            Formularul pentru adaugarea unei rezervari clientului.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.AdaugareRezervare.#ctor(proiect_2024.MainForm)">
+            <summary>
+            Constructor pentru clasa AdaugareRezervare.
+            </summary>
+            <param name="mainForm">Formularul principal al aplicatiei.</param>
+        </member>
+        <member name="M:proiect_2024.AdaugareRezervare.OnFormClosing(System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            Inchide formularul si, daca inchiderea este cauzata de utilizator, solicita confirmare.
+            </summary>
+            <param name="e">Argumentele evenimentului de inchidere a formularului.</param>
+        </member>
+        <member name="M:proiect_2024.AdaugareRezervare.buttonRezervari_Click(System.Object,System.EventArgs)">
+            <summary>
+            Comuta la vizualizarea rezervarilor de client.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.AdaugareRezervare.buttonLogOut_Click(System.Object,System.EventArgs)">
+            <summary>
+            Deconecteaza utilizatorul si revine la starea de autentificare.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.AdaugareRezervare.buttonAdaugaRezervare_Click(System.Object,System.EventArgs)">
+            <summary>
+            Adauga o noua rezervare in baza de date.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.AdaugareRezervare.ShowErrorForDates">
+            <summary>
+            Afiseaza un mesaj de eroare pentru datele selectate.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.AdaugareRezervare.buttonRezervareCautareCamera_Click(System.Object,System.EventArgs)">
+            <summary>
+            Cauta camere disponibile in functie de criteriile specificate.
+            </summary>
+        </member>
+        <member name="F:proiect_2024.AdaugareRezervare.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.AdaugareRezervare.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:proiect_2024.AdaugareRezervare.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:proiect_2024.helpers.UserSession">
+            <summary>
+            Clasa statica ce retine id-ul de logare al utilizatorului.
+            </summary>
+        </member>
+        <member name="P:proiect_2024.helpers.UserSession.UserId">
+            <summary>
+            Id-ul de logare al utilizatorului.
+            </summary>
+        </member>
+        <member name="T:proiect_2024.interfaces.IState">
+            <summary>
+            Interfata pentru implementarea sablonului State in interfețele aplicației.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.interfaces.IState.Enter">
+            <summary>
+            Metoda apelata la intrarea in starea specifica.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.interfaces.IState.Exit">
+            <summary>
+            Metoda apelata la iesirea din starea specifica.
+            </summary>
+        </member>
+        <member name="T:proiect_2024.interfaces.IStrategy">
+            <summary>
+            Interfata pentru implementarea sablonului Strategy in interfețele aplicației.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.interfaces.IStrategy.Check(System.String)">
+            <summary>
+            Verifica daca textul dat corespunde strategiei.
+            </summary>
+            <param name="text">Textul care trebuie verificat.</param>
+            <returns>True daca textul corespunde strategiei, altfel false.</returns>
+        </member>
+        <member name="F:proiect_2024.MainForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.MainForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:proiect_2024.MainForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:proiect_2024.LogIn">
+            <summary>
+            Formularul pentru autentificare.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.LogIn.#ctor(proiect_2024.MainForm)">
+            <summary>
+            Constructorul clasei LogIn.
+            </summary>
+            <param name="mainForm">Formularul principal al aplicatiei.</param>
+        </member>
+        <member name="M:proiect_2024.LogIn.buttonSignUp_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda apelata la apasarea butonului "Sign Up", care initiaza procesul de inregistrare.
+            </summary>
+            <param name="sender">Obiectul care a generat evenimentul.</param>
+            <param name="e">Argumentele evenimentului.</param>
+        </member>
+        <member name="M:proiect_2024.LogIn.OnFormClosing(System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            Metoda apelata la inchiderea formularului, pentru confirmarea inchiderii.
+            </summary>
+            <param name="e">Argumentele evenimentului.</param>
+        </member>
+        <member name="M:proiect_2024.LogIn.CheckForLogInCredentials(System.String,System.String)">
+            <summary>
+            Verifica credentialele de autentificare in baza de date.
+            </summary>
+            <param name="username">Numele de utilizator introdus.</param>
+            <param name="password">Parola introdusa.</param>
+            <returns>True daca credentialele sunt corecte, altfel False.</returns>
+            <remarks>
+            Aceasta metoda verifica daca perechea de nume de utilizator si parola introduse
+            corespund cu inregistrarile din baza de date a aplicatiei. Returneaza true daca
+            autentificarea este reusita si false in caz contrar.
+            </remarks>
+        </member>
+        <member name="M:proiect_2024.LogIn.GetSHA256Hash(System.String)">
+            <summary>
+            Obtine hash-ul SHA256 al unui text.
+            </summary>
+            <param name="input">Textul de care se doreste obtinerea hash-ului.</param>
+            <returns>Hash-ul SHA256 al textului.</returns>
+            <remarks>
+            Aceasta metoda utilizeaza algoritmul SHA256 pentru a calcula hash-ul unui text dat.
+            </remarks>
+        </member>
+        <member name="M:proiect_2024.LogIn.buttonLogIn_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda apelata la apasarea butonului "Log In".
+            </summary>
+            <param name="sender">Obiectul care a generat evenimentul.</param>
+            <param name="e">Argumentele evenimentului.</param>
+        </member>
+        <member name="F:proiect_2024.LogIn.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.LogIn.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:proiect_2024.LogIn.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:proiect_2024.SignUp">
+            <summary>
+            Formularul pentru inregistrarea unui nou utilizator.
+            </summary>
+            <param name="_mainForm">Referinta catre formularul principal.</param>
+            <remarks>
+            Clasa defineste formularul pentru inregistrarea unui nou utilizator in aplicatie.
+            </remarks>
+        </member>
+        <member name="M:proiect_2024.SignUp.#ctor(proiect_2024.MainForm)">
+            <summary>
+            Constructor pentru clasa SignUp.
+            </summary>
+            <param name="mainForm">Formularul principal al aplicatiei.</param>
+        </member>
+        <member name="M:proiect_2024.SignUp.buttonLogIn_Click(System.Object,System.EventArgs)">
+            <summary>
+            Functie pentru gestionarea evenimentului de apasare a butonului de logare.
+            </summary>
+            <param name="sender">Obiectul care a declansat evenimentul.</param>
+            <param name="e">Argumentele evenimentului.</param>
+        </member>
+        <member name="M:proiect_2024.SignUp.OnFormClosing(System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            Functie pentru gestionarea evenimentului de inchidere a formularului.
+            </summary>
+            <param name="e">Argumentele evenimentului.</param>
+        </member>
+        <member name="M:proiect_2024.SignUp.validateUsername(System.String)">
+            <summary>
+            Functie pentru validarea unui nume de utilizator.
+            </summary>
+            <param name="username">Numele de utilizator de validat.</param>
+            <returns>True daca numele de utilizator este valid, altfel false.</returns>
+        </member>
+        <member name="M:proiect_2024.SignUp.validPhoneNumber(System.String)">
+            <summary>
+            Functie pentru validarea unui numar de telefon.
+            </summary>
+            <param name="phone">Numarul de telefon de validat.</param>
+            <returns>True daca numarul de telefon este valid, altfel false.</returns>
+        </member>
+        <member name="M:proiect_2024.SignUp.validEmail(System.String)">
+            <summary>
+            Functie pentru validarea unei adrese de email.
+            </summary>
+            <param name="email">Adresa de email de validat.</param>
+            <returns>True daca adresa de email este valida, altfel false.</returns>
+        </member>
+        <member name="M:proiect_2024.SignUp.checkAge(System.DateTime)">
+            <summary>
+            Functie pentru verificarea varstei utilizatorului.
+            </summary>
+            <param name="date">Data de nastere a utilizatorului.</param>
+            <returns>True daca utilizatorul este major, altfel false.</returns>
+        </member>
+        <member name="M:proiect_2024.SignUp.GetSHA256Hash(System.String)">
+            <summary>
+            Functie pentru generarea hash-ului SHA256 pentru un text dat.
+            </summary>
+            <param name="input">Textul pentru care se genereaza hash-ul.</param>
+            <returns>Hash-ul SHA256 al textului dat.</returns>
+        </member>
+        <member name="M:proiect_2024.SignUp.buttonSignUp_Click(System.Object,System.EventArgs)">
+            <summary>
+            Functie pentru gestionarea evenimentului de apasare a butonului de inregistrare.
+            </summary>
+            <param name="sender">Obiectul care a declansat evenimentul.</param>
+            <param name="e">Argumentele evenimentului.</param>
+        </member>
+        <member name="F:proiect_2024.SignUp.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.SignUp.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:proiect_2024.SignUp.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:proiect_2024.states.AddManagerState">
+            <summary>
+            Clasa AddManagerState implementeaza interfata IState si gestioneaza 
+            tranzitiile starii pentru adaugarea unui manager din postura de admin.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.states.AddManagerState.#ctor(proiect_2024.MainForm)">
+            <summary>
+            Constructor pentru clasa AddManagerState.
+            </summary>
+            <param name="mainForm">Referinta catre instanta MainForm.</param>
+        </member>
+        <member name="M:proiect_2024.states.AddManagerState.Enter">
+            <summary>
+            Metoda care este apelata atunci cand se intra in starea AddManager.
+            </summary>
+            <remarks>
+            Aceasta metoda afiseaza formularul pentru adaugarea unui manager.
+            </remarks>
+        </member>
+        <member name="M:proiect_2024.states.AddManagerState.Exit">
+            <summary>
+            Metoda care este apelata atunci cand se iese din starea AddManager.
+            </summary>
+            <remarks>
+            Aceasta metoda ascunde formularul pentru adaugarea unui manager.
+            </remarks>
+        </member>
+        <member name="T:proiect_2024.states.AddReservationState">
+            <summary>
+            Clasa AddReservationState implementeaza interfata IState si gestioneaza 
+            tranzitiile starii pentru adaugarea unei rezervari din postura de client sau de manager.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.states.AddReservationState.#ctor(proiect_2024.MainForm)">
+            <summary>
+            Constructor pentru clasa AddReservationState.
+            </summary>
+            <param name="mainForm">Referinta catre instanta MainForm.</param>
+        </member>
+        <member name="M:proiect_2024.states.AddReservationState.Enter">
+            <summary>
+            Metoda care este apelata atunci cand se intra in starea AddReservation.
+            </summary>
+            <remarks>
+            Aceasta metoda afiseaza formularul pentru adaugarea unei rezervari.
+            </remarks>
+        </member>
+        <member name="M:proiect_2024.states.AddReservationState.Exit">
+            <summary>
+            Metoda care este apelata atunci cand se iese din starea AddReservation.
+            </summary>
+            <remarks>
+            Aceasta metoda ascunde formularul pentru adaugarea unei rezervari.
+            </remarks>
+        </member>
+        <member name="T:proiect_2024.states.AddRoomState">
+            <summary>
+            Clasa AddRoomState implementeaza interfata IState si gestioneaza 
+            tranzitiile starii pentru adaugarea unei camere din postura de manager.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.states.AddRoomState.#ctor(proiect_2024.MainForm)">
+            <summary>
+            Constructor pentru clasa AddRoomState.
+            </summary>
+            <param name="mainForm">Referinta catre instanta MainForm.</param>
+        </member>
+        <member name="M:proiect_2024.states.AddRoomState.Enter">
+            <summary>
+            Metoda care este apelata atunci cand se intra in starea AddRoom.
+            </summary>
+            <remarks>
+            Aceasta metoda afiseaza formularul pentru adaugarea unei camere.
+            </remarks>
+        </member>
+        <member name="M:proiect_2024.states.AddRoomState.Exit">
+            <summary>
+            Metoda care este apelata atunci cand se iese din starea AddRoom.
+            </summary>
+            <remarks>
+            Aceasta metoda ascunde formularul pentru adaugarea unei camere.
+            </remarks>
+        </member>
+        <member name="T:proiect_2024.states.AdminViewState">
+            <summary>
+            Clasa AdminViewState implementeaza interfata IState si gestioneaza 
+            tranzitiile starii pentru vizualizarea rezervarilor de catre administrator.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.states.AdminViewState.#ctor(proiect_2024.MainForm)">
+            <summary>
+            Constructor pentru clasa AdminViewState.
+            </summary>
+            <param name="mainForm">Referinta catre instanta MainForm.</param>
+        </member>
+        <member name="M:proiect_2024.states.AdminViewState.Enter">
+            <summary>
+            Metoda care este apelata atunci cand se intra in starea AdminView.
+            </summary>
+            <remarks>
+            Aceasta metoda afiseaza formularul pentru vizualizarea rezervarilor de catre administrator.
+            </remarks>
+        </member>
+        <member name="M:proiect_2024.states.AdminViewState.Exit">
+            <summary>
+            Metoda care este apelata atunci cand se iese din starea AdminView.
+            </summary>
+            <remarks>
+            Aceasta metoda ascunde formularul pentru vizualizarea rezervarilor de catre administrator.
+            </remarks>
+        </member>
+        <member name="T:proiect_2024.states.ClientViewState">
+            <summary>
+            Clasa ClientViewState implementeaza interfata IState si gestioneaza 
+            tranzitiile starii pentru afisarea interfetei clientului.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.states.ClientViewState.#ctor(proiect_2024.MainForm)">
+            <summary>
+            Constructor pentru clasa ClientViewState.
+            </summary>
+            <param name="mainForm">Referinta catre instanta MainForm.</param>
+        </member>
+        <member name="M:proiect_2024.states.ClientViewState.Enter">
+            <summary>
+            Metoda care este apelata atunci cand se intra in starea ClientView.
+            </summary>
+            <remarks>
+            Aceasta metoda afiseaza interfata pentru client.
+            </remarks>
+        </member>
+        <member name="M:proiect_2024.states.ClientViewState.Exit">
+            <summary>
+            Metoda care este apelata atunci cand se iese din starea ClientView.
+            </summary>
+            <remarks>
+            Aceasta metoda ascunde interfata pentru client.
+            </remarks>
+        </member>
+        <member name="T:proiect_2024.states.LogInState">
+            <summary>
+            Clasa LogInState implementeaza interfata IState si gestioneaza 
+            tranzitiile starii pentru afisarea interfetei de logare.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.states.LogInState.#ctor(proiect_2024.MainForm)">
+            <summary>
+            Constructor pentru clasa LogInState.
+            </summary>
+            <param name="mainForm">Referinta catre instanta MainForm.</param>
+        </member>
+        <member name="M:proiect_2024.states.LogInState.Enter">
+            <summary>
+            Metoda care este apelata atunci cand se intra in starea LogIn.
+            </summary>
+            <remarks>
+            Aceasta metoda afiseaza interfata pentru logare.
+            </remarks>
+        </member>
+        <member name="M:proiect_2024.states.LogInState.Exit">
+            <summary>
+            Metoda care este apelata atunci cand se iese din starea LogIn.
+            </summary>
+            <remarks>
+            Aceasta metoda ascunde interfata pentru logare.
+            </remarks>
+        </member>
+        <member name="T:proiect_2024.states.ManagerViewState">
+            <summary>
+            Clasa ManagerViewState implementeaza interfata IState si gestioneaza 
+            tranzitiile starii pentru afisarea interfetei corespunzatoare managerului.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.states.ManagerViewState.#ctor(proiect_2024.MainForm)">
+            <summary>
+            Constructor pentru clasa ManagerViewState.
+            </summary>
+            <param name="mainForm">Referinta catre instanta MainForm.</param>
+        </member>
+        <member name="M:proiect_2024.states.ManagerViewState.Enter">
+            <summary>
+            Metoda care este apelata atunci cand se intra in starea ManagerView.
+            </summary>
+            <remarks>
+            Aceasta metoda afiseaza interfata pentru manager.
+            </remarks>
+        </member>
+        <member name="M:proiect_2024.states.ManagerViewState.Exit">
+            <summary>
+            Metoda care este apelata atunci cand se iese din starea ManagerView.
+            </summary>
+            <remarks>
+            Aceasta metoda ascunde interfata pentru manager.
+            </remarks>
+        </member>
+        <member name="T:proiect_2024.states.SignUpState">
+            <summary>
+            Clasa SignUpState implementeaza interfata IState si gestioneaza 
+            tranzitiile starii pentru interfata destinata crearii de cont.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.states.SignUpState.#ctor(proiect_2024.MainForm)">
+            <summary>
+            Constructor pentru clasa SignUpState.
+            </summary>
+            <param name="mainForm">Referinta catre instanta MainForm.</param>
+        </member>
+        <member name="M:proiect_2024.states.SignUpState.Enter">
+            <summary>
+            Metoda care este apelata atunci cand se intra in starea SignUp.
+            </summary>
+            <remarks>
+            Aceasta metoda afiseaza interfata pentru crearea de cont.
+            </remarks>
+        </member>
+        <member name="M:proiect_2024.states.SignUpState.Exit">
+            <summary>
+            Metoda care este apelata atunci cand se iese din starea SignUp.
+            </summary>
+            <remarks>
+            Aceasta metoda ascunde interfata pentru crearea de cont.
+            </remarks>
+        </member>
+        <member name="T:proiect_2024.strategies.ValidateAgeStrategy">
+            <summary>
+            Clasa folosita pentru validarea varstei utilizatorului astfel incat acesta sa fie major.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.strategies.ValidateAgeStrategy.Check(System.String)">
+            <summary>
+            Verifica daca textul dat reprezinta o varsta majora.
+            </summary>
+            <param name="text">Textul care trebuie verificat.</param>
+            <returns>True daca varsta este majora, altfel false.</returns>
+        </member>
+        <member name="T:proiect_2024.strategies.ValidateEmailStrategy">
+            <summary>
+            Clasa folosita pentru validarea email-ului utilizatorului.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.strategies.ValidateEmailStrategy.Check(System.String)">
+            <summary>
+            Verifica daca textul dat reprezinta un email valid.
+            </summary>
+            <param name="text">Textul care trebuie verificat.</param>
+            <returns>True daca textul reprezinta un email valid, altfel false.</returns>
+        </member>
+        <member name="T:proiect_2024.strategies.ValidatePhoneStrategy">
+            <summary>
+            Clasa folosita pentru validarea numarului de telefon al utilizatorului astfel incat acesta sa nu fie null.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.strategies.ValidatePhoneStrategy.Check(System.String)">
+            <summary>
+            Verifica daca textul dat reprezinta un numar de telefon valid.
+            </summary>
+            <param name="text">Textul care trebuie verificat.</param>
+            <returns>True daca textul reprezinta un numar de telefon valid, altfel false.</returns>
+        </member>
+        <member name="T:proiect_2024.strategies.ValidateUsernameStrategy">
+            <summary>
+            Clasa folosita pentru validarea numelui de utilizator astfel incat acesta sa nu fie null.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.strategies.ValidateUsernameStrategy.Check(System.String)">
+            <summary>
+            Verifica daca numele de utilizator dat nu contine spatii.
+            </summary>
+            <param name="username">Numele de utilizator care trebuie verificat.</param>
+            <returns>True daca numele de utilizator este valid, altfel false.</returns>
+        </member>
+        <member name="T:proiect_2024.ViewAdmin">
+            <summary>
+            Formularul pentru vizualizarea utilizatorilor si rezervarilor din perspectiva adminului.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewAdmin.#ctor(proiect_2024.MainForm)">
+            <summary>
+            Constructor pentru clasa ViewAdmin.
+            </summary>
+            <param name="mainForm">Referinta catre instanta MainForm.</param>
+        </member>
+        <member name="M:proiect_2024.ViewAdmin.buttonLogOut_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handler pentru butonul de deconectare.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewAdmin.OnFormClosing(System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            Inchide formularul si, daca inchiderea este cauzata de utilizator, solicita confirmare.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewAdmin.LoadInterface">
+            <summary>
+            Incarca interfata utilizatorului.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewAdmin.OnLoad(System.EventArgs)">
+            <summary>
+            Handler pentru evenimentul de incarcare a formularului.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewAdmin.buttonViewAdaugaManager_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handler pentru butonul de adaugare manager.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewAdmin.buttonRefreshAll_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handler pentru butonul de actualizare.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewAdmin.buttonViewStergeUtilizator_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handler pentru butonul de stergere utilizator.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewAdmin.buttonStergereRezervare_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handler pentru butonul de stergere rezervare.
+            </summary>
+        </member>
+        <member name="F:proiect_2024.ViewAdmin.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewAdmin.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:proiect_2024.ViewAdmin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:proiect_2024.ViewRezervariClient">
+            <summary>
+            Formularul pentru vizualizarea rezervarilor clientului.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewRezervariClient.#ctor(proiect_2024.MainForm)">
+            <summary>
+            Constructor pentru clasa ViewRezervariClient.
+            </summary>
+            <param name="mainForm">Formul principal al aplicatiei.</param>
+        </member>
+        <member name="M:proiect_2024.ViewRezervariClient.buttonLogOut_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda pentru deconectarea utilizatorului si revenirea la starea de conectare.
+            </summary>
+            <param name="sender">Obiectul care a generat evenimentul.</param>
+            <param name="e">Argumentele evenimentului.</param>
+        </member>
+        <member name="M:proiect_2024.ViewRezervariClient.OnFormClosing(System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            Metoda pentru inchiderea formularului si inchiderea aplicatiei la cererea utilizatorului.
+            </summary>
+            <param name="e">Argumentele evenimentului.</param>
+        </member>
+        <member name="M:proiect_2024.ViewRezervariClient.buttonViewAdaugaRezervare_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda pentru navigarea catre formularul de adaugare a unei rezervari noi.
+            </summary>
+            <param name="sender">Obiectul care a generat evenimentul.</param>
+            <param name="e">Argumentele evenimentului.</param>
+        </member>
+        <member name="M:proiect_2024.ViewRezervariClient.UpdateInterface">
+            <summary>
+            Metoda pentru actualizarea interfetei cu datele rezervarilor clientului.
+            </summary>
+            <remarks>
+            Aceasta metoda extrage informatiile despre rezervarile clientului din baza de date
+            si le afiseaza in interfata utilizatorului.
+            </remarks>
+        </member>
+        <member name="M:proiect_2024.ViewRezervariClient.OnLoad(System.EventArgs)">
+            <summary>
+            Metoda apelata la incarcarea formularului pentru actualizarea interfetei.
+            </summary>
+            <param name="e">Argumentele evenimentului.</param>
+        </member>
+        <member name="M:proiect_2024.ViewRezervariClient.buttonClientRefresh_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda pentru reimprospatarea listei de rezervari la cererea utilizatorului.
+            </summary>
+            <param name="sender">Obiectul care a generat evenimentul.</param>
+            <param name="e">Argumentele evenimentului.</param>
+        </member>
+        <member name="F:proiect_2024.ViewRezervariClient.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewRezervariClient.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:proiect_2024.ViewRezervariClient.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:proiect_2024.ViewManager">
+            <summary>
+            Formularul pentru vizualizarea camerelor si rezervarilor din perspectiva managerului.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewManager.#ctor(proiect_2024.MainForm)">
+            <summary>
+            Constructor pentru clasa ViewManager.
+            </summary>
+            <param name="mainForm">Referinta catre instanta MainForm.</param>
+        </member>
+        <member name="M:proiect_2024.ViewManager.buttonLogOut_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handler pentru butonul de deconectare.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewManager.OnFormClosing(System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            Inchide formularul si, daca inchiderea este cauzata de utilizator, solicita confirmare.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewManager.OnLoad(System.EventArgs)">
+            <summary>
+            Handler pentru evenimentul de incarcare a formularului.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewManager.LoadData">
+            <summary>
+            Incarca datele in interfata.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewManager.buttonViewAdaugaCamera_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handler pentru butonul de adaugare camera.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewManager.buttonViewManagerRefresh_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handler pentru butonul de actualizare.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewManager.buttonViewStergeCamera_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handler pentru butonul de stergere camera.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewManager.buttonViewStergereRezervare_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handler pentru butonul de stergere rezervare.
+            </summary>
+        </member>
+        <member name="F:proiect_2024.ViewManager.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:proiect_2024.ViewManager.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:proiect_2024.ViewManager.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:proiect_2024.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:proiect_2024.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:proiect_2024.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

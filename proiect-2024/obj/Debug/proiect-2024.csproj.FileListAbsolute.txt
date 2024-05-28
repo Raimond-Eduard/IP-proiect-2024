@@ -106,3 +106,4 @@ E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect-2024.csproj.CoreC
 E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect-.03A9D05C.Up2Date
 E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect-2024.exe
 E:\Facultate\IP\Proiect IP 2024\proiect-2024\obj\Debug\proiect-2024.pdb
+C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\proiect-2024\bin\Debug\proiect-2024.xml

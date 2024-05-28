@@ -1,0 +1,361 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="PACKAGE"><param name="Local" value="md__c_1_2_users_2sanzi_2source_2repos_2_raimond-_eduard_2_i_p-proiect-2024_2proiect-2024_2packag65a321188c6fd735db2d6fa261b82c65.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+    <UL>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Installation"><param name="Local" value="md__c_1_2_users_2sanzi_2source_2repos_2_raimond-_eduard_2_i_p-proiect-2024_2proiect-2024_2packag65a321188c6fd735db2d6fa261b82c65.html#autotoc_md0"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Basic usage"><param name="Local" value="md__c_1_2_users_2sanzi_2source_2repos_2_raimond-_eduard_2_i_p-proiect-2024_2proiect-2024_2packag65a321188c6fd735db2d6fa261b82c65.html#autotoc_md1"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Getting support"><param name="Local" value="md__c_1_2_users_2sanzi_2source_2repos_2_raimond-_eduard_2_i_p-proiect-2024_2proiect-2024_2packag65a321188c6fd735db2d6fa261b82c65.html#autotoc_md2"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="PACKAGE"><param name="Local" value="md__c_1_2_users_2sanzi_2source_2repos_2_raimond-_eduard_2_i_p-proiect-2024_2proiect-2024_2packaga884a3042ca26efb14a32a568ccff5e0.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Usage"><param name="Local" value="md__c_1_2_users_2sanzi_2source_2repos_2_raimond-_eduard_2_i_p-proiect-2024_2proiect-2024_2packaga884a3042ca26efb14a32a568ccff5e0.html#autotoc_md3"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Getting support"><param name="Local" value="md__c_1_2_users_2sanzi_2source_2repos_2_raimond-_eduard_2_i_p-proiect-2024_2proiect-2024_2packaga884a3042ca26efb14a32a568ccff5e0.html#autotoc_md4"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Packages"><param name="Local" value="namespaces.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Package List"><param name="Local" value="namespaces.html#top"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024"><param name="Local" value="namespaceproiect__2024.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="helpers"><param name="Local" value="namespaceproiect__2024_1_1helpers.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="interfaces"><param name="Local" value="namespaceproiect__2024_1_1interfaces.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="IState"><param name="Local" value="interfaceproiect__2024_1_1interfaces_1_1_i_state.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Enter"><param name="Local" value="interfaceproiect__2024_1_1interfaces_1_1_i_state.html#aab5a8245ad204c783343c72c830f073d"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Exit"><param name="Local" value="interfaceproiect__2024_1_1interfaces_1_1_i_state.html#a4d44a8c08a9fc06e64f395b3a7df1475"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="IStrategy"><param name="Local" value="interfaceproiect__2024_1_1interfaces_1_1_i_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Check"><param name="Local" value="interfaceproiect__2024_1_1interfaces_1_1_i_strategy.html#a7b6fff95db68a6e6e26704cae3207669"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Properties"><param name="Local" value="namespaceproiect__2024_1_1_properties.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="states"><param name="Local" value="namespaceproiect__2024_1_1states.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="AddManagerState"><param name="Local" value="classproiect__2024_1_1states_1_1_add_manager_state.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="AddManagerState"><param name="Local" value="classproiect__2024_1_1states_1_1_add_manager_state.html#a8df820997652fc3ced3695a8edad0fed"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Enter"><param name="Local" value="classproiect__2024_1_1states_1_1_add_manager_state.html#a2b8e64b1ae590bce173b6ee88f51f982"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Exit"><param name="Local" value="classproiect__2024_1_1states_1_1_add_manager_state.html#a5e13766371a71eae8b8c4fbd38b0e5d2"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="AddReservationState"><param name="Local" value="classproiect__2024_1_1states_1_1_add_reservation_state.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="AddReservationState"><param name="Local" value="classproiect__2024_1_1states_1_1_add_reservation_state.html#a9a1f147929755b465dbcf50508506207"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Enter"><param name="Local" value="classproiect__2024_1_1states_1_1_add_reservation_state.html#ae73a4f92e1d5c9a4db6cd41949c3f895"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Exit"><param name="Local" value="classproiect__2024_1_1states_1_1_add_reservation_state.html#a3f4bfa33f51b9a9c32c67c0f144b3a6e"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="AddRoomState"><param name="Local" value="classproiect__2024_1_1states_1_1_add_room_state.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="AddRoomState"><param name="Local" value="classproiect__2024_1_1states_1_1_add_room_state.html#ac9af2e9b0baf30e9db8700bd338ede2c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Enter"><param name="Local" value="classproiect__2024_1_1states_1_1_add_room_state.html#add98db76c71fb3f4616603f4928196a5"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Exit"><param name="Local" value="classproiect__2024_1_1states_1_1_add_room_state.html#a3e00f9cc92c0a7f607a08db69ed44e02"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="AdminViewState"><param name="Local" value="classproiect__2024_1_1states_1_1_admin_view_state.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="AdminViewState"><param name="Local" value="classproiect__2024_1_1states_1_1_admin_view_state.html#a4bcc1392846a8ae6662ae853776a3303"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Enter"><param name="Local" value="classproiect__2024_1_1states_1_1_admin_view_state.html#a28e6f046157c32ee15557cfdb9aeddd0"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Exit"><param name="Local" value="classproiect__2024_1_1states_1_1_admin_view_state.html#afbc14a2fa7731072959086d0660a595e"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ClientViewState"><param name="Local" value="classproiect__2024_1_1states_1_1_client_view_state.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ClientViewState"><param name="Local" value="classproiect__2024_1_1states_1_1_client_view_state.html#a4854a20952a900446866280b0de0cef5"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Enter"><param name="Local" value="classproiect__2024_1_1states_1_1_client_view_state.html#a0e104f4c7fb002a7ee02a20bb2a1ee08"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Exit"><param name="Local" value="classproiect__2024_1_1states_1_1_client_view_state.html#a16217123667ee98f44e788e428d02631"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="LogInState"><param name="Local" value="classproiect__2024_1_1states_1_1_log_in_state.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="LogInState"><param name="Local" value="classproiect__2024_1_1states_1_1_log_in_state.html#a2d3810d4e12cc2b84fdd04f6646479a7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Enter"><param name="Local" value="classproiect__2024_1_1states_1_1_log_in_state.html#ad930fb1a15d260e1665cdd5a3f596a57"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Exit"><param name="Local" value="classproiect__2024_1_1states_1_1_log_in_state.html#aac4f08385bb5be20344b764abd0163d1"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ManagerViewState"><param name="Local" value="classproiect__2024_1_1states_1_1_manager_view_state.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ManagerViewState"><param name="Local" value="classproiect__2024_1_1states_1_1_manager_view_state.html#a52842b95e24da85856c24a1c16a7d8ef"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Enter"><param name="Local" value="classproiect__2024_1_1states_1_1_manager_view_state.html#a73f987191b85a0aaf5dffe7270cd4242"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Exit"><param name="Local" value="classproiect__2024_1_1states_1_1_manager_view_state.html#aeb0fe80abf03d8555bceea5ce407a5a1"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="SignUpState"><param name="Local" value="classproiect__2024_1_1states_1_1_sign_up_state.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SignUpState"><param name="Local" value="classproiect__2024_1_1states_1_1_sign_up_state.html#a4999a83b78bbab412e2940186d8dd5f6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Enter"><param name="Local" value="classproiect__2024_1_1states_1_1_sign_up_state.html#a37f4fba4488133a980570ec146f4e912"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Exit"><param name="Local" value="classproiect__2024_1_1states_1_1_sign_up_state.html#a391d24890ce48e04f11be8882a5f93ed"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="strategies"><param name="Local" value="namespaceproiect__2024_1_1strategies.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ValidateAgeStrategy"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_age_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Check"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_age_strategy.html#a5fda558111d5d6946870ca02cc39f81f"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ValidateEmailStrategy"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_email_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Check"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_email_strategy.html#af76182678b9c36ae9e4039224089fc8f"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ValidatePhoneStrategy"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_phone_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Check"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_phone_strategy.html#a90a30390a935643f6c58bb2ba2393f0f"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ValidateUsernameStrategy"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_username_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Check"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_username_strategy.html#a287b979bea17a4b3b69cf946b031c9d0"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="AdaugaManager"><param name="Local" value="classproiect__2024_1_1_adauga_manager.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="AdaugaManager"><param name="Local" value="classproiect__2024_1_1_adauga_manager.html#a708f7094e6ec28e7d04b56b0e6b18eea"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="classproiect__2024_1_1_adauga_manager.html#aa249044854c9ea82d18b92cf4c2a934a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosing"><param name="Local" value="classproiect__2024_1_1_adauga_manager.html#a15592e3f45126214c732b157c11a3471"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="AdaugareCamera"><param name="Local" value="classproiect__2024_1_1_adaugare_camera.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="AdaugareCamera"><param name="Local" value="classproiect__2024_1_1_adaugare_camera.html#aabe2ab0b90ad90155e7992bc681193e5"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="classproiect__2024_1_1_adaugare_camera.html#aa45cac464a0c6b0c43a4f7ecd86de6d6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosing"><param name="Local" value="classproiect__2024_1_1_adaugare_camera.html#a9b6f2084ab777697b834cc2a4416d412"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="AdaugareRezervare"><param name="Local" value="classproiect__2024_1_1_adaugare_rezervare.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="AdaugareRezervare"><param name="Local" value="classproiect__2024_1_1_adaugare_rezervare.html#a06055c2f42d7bc7f04a3cdad2fa83d38"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="classproiect__2024_1_1_adaugare_rezervare.html#a46f39a3c37227030dbe539fe53b0a8b7"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosing"><param name="Local" value="classproiect__2024_1_1_adaugare_rezervare.html#a954bfab72a000e7dff0e652bd707639d"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="LogIn"><param name="Local" value="classproiect__2024_1_1_log_in.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="LogIn"><param name="Local" value="classproiect__2024_1_1_log_in.html#a3785e3d9857d6a6eec34596ea08a448b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="classproiect__2024_1_1_log_in.html#abce6ba3d850b1e0a3606ecb49b9fc4d4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosing"><param name="Local" value="classproiect__2024_1_1_log_in.html#a50c04ad956a7398a7f2eb139723a5a65"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="MainForm"><param name="Local" value="classproiect__2024_1_1_main_form.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="classproiect__2024_1_1_main_form.html#a1efebf9e5d831b1c5994ae90de98cfb5"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="SignUp"><param name="Local" value="classproiect__2024_1_1_sign_up.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="SignUp"><param name="Local" value="classproiect__2024_1_1_sign_up.html#ab8106ac5b368b1d15619cc89cb50935b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="classproiect__2024_1_1_sign_up.html#af28ee8c24af567028de998af775acea8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosing"><param name="Local" value="classproiect__2024_1_1_sign_up.html#aaca5c0cad53513964d2645738361346a"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewAdmin"><param name="Local" value="classproiect__2024_1_1_view_admin.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewAdmin"><param name="Local" value="classproiect__2024_1_1_view_admin.html#ab655eb5940b129298efe7294cf9b22eb"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="classproiect__2024_1_1_view_admin.html#a9e95ee2770ba71d545ebd6a466217512"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosing"><param name="Local" value="classproiect__2024_1_1_view_admin.html#aec6a3ced85f76ae916857d2b046f7daf"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnLoad"><param name="Local" value="classproiect__2024_1_1_view_admin.html#ae977222672fc43078650e0e832fd5636"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewManager"><param name="Local" value="classproiect__2024_1_1_view_manager.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewManager"><param name="Local" value="classproiect__2024_1_1_view_manager.html#a243d5bc3b7c7b656a7398ea5906ea9f0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="classproiect__2024_1_1_view_manager.html#aaeccc543942f712df8f3860a6502f09f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosing"><param name="Local" value="classproiect__2024_1_1_view_manager.html#aa11c726535449325e0cea28db04182cf"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnLoad"><param name="Local" value="classproiect__2024_1_1_view_manager.html#a840d990cc87d46aecf8e659b0f4fda55"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewRezervariClient"><param name="Local" value="classproiect__2024_1_1_view_rezervari_client.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewRezervariClient"><param name="Local" value="classproiect__2024_1_1_view_rezervari_client.html#ab4cf356256b33a3ec2f371f97394efa7"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="classproiect__2024_1_1_view_rezervari_client.html#aab70ad0742ab416dc737e044d08621ca"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosing"><param name="Local" value="classproiect__2024_1_1_view_rezervari_client.html#aa129c4e6dbc7341de08dd6aaca96711c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnLoad"><param name="Local" value="classproiect__2024_1_1_view_rezervari_client.html#a280c67615681d638be87d92893a4e80f"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      </UL>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Classes"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class List"><param name="Local" value="annotated.html#top"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024"><param name="Local" value="namespaceproiect__2024.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="interfaces"><param name="Local" value="namespaceproiect__2024_1_1interfaces.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="IState"><param name="Local" value="interfaceproiect__2024_1_1interfaces_1_1_i_state.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Enter"><param name="Local" value="interfaceproiect__2024_1_1interfaces_1_1_i_state.html#aab5a8245ad204c783343c72c830f073d"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Exit"><param name="Local" value="interfaceproiect__2024_1_1interfaces_1_1_i_state.html#a4d44a8c08a9fc06e64f395b3a7df1475"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="IStrategy"><param name="Local" value="interfaceproiect__2024_1_1interfaces_1_1_i_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Check"><param name="Local" value="interfaceproiect__2024_1_1interfaces_1_1_i_strategy.html#a7b6fff95db68a6e6e26704cae3207669"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="states"><param name="Local" value="namespaceproiect__2024_1_1states.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="AddManagerState"><param name="Local" value="classproiect__2024_1_1states_1_1_add_manager_state.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="AddManagerState"><param name="Local" value="classproiect__2024_1_1states_1_1_add_manager_state.html#a8df820997652fc3ced3695a8edad0fed"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Enter"><param name="Local" value="classproiect__2024_1_1states_1_1_add_manager_state.html#a2b8e64b1ae590bce173b6ee88f51f982"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Exit"><param name="Local" value="classproiect__2024_1_1states_1_1_add_manager_state.html#a5e13766371a71eae8b8c4fbd38b0e5d2"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="AddReservationState"><param name="Local" value="classproiect__2024_1_1states_1_1_add_reservation_state.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="AddReservationState"><param name="Local" value="classproiect__2024_1_1states_1_1_add_reservation_state.html#a9a1f147929755b465dbcf50508506207"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Enter"><param name="Local" value="classproiect__2024_1_1states_1_1_add_reservation_state.html#ae73a4f92e1d5c9a4db6cd41949c3f895"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Exit"><param name="Local" value="classproiect__2024_1_1states_1_1_add_reservation_state.html#a3f4bfa33f51b9a9c32c67c0f144b3a6e"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="AddRoomState"><param name="Local" value="classproiect__2024_1_1states_1_1_add_room_state.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="AddRoomState"><param name="Local" value="classproiect__2024_1_1states_1_1_add_room_state.html#ac9af2e9b0baf30e9db8700bd338ede2c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Enter"><param name="Local" value="classproiect__2024_1_1states_1_1_add_room_state.html#add98db76c71fb3f4616603f4928196a5"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Exit"><param name="Local" value="classproiect__2024_1_1states_1_1_add_room_state.html#a3e00f9cc92c0a7f607a08db69ed44e02"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="AdminViewState"><param name="Local" value="classproiect__2024_1_1states_1_1_admin_view_state.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="AdminViewState"><param name="Local" value="classproiect__2024_1_1states_1_1_admin_view_state.html#a4bcc1392846a8ae6662ae853776a3303"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Enter"><param name="Local" value="classproiect__2024_1_1states_1_1_admin_view_state.html#a28e6f046157c32ee15557cfdb9aeddd0"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Exit"><param name="Local" value="classproiect__2024_1_1states_1_1_admin_view_state.html#afbc14a2fa7731072959086d0660a595e"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ClientViewState"><param name="Local" value="classproiect__2024_1_1states_1_1_client_view_state.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ClientViewState"><param name="Local" value="classproiect__2024_1_1states_1_1_client_view_state.html#a4854a20952a900446866280b0de0cef5"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Enter"><param name="Local" value="classproiect__2024_1_1states_1_1_client_view_state.html#a0e104f4c7fb002a7ee02a20bb2a1ee08"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Exit"><param name="Local" value="classproiect__2024_1_1states_1_1_client_view_state.html#a16217123667ee98f44e788e428d02631"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="LogInState"><param name="Local" value="classproiect__2024_1_1states_1_1_log_in_state.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="LogInState"><param name="Local" value="classproiect__2024_1_1states_1_1_log_in_state.html#a2d3810d4e12cc2b84fdd04f6646479a7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Enter"><param name="Local" value="classproiect__2024_1_1states_1_1_log_in_state.html#ad930fb1a15d260e1665cdd5a3f596a57"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Exit"><param name="Local" value="classproiect__2024_1_1states_1_1_log_in_state.html#aac4f08385bb5be20344b764abd0163d1"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ManagerViewState"><param name="Local" value="classproiect__2024_1_1states_1_1_manager_view_state.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ManagerViewState"><param name="Local" value="classproiect__2024_1_1states_1_1_manager_view_state.html#a52842b95e24da85856c24a1c16a7d8ef"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Enter"><param name="Local" value="classproiect__2024_1_1states_1_1_manager_view_state.html#a73f987191b85a0aaf5dffe7270cd4242"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Exit"><param name="Local" value="classproiect__2024_1_1states_1_1_manager_view_state.html#aeb0fe80abf03d8555bceea5ce407a5a1"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="SignUpState"><param name="Local" value="classproiect__2024_1_1states_1_1_sign_up_state.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SignUpState"><param name="Local" value="classproiect__2024_1_1states_1_1_sign_up_state.html#a4999a83b78bbab412e2940186d8dd5f6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Enter"><param name="Local" value="classproiect__2024_1_1states_1_1_sign_up_state.html#a37f4fba4488133a980570ec146f4e912"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Exit"><param name="Local" value="classproiect__2024_1_1states_1_1_sign_up_state.html#a391d24890ce48e04f11be8882a5f93ed"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="strategies"><param name="Local" value="namespaceproiect__2024_1_1strategies.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ValidateAgeStrategy"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_age_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Check"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_age_strategy.html#a5fda558111d5d6946870ca02cc39f81f"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ValidateEmailStrategy"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_email_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Check"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_email_strategy.html#af76182678b9c36ae9e4039224089fc8f"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ValidatePhoneStrategy"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_phone_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Check"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_phone_strategy.html#a90a30390a935643f6c58bb2ba2393f0f"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ValidateUsernameStrategy"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_username_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Check"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_username_strategy.html#a287b979bea17a4b3b69cf946b031c9d0"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="AdaugaManager"><param name="Local" value="classproiect__2024_1_1_adauga_manager.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="AdaugaManager"><param name="Local" value="classproiect__2024_1_1_adauga_manager.html#a708f7094e6ec28e7d04b56b0e6b18eea"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="classproiect__2024_1_1_adauga_manager.html#aa249044854c9ea82d18b92cf4c2a934a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosing"><param name="Local" value="classproiect__2024_1_1_adauga_manager.html#a15592e3f45126214c732b157c11a3471"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="AdaugareCamera"><param name="Local" value="classproiect__2024_1_1_adaugare_camera.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="AdaugareCamera"><param name="Local" value="classproiect__2024_1_1_adaugare_camera.html#aabe2ab0b90ad90155e7992bc681193e5"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="classproiect__2024_1_1_adaugare_camera.html#aa45cac464a0c6b0c43a4f7ecd86de6d6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosing"><param name="Local" value="classproiect__2024_1_1_adaugare_camera.html#a9b6f2084ab777697b834cc2a4416d412"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="AdaugareRezervare"><param name="Local" value="classproiect__2024_1_1_adaugare_rezervare.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="AdaugareRezervare"><param name="Local" value="classproiect__2024_1_1_adaugare_rezervare.html#a06055c2f42d7bc7f04a3cdad2fa83d38"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="classproiect__2024_1_1_adaugare_rezervare.html#a46f39a3c37227030dbe539fe53b0a8b7"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosing"><param name="Local" value="classproiect__2024_1_1_adaugare_rezervare.html#a954bfab72a000e7dff0e652bd707639d"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="LogIn"><param name="Local" value="classproiect__2024_1_1_log_in.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="LogIn"><param name="Local" value="classproiect__2024_1_1_log_in.html#a3785e3d9857d6a6eec34596ea08a448b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="classproiect__2024_1_1_log_in.html#abce6ba3d850b1e0a3606ecb49b9fc4d4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosing"><param name="Local" value="classproiect__2024_1_1_log_in.html#a50c04ad956a7398a7f2eb139723a5a65"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="MainForm"><param name="Local" value="classproiect__2024_1_1_main_form.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="classproiect__2024_1_1_main_form.html#a1efebf9e5d831b1c5994ae90de98cfb5"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="SignUp"><param name="Local" value="classproiect__2024_1_1_sign_up.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="SignUp"><param name="Local" value="classproiect__2024_1_1_sign_up.html#ab8106ac5b368b1d15619cc89cb50935b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="classproiect__2024_1_1_sign_up.html#af28ee8c24af567028de998af775acea8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosing"><param name="Local" value="classproiect__2024_1_1_sign_up.html#aaca5c0cad53513964d2645738361346a"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewAdmin"><param name="Local" value="classproiect__2024_1_1_view_admin.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewAdmin"><param name="Local" value="classproiect__2024_1_1_view_admin.html#ab655eb5940b129298efe7294cf9b22eb"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="classproiect__2024_1_1_view_admin.html#a9e95ee2770ba71d545ebd6a466217512"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosing"><param name="Local" value="classproiect__2024_1_1_view_admin.html#aec6a3ced85f76ae916857d2b046f7daf"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnLoad"><param name="Local" value="classproiect__2024_1_1_view_admin.html#ae977222672fc43078650e0e832fd5636"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewManager"><param name="Local" value="classproiect__2024_1_1_view_manager.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewManager"><param name="Local" value="classproiect__2024_1_1_view_manager.html#a243d5bc3b7c7b656a7398ea5906ea9f0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="classproiect__2024_1_1_view_manager.html#aaeccc543942f712df8f3860a6502f09f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosing"><param name="Local" value="classproiect__2024_1_1_view_manager.html#aa11c726535449325e0cea28db04182cf"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnLoad"><param name="Local" value="classproiect__2024_1_1_view_manager.html#a840d990cc87d46aecf8e659b0f4fda55"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewRezervariClient"><param name="Local" value="classproiect__2024_1_1_view_rezervari_client.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewRezervariClient"><param name="Local" value="classproiect__2024_1_1_view_rezervari_client.html#ab4cf356256b33a3ec2f371f97394efa7"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Dispose"><param name="Local" value="classproiect__2024_1_1_view_rezervari_client.html#aab70ad0742ab416dc737e044d08621ca"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnFormClosing"><param name="Local" value="classproiect__2024_1_1_view_rezervari_client.html#aa129c4e6dbc7341de08dd6aaca96711c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="OnLoad"><param name="Local" value="classproiect__2024_1_1_view_rezervari_client.html#a280c67615681d638be87d92893a4e80f"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Index"><param name="Local" value="classes.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Hierarchy"><param name="Local" value="hierarchy.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Form"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.AdaugaManager"><param name="Local" value="classproiect__2024_1_1_adauga_manager.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.AdaugareCamera"><param name="Local" value="classproiect__2024_1_1_adaugare_camera.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.AdaugareRezervare"><param name="Local" value="classproiect__2024_1_1_adaugare_rezervare.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.LogIn"><param name="Local" value="classproiect__2024_1_1_log_in.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.MainForm"><param name="Local" value="classproiect__2024_1_1_main_form.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.SignUp"><param name="Local" value="classproiect__2024_1_1_sign_up.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.ViewAdmin"><param name="Local" value="classproiect__2024_1_1_view_admin.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.ViewManager"><param name="Local" value="classproiect__2024_1_1_view_manager.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.ViewRezervariClient"><param name="Local" value="classproiect__2024_1_1_view_rezervari_client.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.interfaces.IState"><param name="Local" value="interfaceproiect__2024_1_1interfaces_1_1_i_state.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.states.AddManagerState"><param name="Local" value="classproiect__2024_1_1states_1_1_add_manager_state.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.states.AddReservationState"><param name="Local" value="classproiect__2024_1_1states_1_1_add_reservation_state.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.states.AddRoomState"><param name="Local" value="classproiect__2024_1_1states_1_1_add_room_state.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.states.AdminViewState"><param name="Local" value="classproiect__2024_1_1states_1_1_admin_view_state.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.states.ClientViewState"><param name="Local" value="classproiect__2024_1_1states_1_1_client_view_state.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.states.LogInState"><param name="Local" value="classproiect__2024_1_1states_1_1_log_in_state.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.states.ManagerViewState"><param name="Local" value="classproiect__2024_1_1states_1_1_manager_view_state.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.states.SignUpState"><param name="Local" value="classproiect__2024_1_1states_1_1_sign_up_state.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.interfaces.IStrategy"><param name="Local" value="interfaceproiect__2024_1_1interfaces_1_1_i_strategy.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.strategies.ValidateAgeStrategy"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_age_strategy.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.strategies.ValidateEmailStrategy"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_email_strategy.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.strategies.ValidatePhoneStrategy"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_phone_strategy.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="proiect_2024.strategies.ValidateUsernameStrategy"><param name="Local" value="classproiect__2024_1_1strategies_1_1_validate_username_strategy.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Members"><param name="Local" value="functions.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="All"><param name="Local" value="functions.html#top"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Functions"><param name="Local" value="functions_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+</UL>
+</BODY>
+</HTML>
