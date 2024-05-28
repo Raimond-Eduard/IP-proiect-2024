@@ -57,3 +57,4 @@ C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\UnitTestHotelWizard\o
 C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\UnitTestHotelWizard\obj\Debug\UnitTestHotelWizard.dll
 C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\UnitTestHotelWizard\obj\Debug\UnitTestHotelWizard.pdb
 C:\Users\sanzi\Source\Repos\Raimond-Eduard\IP-proiect-2024\UnitTestHotelWizard\bin\Debug\proiect-2024.xml
+E:\Facultate\IP\Proiect IP 2024\UnitTestHotelWizard\bin\Debug\proiect-2024.xml

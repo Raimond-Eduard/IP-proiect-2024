@@ -170,8 +170,8 @@ namespace proiect_2024
             {
                 for (int i = 0; i < _reservationId.Count; i++)
                 {
-                    string formatted = $"ID: {_reservationId[i],-10}; Camera: {_camerasNumber[i],-10}; Cost ( Lei ): {_payment[i],-10}; Check In: {_checkInCheckOut[j],-20}; " +
-                        $"Check Out: {_checkInCheckOut[j + 1],-20};";
+                    string formatted = $"ID: {_reservationId[i],-10}; Camera: {_camerasNumber[i],-10}; Cost ( Lei ): {_payment[i],-10}; Check In: {_checkInCheckOut[j].ToString().Substring(0,10),-20}; " +
+                        $"Check Out: {_checkInCheckOut[j + 1].ToString().Substring(0,10),-20};";
                     listBoxDetaliiRezervari.Items.Add(formatted);
                     j = j + 2;
                 }
