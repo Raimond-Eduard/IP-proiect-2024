@@ -1,70 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|e:\\facultate\\ip\\proiect ip 2024\\proiect-2024\\adaugarerezervare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:adaugarerezervare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|e:\\facultate\\ip\\proiect ip 2024\\proiect-2024\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 188,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-<<<<<<< Updated upstream
-              "Title": "AdaugareRezervare.cs",
-              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\AdaugareRezervare.cs",
-              "RelativeDocumentMoniker": "AdaugareRezervare.cs",
-              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\AdaugareRezervare.cs",
-              "RelativeToolTip": "AdaugareRezervare.cs",
-              "ViewState": "AQIAAN8AAAAAAAAAAAAowPUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T17:41:12.745Z",
-=======
-              "Title": "ViewManager.cs",
-              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\ViewManager.cs",
-              "RelativeDocumentMoniker": "ViewManager.cs",
-              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\ViewManager.cs",
-              "RelativeToolTip": "ViewManager.cs",
-              "ViewState": "AQIAAMEAAAAAAAAAAAAiwM4AAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T15:51:38.504Z",
->>>>>>> Stashed changes
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LogIn.cs",
-              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\LogIn.cs",
-              "RelativeDocumentMoniker": "LogIn.cs",
-              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\LogIn.cs",
-              "RelativeToolTip": "LogIn.cs",
-              "ViewState": "AQIAAK0AAAAAAAAAAAAewLAAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< Updated upstream
-              "WhenOpened": "2024-05-28T12:17:00.194Z",
-              "EditorCaption": ""
-=======
-              "WhenOpened": "2024-05-24T15:51:25Z",
-              "EditorCaption": " [Design]"
->>>>>>> Stashed changes
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
