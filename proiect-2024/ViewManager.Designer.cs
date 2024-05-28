@@ -82,12 +82,14 @@
             this.aboutToolStripMenu.Name = "aboutToolStripMenu";
             this.aboutToolStripMenu.Size = new System.Drawing.Size(52, 20);
             this.aboutToolStripMenu.Text = "About";
+            this.aboutToolStripMenu.Click += new System.EventHandler(this.aboutToolStripMenu_Click);
             // 
             // exitToolStripMenu
             // 
             this.exitToolStripMenu.Name = "exitToolStripMenu";
             this.exitToolStripMenu.Size = new System.Drawing.Size(38, 20);
             this.exitToolStripMenu.Text = "Exit";
+            this.exitToolStripMenu.Click += new System.EventHandler(this.exitToolStripMenu_Click);
             // 
             // listBoxDetaliiRezervari
             // 

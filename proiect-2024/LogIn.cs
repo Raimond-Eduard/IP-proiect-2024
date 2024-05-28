@@ -187,5 +187,20 @@ namespace proiect_2024
                 MessageBox.Show("Nume sau parola gresite", "Daca nu ai cont dai pe Sign Up", MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
         }
+
+        private void exitToolStripMenu_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Sigur vrei sa inchizi?", "Confirma", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void aboutToolStripMenu_Click(object sender, EventArgs e)
+        {
+            string helpLocation = System.Environment.CurrentDirectory + "\\help_hotel.chm";
+            Help.ShowHelp(this, helpLocation);
+        }
     }
 }

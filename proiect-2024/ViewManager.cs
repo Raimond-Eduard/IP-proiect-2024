@@ -227,7 +227,57 @@ namespace proiect_2024
                 return;
             }
             int id = listBoxDetaliiCamere.SelectedIndex;
-            using(SqliteConnection connection = new SqliteConnection(ConnectionString))
+            bool hasReservation;
+            using (SqliteConnection connection = new SqliteConnection(ConnectionString))
+            {
+                connection.Open();
+                string toExecute = @"SELECT id_rezervare FROM Rezervare WHERE id_camera = @id;";
+
+                using (SqliteCommand command = new SqliteCommand(toExecute, connection))
+                {
+                    command.Parameters.AddWithValue("@id", _id[id]);
+                    
+                    using(SqliteDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read() && !reader.IsDBNull(reader.GetOrdinal("id_rezervare"))){
+                            hasReservation = true;
+                        }
+                        else
+                        {
+                            hasReservation = false;
+                        }
+                    }
+                }
+                if (hasReservation)
+                {
+                    toExecute = @"DELETE FROM Rezervare WHERE id_camera = @id;";
+                    using (SqliteCommand command = new SqliteCommand(toExecute, connection))
+                    {
+                        command.Parameters.AddWithValue("@id", _id[id]);
+                        try
+                        {
+                            int rowsAffected = command.ExecuteNonQuery();
+
+                            if (rowsAffected > 0)
+                            {
+                                Console.WriteLine("Stergere cu succes");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Nu s-a sters nimic");
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            throw new Exception("Probleme la baza de date cand se face stergergerea rezervarilor inainte de camrea\nViewManager\n" + ex);
+                        }
+                    }
+
+                }
+
+            }
+
+            using (SqliteConnection connection = new SqliteConnection(ConnectionString))
             {
                 connection.Open();
                 string deletion = @"DELETE FROM Camera WHERE id_camera = @id;";
@@ -249,7 +299,7 @@ namespace proiect_2024
                         }
                     }catch(Exception ex)
                     {
-                        throw new Exception("Probleme la baza de date\n", ex);
+                        throw new Exception("Probleme la baza de date la stergerea camerelor in view Manager\n" + ex);
                     }
                 }
                 
@@ -300,6 +350,21 @@ namespace proiect_2024
 
             MessageBox.Show("Stergere realizata cu succes", "Succes");
 
+        }
+
+        private void exitToolStripMenu_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Sigur vrei sa inchizi?", "Confirma", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void aboutToolStripMenu_Click(object sender, EventArgs e)
+        {
+            string helpLocation = System.Environment.CurrentDirectory + "\\help_hotel.chm";
+            Help.ShowHelp(this, helpLocation);
         }
     }
 }

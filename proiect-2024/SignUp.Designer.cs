@@ -69,12 +69,14 @@
             this.aboutToolStripMenuSignUp.Name = "aboutToolStripMenuSignUp";
             this.aboutToolStripMenuSignUp.Size = new System.Drawing.Size(52, 20);
             this.aboutToolStripMenuSignUp.Text = "About";
+            this.aboutToolStripMenuSignUp.Click += new System.EventHandler(this.aboutToolStripMenuSignUp_Click);
             // 
             // exitToolStripMenuSignUp
             // 
             this.exitToolStripMenuSignUp.Name = "exitToolStripMenuSignUp";
             this.exitToolStripMenuSignUp.Size = new System.Drawing.Size(38, 20);
             this.exitToolStripMenuSignUp.Text = "Exit";
+            this.exitToolStripMenuSignUp.Click += new System.EventHandler(this.exitToolStripMenuSignUp_Click);
             // 
             // label4
             // 
