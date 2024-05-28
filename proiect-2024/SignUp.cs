@@ -222,7 +222,7 @@ namespace proiect_2024
                 _phone = textBoxTelefonSignUp.Text;
                 if (!validPhoneNumber(_phone))
                 {
-                    MessageBox.Show("Doar cifre", "Nu introduceti altceva decat cifre la numarul de telefon");
+                    MessageBox.Show("Nu introduceti altceva decat cifre la numarul de telefon", "Doar cifre");
                     return;
                 }
 
@@ -230,7 +230,7 @@ namespace proiect_2024
 
             if (textBoxEmailSignUp.Text == null || textBoxEmailSignUp.Text == "")
             {
-                MessageBox.Show("Email lipsa", "Introduceti si adresa de email");
+                MessageBox.Show("Introduceti si adresa de email", "Email lipsa");
                 return;
             }
             else
@@ -238,7 +238,7 @@ namespace proiect_2024
                 _email = textBoxEmailSignUp.Text;
                 if (!validEmail(_email))
                 {
-                    MessageBox.Show("Email invalid", "Introduceti o adresa de email valida");
+                    MessageBox.Show("Introduceti o adresa de email valida", "Email invalid");
                     return;
                 }
             }
@@ -246,7 +246,7 @@ namespace proiect_2024
             _birthDate = dataNastereSignUp.Value;
             if (!checkAge(_birthDate))
             {
-                MessageBox.Show("Eroare", "Nu puteti crea cont daca sunteti minor");
+                MessageBox.Show("Nu puteti crea cont daca sunteti minor", "Eroare");
                 return;
             }
 

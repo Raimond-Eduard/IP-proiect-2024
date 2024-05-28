@@ -217,6 +217,56 @@ namespace proiect_2024
                 return;
             }
             int id = listBoxDetaliiUtilizatori.SelectedIndex;
+            bool hasReservations;
+
+            using(SqliteConnection connection = new SqliteConnection(ConnectionString))
+            {
+                connection.Open();
+                string query = @"SELECT id_rezervare FROM Rezervare WHERE id_client = @id;";
+
+                using(SqliteCommand command = new SqliteCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@id", _usersID[id]);
+
+                    using(SqliteDataReader reader = command.ExecuteReader())
+                    {
+                        if(reader.Read() && !reader.IsDBNull(reader.GetOrdinal("id_rezervare")))
+                        {
+                            hasReservations = true;
+                        }
+                        else
+                        {
+                            hasReservations = false;
+                        }
+                    }
+                }
+                if (hasReservations)
+                {
+                    query = @"DELETE FROM Rezervare WHERE id_client = @id;";
+
+                    using(SqliteCommand command = new SqliteCommand(query, connection))
+                    {
+                        try
+                        {
+                            int rowsAffected = command.ExecuteNonQuery();
+
+                            if (rowsAffected > 0)
+                            {
+                                Console.WriteLine("Stergere cu succes");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Nu s-a sters nimic");
+                            }
+                        }
+                        catch(Exception ex)
+                        {
+                            throw new Exception("Exceptie la stergerea rezervarilor utilizatorilor care urmeaza sa fie stersi dar inca au rezervari in baza de date\n" + ex);
+                        }
+                    }
+                }
+
+            }
             using (SqliteConnection connection = new SqliteConnection(ConnectionString))
             {
                 connection.Open();
@@ -240,7 +290,7 @@ namespace proiect_2024
                     }
                     catch (Exception ex)
                     {
-                        throw new Exception("Probleme la baza de date\n", ex);
+                        throw new Exception("Problema la stergerea utilizatorului\n" + ex);
                     }
                 }
 
@@ -284,7 +334,7 @@ namespace proiect_2024
                     }
                     catch (Exception ex)
                     {
-                        throw new Exception("Probleme la baza de date\n", ex);
+                        throw new Exception("Probleme la stergerea de rezervazi din admin view\n" + ex);
                     }
                 }
 
