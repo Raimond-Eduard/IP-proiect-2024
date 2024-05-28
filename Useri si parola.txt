@@ -8,3 +8,4 @@
 8. user: flolo, parola: moldova
 9. manager: sinzi,parola: sinzi
 10.manager: braimond, parola: honkai
+11.user: ss24, parola:supersorin
