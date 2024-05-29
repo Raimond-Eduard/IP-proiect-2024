@@ -1,26 +1,8 @@
 {
   "version": 2,
-<<<<<<< Updated upstream
-  "dgSpecHash": "sMmAeji/dXR4ShVwShXdM5LlDMpmqipeq1YnXXG2oGBDQbCUmvulMW/TnUmGF/pCfwJfSMrwD6vDfuk1+sFR0w==",
+  "dgSpecHash": "3qvZICDD1jyxCQ94vGLVUjbzZp17gm+hruR+bRg6Rv5VDHcHw2Q4L2mPcmvmcge1+LA3DR+HgqXSf7E4Tn7j2A==",
   "success": true,
-  "projectFilePath": "D:\\AN3EU\\sem2\\IP\\ProiectIP\\IP-proiect-2024\\proiect-2024\\proiect-2024.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Nutu\\.nuget\\packages\\microsoft.data.sqlite\\7.0.0\\microsoft.data.sqlite.7.0.0.nupkg.sha512",
-    "C:\\Users\\Nutu\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
-    "C:\\Users\\Nutu\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.2\\sqlitepclraw.bundle_e_sqlite3.2.1.2.nupkg.sha512",
-    "C:\\Users\\Nutu\\.nuget\\packages\\sqlitepclraw.bundle_sqlite3\\2.0.7\\sqlitepclraw.bundle_sqlite3.2.0.7.nupkg.sha512",
-    "C:\\Users\\Nutu\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
-    "C:\\Users\\Nutu\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.2\\sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",
-    "C:\\Users\\Nutu\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.1.2\\sqlitepclraw.provider.dynamic_cdecl.2.1.2.nupkg.sha512",
-    "C:\\Users\\Nutu\\.nuget\\packages\\sqlitepclraw.provider.sqlite3\\2.0.7\\sqlitepclraw.provider.sqlite3.2.0.7.nupkg.sha512",
-    "C:\\Users\\Nutu\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
-    "C:\\Users\\Nutu\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
-    "C:\\Users\\Nutu\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
-    "C:\\Users\\Nutu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
-=======
-  "dgSpecHash": "FkPKkEWadgoJnX3S9VTbJN5cLsT04NwPZOX0qRBFOYcMcbV5bHS9r4G1k48usM3lWEMlsKmo/gT6qHAdDnX2OQ==",
-  "success": true,
-  "projectFilePath": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\proiect-2024.csproj",
+  "projectFilePath": "E:\\Facultate\\IP\\Proiect IP\\IP-proiect-2024\\proiect-2024\\proiect-2024.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Raimond\\.nuget\\packages\\microsoft.data.sqlite\\7.0.0\\microsoft.data.sqlite.7.0.0.nupkg.sha512",
     "C:\\Users\\Raimond\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
@@ -34,7 +16,6 @@
     "C:\\Users\\Raimond\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Raimond\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
     "C:\\Users\\Raimond\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
->>>>>>> Stashed changes
   ],
   "logs": []
 }

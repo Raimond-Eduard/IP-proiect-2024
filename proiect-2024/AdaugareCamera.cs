@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        AdaugareCamera.cs                                        *
@@ -26,11 +25,7 @@
  *                                                                        *
  **************************************************************************/
 
-
-using Microsoft.Data.Sqlite;
-=======
 ﻿using Microsoft.Data.Sqlite;
->>>>>>> Stashed changes
 using proiect_2024.states;
 using System;
 using System.Collections.Generic;
@@ -64,20 +59,17 @@ namespace proiect_2024
         //conexiune cu baza de date
         private string ConnectionString = "Data source=" + Directory.GetCurrentDirectory() + "\\hotel_db.db";//"Data Source=E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\hotel_db.db";
 
-<<<<<<< Updated upstream
         /// <summary>
         /// Constructor pentru clasa AdaugareCamera.
         /// </summary>
         /// <param name="mainForm">Referinta catre instanta MainForm.</param>
-=======
->>>>>>> Stashed changes
+
         public AdaugareCamera(MainForm mainForm)
         {
             _mainForm = mainForm;
             InitializeComponent();
         }
 
-<<<<<<< Updated upstream
         /// <summary>
         /// Metoda apelata la click pe butonul de adaugare a camerei.
         /// </summary>
@@ -87,8 +79,6 @@ namespace proiect_2024
         /// <remarks>
         /// Aceasta metoda valideaza datele introduse si insereaza o noua camera in baza de date daca datele sunt corecte.
         /// </remarks>
-=======
->>>>>>> Stashed changes
         private void buttonAdaugaCamera_Click(object sender, EventArgs e)
         {
             int maxID;
@@ -105,7 +95,6 @@ namespace proiect_2024
 
                 string query = @"SELECT * FROM Camera WHERE numar_camera = @camera;";
 
-<<<<<<< Updated upstream
                 using (SqliteCommand command = new SqliteCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@camera", _numarCamera);
@@ -113,15 +102,7 @@ namespace proiect_2024
                     using (SqliteDataReader reader = command.ExecuteReader())
                     {
                         if (reader.Read())
-=======
-                using(SqliteCommand command = new SqliteCommand(query, connection))
-                {
-                    command.Parameters.AddWithValue("@camera", _numarCamera);
 
-                    using(SqliteDataReader reader = command.ExecuteReader())
-                    {
-                        if (reader.Read()) 
->>>>>>> Stashed changes
                         {
                             cameraExistenta = true;
                         }
@@ -167,20 +148,18 @@ namespace proiect_2024
                         command.ExecuteNonQuery();
                     }
                 }
-<<<<<<< Updated upstream
             }
             catch (Exception ex)
-=======
-            }catch(Exception ex)
->>>>>>> Stashed changes
+
             {
                 throw new Exception("Ceva nu a mers bine cu baza de date\n", ex);
             }
 
             MessageBox.Show("Adaugarea a avut succes", "Succes");
 
-<<<<<<< Updated upstream
         }
+
+
 
         /// <summary>
         /// Metoda care este apelata la inchiderea formularului.
@@ -190,10 +169,6 @@ namespace proiect_2024
         /// <remarks>
         /// Aceasta metoda cere confirmarea utilizatorului inainte de a inchide aplicatia.
         /// </remarks>
-=======
-    }
-
->>>>>>> Stashed changes
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             base.OnFormClosing(e);
@@ -211,7 +186,6 @@ namespace proiect_2024
             }
         }
 
-<<<<<<< Updated upstream
         /// <summary>
         /// Metoda apelata la click pe butonul de revenire.
         /// </summary>
@@ -221,14 +195,12 @@ namespace proiect_2024
         /// <remarks>
         /// Aceasta metoda schimba starea aplicatiei la ManagerViewState.
         /// </remarks>
-=======
->>>>>>> Stashed changes
+
         private void buttonBack_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new ManagerViewState(_mainForm));
         }
 
-<<<<<<< Updated upstream
         /// <summary>
         /// Metoda apelata la click pe butonul de deconectare.
         /// </summary>
@@ -238,14 +210,12 @@ namespace proiect_2024
         /// <remarks>
         /// Aceasta metoda schimba starea aplicatiei la LogInState.
         /// </remarks>
-=======
->>>>>>> Stashed changes
+
         private void buttonLogOut_Click(object sender, EventArgs e)
         {
             _mainForm.SetState(new LogInState(_mainForm));
         }
 
-<<<<<<< Updated upstream
         private void exitToolStripMenu_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Sigur vrei sa inchizi?", "Confirma", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -260,8 +230,6 @@ namespace proiect_2024
             string helpLocation = System.Environment.CurrentDirectory + "\\help_hotel.chm";
             Help.ShowHelp(this, helpLocation);
         }
-=======
-        
->>>>>>> Stashed changes
+
     }
 }
