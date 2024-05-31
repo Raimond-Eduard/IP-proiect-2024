@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Facultate\\IP\\Proiect IP\\IP-proiect-2024\\proiect-2024\\proiect-2024.csproj": {}
+    "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\proiect-2024.csproj": {}
   },
   "projects": {
-    "E:\\Facultate\\IP\\Proiect IP\\IP-proiect-2024\\proiect-2024\\proiect-2024.csproj": {
+    "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\proiect-2024.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Facultate\\IP\\Proiect IP\\IP-proiect-2024\\proiect-2024\\proiect-2024.csproj",
+        "projectUniqueName": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\proiect-2024.csproj",
         "projectName": "proiect-2024",
-        "projectPath": "E:\\Facultate\\IP\\Proiect IP\\IP-proiect-2024\\proiect-2024\\proiect-2024.csproj",
+        "projectPath": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\proiect-2024.csproj",
         "packagesPath": "C:\\Users\\Raimond\\.nuget\\packages\\",
-        "outputPath": "E:\\Facultate\\IP\\Proiect IP\\IP-proiect-2024\\proiect-2024\\obj\\",
+        "outputPath": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [

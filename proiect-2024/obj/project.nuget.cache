@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3qvZICDD1jyxCQ94vGLVUjbzZp17gm+hruR+bRg6Rv5VDHcHw2Q4L2mPcmvmcge1+LA3DR+HgqXSf7E4Tn7j2A==",
+  "dgSpecHash": "FkPKkEWadgoJnX3S9VTbJN5cLsT04NwPZOX0qRBFOYcMcbV5bHS9r4G1k48usM3lWEMlsKmo/gT6qHAdDnX2OQ==",
   "success": true,
-  "projectFilePath": "E:\\Facultate\\IP\\Proiect IP\\IP-proiect-2024\\proiect-2024\\proiect-2024.csproj",
+  "projectFilePath": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\proiect-2024.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Raimond\\.nuget\\packages\\microsoft.data.sqlite\\7.0.0\\microsoft.data.sqlite.7.0.0.nupkg.sha512",
     "C:\\Users\\Raimond\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",

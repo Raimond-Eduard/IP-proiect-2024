@@ -1,12 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Facultate\\IP\\Proiect IP\\IP-proiect-2024\\proiect-2024\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|e:\\facultate\\ip\\proiect ip 2024\\proiect-2024\\strategies\\validateagestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:strategies\\validateagestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|e:\\facultate\\ip\\proiect ip 2024\\proiect-2024\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|e:\\facultate\\ip\\proiect ip 2024\\proiect-2024\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{77559569-9C28-402D-AE57-79121699C076}|proiect-2024.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValidateAgeStrategy.cs",
+              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\strategies\\ValidateAgeStrategy.cs",
+              "RelativeDocumentMoniker": "strategies\\ValidateAgeStrategy.cs",
+              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\strategies\\ValidateAgeStrategy.cs",
+              "RelativeToolTip": "strategies\\ValidateAgeStrategy.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T16:22:24.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T16:22:06.179Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "E:\\Facultate\\IP\\Proiect IP 2024\\proiect-2024\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAiwA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T07:06:42.732Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
